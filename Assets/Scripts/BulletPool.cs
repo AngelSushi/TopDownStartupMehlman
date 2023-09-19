@@ -15,31 +15,37 @@ namespace Game
         {
             get
             {
-                _pool ??= new ObjectPool<GameObject>(CreateBullet,OnTakeBullet,OnReturnBullet,OnBulletDestroy,true,10,20);
+                _pool ??= new ObjectPool<GameObject>(CreateBullet,OnTakeBullet,OnReturnBullet,OnBulletDestroy,true,5,5);
                 return _pool;
             }
         }
 
         private GameObject CreateBullet()
         {
-            GameObject bulletInstance = Instantiate(bulletPrefab,transform);
+            Debug.Log("on create");
+            GameObject bulletInstance = Instantiate(bulletPrefab);
+            bulletInstance.transform.parent = transform;
             bulletInstance.transform.position = transform.position;
+            
+            bulletInstance.GetComponent<bullet>().Sender = this;
             return bulletInstance;
         }
 
         private void OnTakeBullet(GameObject bullet)
         {
+            Debug.Log("take bullet");
+            bullet.transform.position = transform.position;
             bullet.SetActive(true);
         }
 
         private void OnReturnBullet(GameObject bullet)
         {
+            Debug.Log("return bullet");
             bullet.SetActive(false);
         }
 
         private void OnBulletDestroy(GameObject bullet)
         {
-            Debug.Log("destroy object");
             Destroy(bullet);
         }
 

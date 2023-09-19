@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
+    
+    // EntityMovable 
+    
     [SerializeField, Required("nop")] Health _health;
 
-
+    
 
 }
