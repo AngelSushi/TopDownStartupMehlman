@@ -8,13 +8,14 @@ public class bullet : MonoBehaviour
     
     void Update()
     {
-        transform.Translate(Vector3.right*Time.deltaTime*_speed);
+        transform.Translate(Vector3.up * - 1 *Time.deltaTime*_speed);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         
         if(collision.gameObject.name == "Wall")
             Destroy(gameObject);
     }
+    */
 }

@@ -79,11 +79,11 @@ public class DataReader : MonoBehaviour
 
     // TODO
     public Pokemon GetPokemonById(int id)
-        => throw new NotImplementedException();
+        => GetPokemons().First(pokemon => pokemon.id == id);
 
     // TODO
     public IEnumerable<Pokemon> PokemonByType(string type)
-        => throw new NotImplementedException();
+        => GetPokemons().Where(pokemon => pokemon.type.Contains(type));
 
     // TODO
     public List<int> GetTopPokemonByBasePower(int count)
