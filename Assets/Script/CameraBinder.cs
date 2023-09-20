@@ -10,7 +10,7 @@ public class CameraBinder : MonoBehaviour
 
     void Start()
     {
-        UpdateCameraFollow(_playerRef.Instance);
+        UpdateCameraFollow(_playerRef.Instance,null);
 
         _playerRef.OnValueChanged += UpdateCameraFollow;
     }
@@ -20,7 +20,7 @@ public class CameraBinder : MonoBehaviour
         _playerRef.OnValueChanged -= UpdateCameraFollow;
     }
 
-    private void UpdateCameraFollow(Entity obj)
+    private void UpdateCameraFollow(Entity obj,Entity last)
     {
         _cam.Follow = obj.transform;
     }

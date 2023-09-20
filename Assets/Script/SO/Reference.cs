@@ -14,12 +14,13 @@ public class Reference<T> : ScriptableObject, ISet<T>
 
     public T Instance { get => _instance;}
 
-    public event Action<T> OnValueChanged;
+    public event Action<T, T> OnValueChanged;
 
     void ISet<T>.Set(T value)
     {
+        var old = _instance;
         _instance = value;
-        OnValueChanged?.Invoke(_instance);
+        OnValueChanged?.Invoke(_instance, old);
     }
 
 }

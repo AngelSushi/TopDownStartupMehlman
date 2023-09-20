@@ -5,17 +5,16 @@ using UnityEngine;
 
 namespace Game
 {
-    public class Enemy : Entity
+    public class Enemy : EntityLiving
     {
 
         public BulletPool pool;
+        
 
-        public Entity leader;
-        
-        
+
         void Start()
         {
-            StartCoroutine(SpawnBullet());
+          //  StartCoroutine(SpawnBullet());
 
             if (leader != null)
             {
@@ -28,6 +27,7 @@ namespace Game
             }
         }
 
+
         private IEnumerator SpawnBullet()
         {
             yield return new WaitForSeconds(0.5f);
@@ -35,6 +35,16 @@ namespace Game
             pool?.Pool.Get();
 
             StartCoroutine(SpawnBullet());
+        }
+
+        public override void Move()
+        {
+            base.Move();
+        }
+
+        public override void StopMove()
+        {
+            base.StopMove();
         }
     }
 }

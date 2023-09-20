@@ -6,17 +6,17 @@ using UnityEngine.InputSystem;
 
 namespace Game
 {
-    public class Player : Entity,IMovable
+    public class Player : EntityLiving
     {
 
         [SerializeField] private InputActionReference action;
-        [SerializeField] private float speed;
-        
+        [SerializeField] private float speed; 
         private Rigidbody2D _rb;
-        private Vector2 _direction;
 
-        private bool _isMooving;
+        [SerializeField] private DataReader data;
         
+        public event Action<Pokemon> OnCapturePokemon;
+
         private void Start()
         {
             action.action.started += OnMove;
@@ -24,39 +24,37 @@ namespace Game
             action.action.canceled += OnMove;
 
             _rb = GetComponent<Rigidbody2D>();
-        }
 
-        private void Update()
-        {
-            if (_isMooving)
-            {
-                Move();
-            }
+            Debug.Log("data " + data);
+            Debug.Log("pok " + data.GetPokemonById(100));
             
-            Debug.DrawLine(transform.position,transform.position + transform.forward * 15,Color.yellow);
+            OnCapturePokemon?.Invoke(data.GetPokemonById(100));
         }
 
-        public void Move() => _rb.velocity = _direction * speed;
-        public void StopMove() =>_rb.velocity = Vector2.zero;
+        public override void Update()
+        {
+            base.Update();
+            
+        }
+
+        public override void Move() => _rb.velocity = direction * speed;
+        public override void StopMove() =>_rb.velocity = Vector2.zero;
 
         private void OnMove(InputAction.CallbackContext e)
         {
-            Debug.Log("read value");
-
             if (e.started)
             {
-                _isMooving = true;
+                isMoving = true;
             }
 
             if (e.performed)
             {
-                _direction = e.ReadValue<Vector2>();
+                direction = e.ReadValue<Vector2>();
             }
             
             if (e.canceled)
             {
-                _isMooving = false;
-                Debug.Log("stop it");
+                isMoving = false;
                 StopMove();
             }
         }
