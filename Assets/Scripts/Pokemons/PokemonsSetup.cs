@@ -19,6 +19,13 @@ namespace Game
                 Debug.Log("data " + pokemonObject.data.name.english);
                 
             }
+
+
+
+            if (dataReader.GetPokemonByName("LOL") == null)
+            {
+                Debug.Log("each");
+            }
         }
 
     }
