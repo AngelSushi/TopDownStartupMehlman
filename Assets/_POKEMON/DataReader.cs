@@ -66,6 +66,7 @@ public class DataReader : MonoBehaviour
         _itemFile   ??= Resources.Load<TextAsset>("Items");
         _movesFile  ??= Resources.Load<TextAsset>("Moves");
         _typeFile   ??= Resources.Load<TextAsset>("Types");
+        
 #endif
         return this;
     }
@@ -100,4 +101,5 @@ public class DataReader : MonoBehaviour
     public IEnumerable<(int id, int power)> DecoratePokemonIdWithPower(IEnumerable<int> ids)
         => throw new NotImplementedException();
 
+    public Pokemon GetPokemonByName(string name) => GetPokemons().First(pokemon => pokemon.name.french.Equals(name));
 }

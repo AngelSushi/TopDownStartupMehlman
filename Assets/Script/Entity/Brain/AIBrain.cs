@@ -44,7 +44,7 @@ public class AIBrain : MonoBehaviour
         if(IsPlayerTooNear)
         {
             _movement.Move(Vector2.zero);
-            _attack.LaunchAttack();
+           // _attack.LaunchAttack();
         }
         // Move To Player
         else if (IsPlayerNear)

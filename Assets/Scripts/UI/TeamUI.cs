@@ -28,8 +28,6 @@ namespace Game
 
         private void SpawnPlayer(Entity sEntity,Entity oEntity)
         {
-            Debug.Log("spawnPlayer");
-            
             if (sEntity != null && sEntity is Player)
             {
                 Player p = (Player)sEntity;
@@ -49,8 +47,10 @@ namespace Game
         
         private void OnCapturePokemon(Pokemon capturePokemon)
         {
-            Debug.Log("onCapturePokemon " + transform);
-            Instantiate(pokemonUIPrefab,transform);
+            GameObject initPrefab = Instantiate(pokemonUIPrefab,transform);
+            PokemonUI pokemonUI = initPrefab.GetComponent<PokemonUI>();
+
+            pokemonUI.PokemonName.text = capturePokemon.name.french;
         }
     }
     

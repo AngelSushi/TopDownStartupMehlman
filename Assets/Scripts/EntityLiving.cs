@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Game
 {
@@ -16,10 +17,15 @@ namespace Game
             set => isMoving = value;
         }
         
-        public EntityLiving leader;
+        [SerializeField] protected EntityLiving leader;
 
+        public EntityLiving Leader
+        {
+            get => leader;
+            set => leader = value;
+        }
 
-        private EntityLiving FirstLeader
+        public EntityLiving FirstLeader
         {
             get
             {
@@ -34,19 +40,51 @@ namespace Game
             }
         }
 
-        private bool HasLeader
+        public bool HasLeader
         {
             get => FirstLeader != null;
         }
         
-        
         protected Vector2 direction;
+
+        public Vector2 Direction
+        {
+            get => direction;
+            set => direction = value;
+        }
+
+        [SerializeField] private List<EntityLiving> _followers = new List<EntityLiving>();
+
+        public List<EntityLiving> Followers
+        {
+            get => _followers;
+            set => _followers = value;
+        }
+
+        [SerializeField] private bool canBeCaptured;
+
+        protected Rigidbody2D rb;
+        [SerializeField] protected float speed; 
         
-        
+        public event Action<EntityLiving> OnLeaderChanged;
+
+        private Pokemon _attachedPokemon;
+
+        public Pokemon AttachedPokemon
+        {
+            get => _attachedPokemon;
+            set => _attachedPokemon = value;
+        }
+
+        public virtual void Start()
+        { 
+            AttachFollowers();
+            rb = GetComponent<Rigidbody2D>();
+        }
 
         public virtual void Update()
         {
-            if (isMoving || (HasLeader && FirstLeader.isMoving))
+            if ((this is Player || canBeCaptured) && (isMoving || (HasLeader && FirstLeader.isMoving)))
             {
                 Move();
             }
@@ -56,11 +94,75 @@ namespace Game
         {
             if (HasLeader)
             {
-                transform.position = (leader.transform.position - (Vector3)FirstLeader.direction * 1.5f);
+                if (FirstLeader is Player)
+                {
+                    transform.position = (leader.transform.position - (Vector3)FirstLeader.direction * 1.5f);
+                }
+            }
+            else
+            {
+                rb.velocity = direction * speed;
             }
             
         }
 
         public virtual void StopMove() { }
+        
+        
+
+        private void AttachFollowers()
+        {
+            if (HasLeader && !FirstLeader.Followers.Contains(this))
+            {
+                FirstLeader.Followers.Add(this);
+            }    
+        }
+        
+        protected void OnMove(InputAction.CallbackContext e)
+        {
+            if (HasLeader)
+            {
+                if (e.started)
+                {
+                    FirstLeader.IsMoving = true;
+                }
+
+                if (e.performed)
+                {
+                    FirstLeader.Direction = e.ReadValue<Vector2>();
+                }
+            
+                if (e.canceled)
+                {
+                    FirstLeader.IsMoving = false;
+                    FirstLeader.StopMove();
+                }
+            }
+            else
+            {
+                if (e.started)
+                {
+                    IsMoving = true;
+                }
+
+                if (e.performed)
+                {
+                    Direction = e.ReadValue<Vector2>();
+                }
+            
+                if (e.canceled)
+                {
+                    IsMoving = false;
+                    StopMove();
+                }
+            }
+        }
+
+        public void CallOnLeaderChanged(EntityLiving newLeader)
+        {
+            Debug.Log("call from " + gameObject.name);
+            
+            OnLeaderChanged?.Invoke(newLeader);
+        }
     }
 }

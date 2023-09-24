@@ -10,54 +10,29 @@ namespace Game
     {
 
         [SerializeField] private InputActionReference action;
-        [SerializeField] private float speed; 
-        private Rigidbody2D _rb;
 
         [SerializeField] private DataReader data;
         
         public event Action<Pokemon> OnCapturePokemon;
+        public event Action<EntityLiving> OnLaunchAttack;
 
-        private void Start()
+        public override void Start()
         {
+            base.Start();
             action.action.started += OnMove;
             action.action.performed += OnMove;
             action.action.canceled += OnMove;
-
-            _rb = GetComponent<Rigidbody2D>();
-
-            Debug.Log("data " + data);
-            Debug.Log("pok " + data.GetPokemonById(100));
-            
-            OnCapturePokemon?.Invoke(data.GetPokemonById(100));
         }
 
-        public override void Update()
-        {
-            base.Update();
-            
-        }
-
-        public override void Move() => _rb.velocity = direction * speed;
-        public override void StopMove() =>_rb.velocity = Vector2.zero;
-
-        private void OnMove(InputAction.CallbackContext e)
-        {
-            if (e.started)
-            {
-                isMoving = true;
-            }
-
-            if (e.performed)
-            {
-                direction = e.ReadValue<Vector2>();
-            }
-            
-            if (e.canceled)
-            {
-                isMoving = false;
-                StopMove();
-            }
-        }
+        public void LaunchAttack(EntityLiving attacker) => OnLaunchAttack?.Invoke(attacker);
+        public void CapturePokemon(Pokemon pokemon) => OnCapturePokemon?.Invoke(pokemon);
         
+        /*
+             *
+             *
+             * IL me faudrait un script par attaque ( Fireball, Ice, Liane)
+             * Un event est attaché a celui ci lorsuq'on attack depuis le playerbrain
+             * 
+         */
     }
 }

@@ -8,12 +8,13 @@ namespace Game
     public class Enemy : EntityLiving
     {
 
-        public BulletPool pool;
+        public PoolInstance pool;
         
 
 
-        void Start()
+        public override void Start()
         {
+            base.Start();
           //  StartCoroutine(SpawnBullet());
 
             if (leader != null)
