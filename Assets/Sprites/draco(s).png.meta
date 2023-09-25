@@ -1,0 +1,4439 @@
+fileFormatVersion: 2
+guid: 90b9f4d2db9314649b1c42cd0db77e9f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: draco(s)_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 965
+        width: 60
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd4ab7ebee7caf4f9efa6e4589d3090
+      internalID: -1016993264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 967
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8303f3b9589cb84f9bebca46c1abefc
+      internalID: -575117754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 965
+        width: 83
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7534c1224d61c804f9fd2a2b6cf9cf5e
+      internalID: 90188026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 966
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2017e8404b76249be5a919800edd00
+      internalID: -2143369509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 940
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7840bf21dd1795741853a8db380bbb6a
+      internalID: 528676864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 940
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bc07c85264d7e4ba6bda6a04004092
+      internalID: -1110527061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 940
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a8670f486338b40b644ce791c39ced
+      internalID: -218650980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 933
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6be51ca6b34a041b4d005a4b3e5937
+      internalID: -748823672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 959
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5654c47f05c3eee44a26657a303dd217
+      internalID: -992168506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 955
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3d014581e309a4d80e593887e0ba81
+      internalID: 1639751653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_10
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 943
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49387be7c6554eb4ba52391c4a357102
+      internalID: 1035574563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_11
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 943
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0469ecefe04ec45830708f7a85f4f4
+      internalID: -1832915470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 915
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05596949d0efcba49819383efe2f546d
+      internalID: -421173921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_13
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 915
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05eb7257062c64cae3a928300a0a50
+      internalID: -61802166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 915
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7d0170e986dc646b7654aabbb945e9
+      internalID: 644490939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 927
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94416dad82086a547b461c5fc8ae9d63
+      internalID: -1785202822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 924
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219ab4916f44b8c47a75a3f22b183acc
+      internalID: 65680253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 922
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4200ef93e89ddba42aab10d6c4810a4b
+      internalID: 279392572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 922
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdcbbdcabbeb00429d2bbd84d565029
+      internalID: -1157128251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 890
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5086a1eb94756844b9ef55a4ec3f7467
+      internalID: -250419815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 890
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb94b05ea1701014194da0ecb21a7256
+      internalID: -189569505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 890
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b555fa92a29e05479360c8290369e7a
+      internalID: -1318832557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_22
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 900
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383e42b98452c94faeea8d9e7c31079
+      internalID: -1329877680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 896
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7e4a202b94e694eb945447e80d068c
+      internalID: 1991646050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_24
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 896
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b8fd7dfaf22dd41ae6d2c42c7a86f9
+      internalID: 942507448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 894
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9ee57496980894b943f4c560343959
+      internalID: 764020520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 867
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84f31bc77c5984c85b2aa84baa196c
+      internalID: 380737854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 890
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361d96e445cda44598510e5e2531cc0
+      internalID: -106274815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_28
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 866
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e63e291a07ba8d44970a3f86873bfed
+      internalID: -1760239278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 864
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92742541d46b9f74d919fab18822a7ac
+      internalID: -909043415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 864
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387feb9d04971e24a89b3a17b2498f12
+      internalID: -991568170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_31
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 864
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b65a46a81e564993104035d05749c
+      internalID: -413397048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 866
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65f6151ce31f2f44932969223ebf0bc
+      internalID: 2049370499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_33
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 833
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f872ac97a40ac8f47a62e9ff252ca373
+      internalID: -1934047752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_34
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 833
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4530b4fed0dbfc4cb2a884682492e43
+      internalID: -1857109143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 833
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8b8e6f0598a93478e08f541af98319
+      internalID: 1518829075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 835
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670dfd90af38f704c8103ee4765275ba
+      internalID: -22622657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_37
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 836
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e10b7bac9b11e40b0dc18c98712729
+      internalID: 1226218009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_38
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 836
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5867874b031db44d8abf322004a3129
+      internalID: 747527029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_39
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 800
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bb7b68ad6f9214092495a65909eb57
+      internalID: -1389193916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_40
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 793
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef57a891387b724eaffa10229dbd5ad
+      internalID: -1781896126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_41
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 828
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3524c910cb6e74db0a92dfa5673e27
+      internalID: 576823001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_42
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 804
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afff05bf4a6db724c96dc4737bddaf68
+      internalID: 1984237613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_43
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 804
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128bb12d86fc3224382f0791e300b587
+      internalID: 460952228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 800
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413def9d209599b428f04f1d6c315cc1
+      internalID: 1621700762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_45
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 800
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a9b8a8846d6c14d9fcab0ef44d32a6
+      internalID: 395009392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 774
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313e5ea1e5fa3cf46a51e15db1dfa31b
+      internalID: -32763124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_47
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 774
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4993effa3f6d034691d41911986cd32
+      internalID: 550358470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 771
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b427ea48e54dcb5419028811c614d6c6
+      internalID: 1773021488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 771
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f9cdd57857321448e8456ecd4799a6
+      internalID: 1325602949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_50
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 771
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d4a1c2e44c2864494e9a7e3cff300b
+      internalID: 1247995429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_51
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 761
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fdbd770e7dee44c99b66615367cdfc
+      internalID: 445550390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_52
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 745
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f01d24654077649b927286d6499890
+      internalID: 993015306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_53
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 744
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9581adfae9e5943bda15236b8bf674
+      internalID: 1607170810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_54
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 744
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba8e5d179a76fa49963431868ce46c1
+      internalID: -331064528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_55
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 744
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbd620a7ce580b49b5d9359a707a2a1
+      internalID: -1614303425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_56
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 755
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08fa1318d78504a810e145bfb04c4a
+      internalID: -40059534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_57
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 745
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea02d16918830bd42aa411cac84cb07d
+      internalID: 675933881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_58
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 751
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c889340d22924fb51a87e6da6744e
+      internalID: -1180481347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_59
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 728
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f2f21747a7eb74ebd946b09248a20f
+      internalID: -245464233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_60
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 719
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d635e7adcdefb7747a4ea6a034fb1f08
+      internalID: -1292820931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_61
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 722
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9d0debd6643b04488f35d0e576b941
+      internalID: 584945283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 720
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f400b22746f500744bbae3b27ae1fac3
+      internalID: 1388332900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_63
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 720
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2abbc5cd1082048979050b731b6104
+      internalID: -1524895547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_64
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 695
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077cf6ce62248f7469699425ba61d628
+      internalID: -347681085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_65
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 678
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3811bc8da482e4681f9f4f980a604c
+      internalID: -11787171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_66
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 676
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bdf686eaaab8a478a55f5e343f1967
+      internalID: -2099325894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_67
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 678
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60441802652b9fc45a375f46029aab37
+      internalID: -1829651623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_68
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 676
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9895dea14135fd41a6cd19ac2a8c6bc
+      internalID: -1767733666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_69
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 678
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad0233934070a2448723b257e99c32b
+      internalID: 1161911541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_70
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 678
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efc7b7b677aab544816e9f7935dccd2
+      internalID: -644848870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_71
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 675
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b482e6e35ff7d7d48b26a5bd2a0661e0
+      internalID: -1235780896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 642
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01c6dfbfe80cb44795f155724370485
+      internalID: -482934142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 642
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0d825378deb1c438a4b722ebbcd7f2
+      internalID: 1946227519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_74
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 666
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30270af0c15c9c64d88ed0ea2f43a8dd
+      internalID: 770415672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_75
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 664
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bbad774a6fe1b4b97ea0164cc458f1
+      internalID: 185374378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_76
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 631
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa8b7c80a16cc64c8102cd68504ce2f
+      internalID: 1499473301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_77
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 667
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60120fc0fe34a9847a01a9a1d4825ffa
+      internalID: 1786735055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_78
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 667
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e09ba5735c39314580c28a717c76f44
+      internalID: 1775603004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_79
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 641
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab59742b1fdba743be56a69f26c10a4
+      internalID: 598194289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_80
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 641
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e23ab899523245afb04d356d27b34
+      internalID: 1713587603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_81
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 652
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f9503ea1f527948ae6d4d7d2784946
+      internalID: 671662900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_82
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 654
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71488eca6df26645b316565c1015d43
+      internalID: 1688375432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_83
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 654
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbf3d0e085aa9f4fa5ce93a52c2941e
+      internalID: -556415636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_84
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 654
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37fdc68677b8d649a50d0f61c12c418
+      internalID: -1476835804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_85
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 652
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4dd81fdd5331e408c16624588400d7
+      internalID: -571519622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_86
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 631
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e92a276f343bb4980d8c3f0c5371bb
+      internalID: 321726654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_87
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 634
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f339128758ff6ef4d9f25e350291f157
+      internalID: 605731431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_88
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 608
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6377bb62e1acbb34ab3c7a763c9319f3
+      internalID: 1046452241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_89
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 608
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0546cb638ab8c9e449e49c23d468fad2
+      internalID: 1977270289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_90
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 612
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4c972619562d24286b89dc1c599ec8
+      internalID: -739928893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_91
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 592
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31696758a70100d478fb7a7e88d2eaa8
+      internalID: 1576662110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 592
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e463de628f2a40459e63d29c54fc21b
+      internalID: 897551031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_93
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 600
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d402363ede9a24e98338e67c4b6c6e
+      internalID: 1646527293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 575
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df2ea24948fff246b68066cfd1d0ab8
+      internalID: 1240391145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_95
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 575
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1b3d15af56a084682ad3b1eaa28e14
+      internalID: 405103586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_96
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 581
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d82dd09a55d61149bd906686211dff5
+      internalID: 125121305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_97
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 551
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0457f5c2abfe1bd48b6b9b1296bd9861
+      internalID: 2111826155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_98
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 568
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9542bd786dcf94c9b5663f501ce4d7
+      internalID: -333831519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 537
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93656842d1980a046b3e805018b63472
+      internalID: -1818679209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_100
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 537
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c842ae05da3a7499e1c56e4305dee2
+      internalID: -164419701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_101
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 551
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bfe7b7f03e3674eb56c5b0a0bedf50
+      internalID: -1209349364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_102
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 551
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766dd21993646e4fb05fb06649c8eee
+      internalID: 1303775278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_103
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 534
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46fb3ce66c57e94e89f367326b60ce5
+      internalID: -1709288848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_104
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 551
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0750e7483b1d0042a34d3131168b3cd
+      internalID: 445759105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_105
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 503
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2f1d014d7fce048bb7e8887f9dd553
+      internalID: -660629679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_106
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 503
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c78d2f3b0687fd45af589943f14dff0
+      internalID: -1125758233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_107
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 513
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e408a09b9a7a71242a90260ce63411de
+      internalID: 960060371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_108
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 503
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2e20fde9bd3d945813a364a75216b9
+      internalID: 436538249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_109
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 503
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eba30c27f890d64aac2ed66274c5c06
+      internalID: -990116847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_110
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 527
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181faa4f216442843b8c426669e71f79
+      internalID: 602617270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_111
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 527
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eeb6cea7bd70824ebfee3b41b357d0f
+      internalID: 1440742490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_112
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 466
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794d5039a7fe9db42880dc766fd82219
+      internalID: -1440675867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 466
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454e50ef3a41094ba5e335fbc590dd2
+      internalID: 1132759903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_114
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 473
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f5fa4ef33bf9c44a8f9d9ad391754e
+      internalID: 1630623773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_115
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 447
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9826c0e5a43fdd4479a45c043f32dc91
+      internalID: -339606489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_116
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 495
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ffbeb0453e909478bc91e56175706a
+      internalID: -1666106535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_117
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 447
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02943d4a552d5344c9c6c6470f7a1e7a
+      internalID: -2026690567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_118
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 478
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1903d5b052c92cf4eba0d9075b98db0b
+      internalID: -1625845413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_119
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 461
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e81345b7188014b86171a1dcf2cd84
+      internalID: 1079070469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_120
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 432
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2773ff4bb51b084aa0e04319b0c1ed5
+      internalID: 74832900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee212346af2c1e544b031cd7aaee4474
+      internalID: 1990715138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_122
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 435
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cad7ae3671eaa49bdd0b763965ca00
+      internalID: 1138443835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_123
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 399
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be38ff41b84a97a4b9cbea4e854f6359
+      internalID: -773057765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_124
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 399
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b70d65044d6e94397bd6a7c83e23a1
+      internalID: -1853179794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_125
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 429
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7eaea680ceaaaf4ea7ee3d5cbe89f3c
+      internalID: -1473125848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_126
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 398
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137b64929bce76a47ad2ff80c00dd8cb
+      internalID: 959632699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_127
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 398
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12891df17403d468632e7b4a3ef6c1
+      internalID: 622422340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_128
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 403
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b41632d26d0b04984bd7a781467e73
+      internalID: -1315517297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_129
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 395
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2fbabdec8bb14680eaf3e1de7e892
+      internalID: 659113722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_130
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 369
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e0717d44d34a14aaa832f5b183055f
+      internalID: -1072758826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_131
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 358
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61ec64f6a989cb4f8942ab415b0fd45
+      internalID: -213525726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 358
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99e5dbcd93a872468a76faf63a2481b
+      internalID: 559902534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_133
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 319
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881b3e6d67b21a408915c5002ae2ee4
+      internalID: -239138847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_134
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 319
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd84089d38ad542ae02ef36438782c
+      internalID: -487236331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_135
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 303
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad157fe20c15de34eaaa23aa093cdc5f
+      internalID: -1416359772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_136
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 302
+        width: 36
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6cf1831559d86a498dd28860a86c523
+      internalID: -1008268095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_137
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 300
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f992b2e6b020f74e80d2d6d4c6fa835
+      internalID: 1292278741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_138
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 302
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f502f6f5d9d6674381df4f4dfe79cdc
+      internalID: -1700907726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_139
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 301
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d098beedc791345b4223208b6418a5
+      internalID: 655221297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_140
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 303
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1bf49cf348af14a9c23a38ed5d4250
+      internalID: 1030698607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_141
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 303
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5f2603cd21b04b91e63812c8a85c3
+      internalID: -895430254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_142
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 301
+        width: 43
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d936975312e2434099bb6e6fb201296
+      internalID: 1079756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_143
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 263
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fad8e34bdcc0848b503953b7ff8a40
+      internalID: -1389243803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_144
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 265
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135e4dbd765d7044f8aa4688fe4d8bd7
+      internalID: 1457775062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_145
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 265
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db83b543bd6bd9a47aeedeecd3fe8c05
+      internalID: 2132032996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_146
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 269
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17077476805b0184f87641f57714a16a
+      internalID: -384852783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_147
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 272
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d281cb8fd27fdb845a73a23775bdadd1
+      internalID: -765635414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_148
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 259
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c5a065766939c41a5c8673675efcff
+      internalID: -1778513504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_149
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 271
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b03d864cbf08145b35dce9a21fa09c
+      internalID: -49740861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_150
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 271
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262cfde54df480f40b02d633e136fdf0
+      internalID: -762925392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_151
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 226
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff09686087979784f86de3eedfb92ff4
+      internalID: -1398889347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_152
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 230
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affddecd6a0c252449e6099f7242878f
+      internalID: 738079351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_153
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 230
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c800e48f5401eb54c8d758e3af8b167f
+      internalID: 1734973071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_154
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 238
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ebf10a1e0841541bd3504d122dea0b
+      internalID: -1309302788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_155
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 240
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594175b899e24604693b90fa17dc1113
+      internalID: -1413943785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_156
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 219
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298d272fdb83164459eb2acaecd59121
+      internalID: 1813476136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_157
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 251
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e557bcf5b802a4986951f5ee313b8c
+      internalID: 1705642519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_158
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 189
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520770e9a7cb1e84f9c96f724b27daed
+      internalID: 265937908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_159
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 195
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098fc5a13cbe4f740b8e1e3b564ea0f6
+      internalID: -1697641090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_160
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 195
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50629b9ff333c434c9f7587210dbec56
+      internalID: 254818355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_161
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 209
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae2e86e606767341ba8ce11f2d4424d
+      internalID: -481428315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_162
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 208
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69117ad11c9daa644ac5a6a5d3c970ec
+      internalID: -1254335946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_163
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 181
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f485d017dc3003947ae91373ccc6e2c1
+      internalID: -818036655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_164
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 154
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb280f19dc247940a551358ce4d20b7
+      internalID: 1865288239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_165
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 161
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9e070595a40224f8e7a58c7948c5cf
+      internalID: -2113557063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_166
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 161
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97ca6d4fbc4d82468972d899fc5e14d
+      internalID: 750840337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_167
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 182
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4240f56bff0746344b4649881b9abec1
+      internalID: -608337042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_168
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 175
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5272d6dd8375498f3f34ec84b1b48
+      internalID: -1036404095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_169
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1be0bfb33425d448ae3491a938b0e7
+      internalID: 573522615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_170
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 128
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1e0a28d6a7da4fbf10a850817cf77
+      internalID: -1729601383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_171
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 155
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c93fa2df2a194b972f2f00f2d3baa
+      internalID: 1985699942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_172
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 145
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267c2e90fc6175e46a573eca05bbe6ea
+      internalID: 469113467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_173
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 148
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a6073fdd30c48448af95c98f39f446
+      internalID: -1420970312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_174
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 120
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d9cbaba30ecdd45afe8e07174bc59d
+      internalID: 883735177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_175
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 128
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c64591f76db2d846887f3bc27cafccf
+      internalID: -2001526662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_176
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 112
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1461e482425bac44497095885ac5537d
+      internalID: -651256088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_177
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 113
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c0b91c4515f61448d3c06ff65fca98
+      internalID: 620707846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_178
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 140
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346aaf66fdbef634dbece57f63d2488f
+      internalID: -1623553129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_179
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 85
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbf61169448f0f4b85b3384b770406d
+      internalID: 174419284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_180
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 94
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86219a26a2e04c47a940d7b1bbfe8f5
+      internalID: 1905056511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_181
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 94
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ec47114084a764e8f00be472d8f4db
+      internalID: 1738402103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_182
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 99
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65581d9bf224e60478599e1b202fbc28
+      internalID: 2054319216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_183
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 80
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8364cc3036e9aa545ad0042f21cd05a4
+      internalID: -1350922880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_184
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 80
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9367edbde6041d46a2821bcd5e46a93
+      internalID: 1009223143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_185
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 48
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca31bb5cf3921ec429766f5537626b3e
+      internalID: -864380222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_186
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 59
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853fad327a224534cab28733a8bb27b5
+      internalID: 911159929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_187
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 59
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e67c7d8ceff484c950538f6d60cc70
+      internalID: 193139292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_188
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 68
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034bd068e71380f40b055ab9fbe615c8
+      internalID: 1275957233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_189
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 48
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04c6de2cbaaa245833e1eb5e5cd836
+      internalID: -13645450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_190
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 42
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757305bce91f6704397a5ad56fa6bab2
+      internalID: 2059387532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_191
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 11
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3f75c5541e82744aba5ab9c1185041
+      internalID: 1298702523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_192
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 24
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c868ed756855f41bb479e97cfda015
+      internalID: -1285566348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_193
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 24
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47052f9b3be5ec54b9a9d07c795760ba
+      internalID: -1107477721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_194
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 2
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bffd6f90e12ee4099c698cbca1bc67
+      internalID: 756618552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: draco(s)_195
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 34
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276a228fbf02a2d4480d8628d8a3c1a9
+      internalID: 1367626280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      draco(s)_0: -1016993264
+      draco(s)_1: -575117754
+      draco(s)_10: 1035574563
+      draco(s)_100: -164419701
+      draco(s)_101: -1209349364
+      draco(s)_102: 1303775278
+      draco(s)_103: -1709288848
+      draco(s)_104: 445759105
+      draco(s)_105: -660629679
+      draco(s)_106: -1125758233
+      draco(s)_107: 960060371
+      draco(s)_108: 436538249
+      draco(s)_109: -990116847
+      draco(s)_11: -1832915470
+      draco(s)_110: 602617270
+      draco(s)_111: 1440742490
+      draco(s)_112: -1440675867
+      draco(s)_113: 1132759903
+      draco(s)_114: 1630623773
+      draco(s)_115: -339606489
+      draco(s)_116: -1666106535
+      draco(s)_117: -2026690567
+      draco(s)_118: -1625845413
+      draco(s)_119: 1079070469
+      draco(s)_12: -421173921
+      draco(s)_120: 74832900
+      draco(s)_121: 1990715138
+      draco(s)_122: 1138443835
+      draco(s)_123: -773057765
+      draco(s)_124: -1853179794
+      draco(s)_125: -1473125848
+      draco(s)_126: 959632699
+      draco(s)_127: 622422340
+      draco(s)_128: -1315517297
+      draco(s)_129: 659113722
+      draco(s)_13: -61802166
+      draco(s)_130: -1072758826
+      draco(s)_131: -213525726
+      draco(s)_132: 559902534
+      draco(s)_133: -239138847
+      draco(s)_134: -487236331
+      draco(s)_135: -1416359772
+      draco(s)_136: -1008268095
+      draco(s)_137: 1292278741
+      draco(s)_138: -1700907726
+      draco(s)_139: 655221297
+      draco(s)_14: 644490939
+      draco(s)_140: 1030698607
+      draco(s)_141: -895430254
+      draco(s)_142: 1079756
+      draco(s)_143: -1389243803
+      draco(s)_144: 1457775062
+      draco(s)_145: 2132032996
+      draco(s)_146: -384852783
+      draco(s)_147: -765635414
+      draco(s)_148: -1778513504
+      draco(s)_149: -49740861
+      draco(s)_15: -1785202822
+      draco(s)_150: -762925392
+      draco(s)_151: -1398889347
+      draco(s)_152: 738079351
+      draco(s)_153: 1734973071
+      draco(s)_154: -1309302788
+      draco(s)_155: -1413943785
+      draco(s)_156: 1813476136
+      draco(s)_157: 1705642519
+      draco(s)_158: 265937908
+      draco(s)_159: -1697641090
+      draco(s)_16: 65680253
+      draco(s)_160: 254818355
+      draco(s)_161: -481428315
+      draco(s)_162: -1254335946
+      draco(s)_163: -818036655
+      draco(s)_164: 1865288239
+      draco(s)_165: -2113557063
+      draco(s)_166: 750840337
+      draco(s)_167: -608337042
+      draco(s)_168: -1036404095
+      draco(s)_169: 573522615
+      draco(s)_17: 279392572
+      draco(s)_170: -1729601383
+      draco(s)_171: 1985699942
+      draco(s)_172: 469113467
+      draco(s)_173: -1420970312
+      draco(s)_174: 883735177
+      draco(s)_175: -2001526662
+      draco(s)_176: -651256088
+      draco(s)_177: 620707846
+      draco(s)_178: -1623553129
+      draco(s)_179: 174419284
+      draco(s)_18: -1157128251
+      draco(s)_180: 1905056511
+      draco(s)_181: 1738402103
+      draco(s)_182: 2054319216
+      draco(s)_183: -1350922880
+      draco(s)_184: 1009223143
+      draco(s)_185: -864380222
+      draco(s)_186: 911159929
+      draco(s)_187: 193139292
+      draco(s)_188: 1275957233
+      draco(s)_189: -13645450
+      draco(s)_19: -250419815
+      draco(s)_190: 2059387532
+      draco(s)_191: 1298702523
+      draco(s)_192: -1285566348
+      draco(s)_193: -1107477721
+      draco(s)_194: 756618552
+      draco(s)_195: 1367626280
+      draco(s)_2: 90188026
+      draco(s)_20: -189569505
+      draco(s)_21: -1318832557
+      draco(s)_22: -1329877680
+      draco(s)_23: 1991646050
+      draco(s)_24: 942507448
+      draco(s)_25: 764020520
+      draco(s)_26: 380737854
+      draco(s)_27: -106274815
+      draco(s)_28: -1760239278
+      draco(s)_29: -909043415
+      draco(s)_3: -2143369509
+      draco(s)_30: -991568170
+      draco(s)_31: -413397048
+      draco(s)_32: 2049370499
+      draco(s)_33: -1934047752
+      draco(s)_34: -1857109143
+      draco(s)_35: 1518829075
+      draco(s)_36: -22622657
+      draco(s)_37: 1226218009
+      draco(s)_38: 747527029
+      draco(s)_39: -1389193916
+      draco(s)_4: 528676864
+      draco(s)_40: -1781896126
+      draco(s)_41: 576823001
+      draco(s)_42: 1984237613
+      draco(s)_43: 460952228
+      draco(s)_44: 1621700762
+      draco(s)_45: 395009392
+      draco(s)_46: -32763124
+      draco(s)_47: 550358470
+      draco(s)_48: 1773021488
+      draco(s)_49: 1325602949
+      draco(s)_5: -1110527061
+      draco(s)_50: 1247995429
+      draco(s)_51: 445550390
+      draco(s)_52: 993015306
+      draco(s)_53: 1607170810
+      draco(s)_54: -331064528
+      draco(s)_55: -1614303425
+      draco(s)_56: -40059534
+      draco(s)_57: 675933881
+      draco(s)_58: -1180481347
+      draco(s)_59: -245464233
+      draco(s)_6: -218650980
+      draco(s)_60: -1292820931
+      draco(s)_61: 584945283
+      draco(s)_62: 1388332900
+      draco(s)_63: -1524895547
+      draco(s)_64: -347681085
+      draco(s)_65: -11787171
+      draco(s)_66: -2099325894
+      draco(s)_67: -1829651623
+      draco(s)_68: -1767733666
+      draco(s)_69: 1161911541
+      draco(s)_7: -748823672
+      draco(s)_70: -644848870
+      draco(s)_71: -1235780896
+      draco(s)_72: -482934142
+      draco(s)_73: 1946227519
+      draco(s)_74: 770415672
+      draco(s)_75: 185374378
+      draco(s)_76: 1499473301
+      draco(s)_77: 1786735055
+      draco(s)_78: 1775603004
+      draco(s)_79: 598194289
+      draco(s)_8: -992168506
+      draco(s)_80: 1713587603
+      draco(s)_81: 671662900
+      draco(s)_82: 1688375432
+      draco(s)_83: -556415636
+      draco(s)_84: -1476835804
+      draco(s)_85: -571519622
+      draco(s)_86: 321726654
+      draco(s)_87: 605731431
+      draco(s)_88: 1046452241
+      draco(s)_89: 1977270289
+      draco(s)_9: 1639751653
+      draco(s)_90: -739928893
+      draco(s)_91: 1576662110
+      draco(s)_92: 897551031
+      draco(s)_93: 1646527293
+      draco(s)_94: 1240391145
+      draco(s)_95: 405103586
+      draco(s)_96: 125121305
+      draco(s)_97: 2111826155
+      draco(s)_98: -333831519
+      draco(s)_99: -1818679209
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

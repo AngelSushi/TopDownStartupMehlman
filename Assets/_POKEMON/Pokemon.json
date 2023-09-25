@@ -69,7 +69,7 @@
         "english": "Charmander",
       "japanese": "????",
       "chinese": "???",
-      "french": "Salam�che"
+      "french": "Salameche"
     },
     "type": [
       "Fire"
@@ -182,6 +182,315 @@
       "SpAttack": 85,
       "SpDefense": 105,
       "Speed": 78
+    }
+},
+  {
+    "id": 10,
+    "name": {
+        "english": "Caterpie",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Chenipan"
+    },
+    "type": [
+      "Bug"
+    ],
+    "statbase": {
+        "HP": 45,
+      "Attack": 30,
+      "Defense": 35,
+      "SpAttack": 20,
+      "SpDefense": 20,
+      "Speed": 45
+    }
+},
+  {
+    "id": 11,
+    "name": {
+        "english": "Metapod",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Chrysacier"
+    },
+    "type": [
+      "Bug"
+    ],
+    "statbase": {
+        "HP": 50,
+      "Attack": 20,
+      "Defense": 55,
+      "SpAttack": 25,
+      "SpDefense": 25,
+      "Speed": 30
+    }
+},
+  {
+    "id": 12,
+    "name": {
+        "english": "Butterfree",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Papilusion"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 60,
+      "Attack": 45,
+      "Defense": 50,
+      "SpAttack": 90,
+      "SpDefense": 80,
+      "Speed": 70
+    }
+},
+  {
+    "id": 13,
+    "name": {
+        "english": "Weedle",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Aspicot"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "statbase": {
+        "HP": 40,
+      "Attack": 35,
+      "Defense": 30,
+      "SpAttack": 20,
+      "SpDefense": 20,
+      "Speed": 50
+    }
+},
+  {
+    "id": 14,
+    "name": {
+        "english": "Kakuna",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Coconfort"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "statbase": {
+        "HP": 45,
+      "Attack": 25,
+      "Defense": 50,
+      "SpAttack": 25,
+      "SpDefense": 25,
+      "Speed": 35
+    }
+},
+  {
+    "id": 15,
+    "name": {
+        "english": "Beedrill",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Dardargnan"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "statbase": {
+        "HP": 65,
+      "Attack": 90,
+      "Defense": 40,
+      "SpAttack": 45,
+      "SpDefense": 80,
+      "Speed": 75
+    }
+},
+  {
+    "id": 16,
+    "name": {
+        "english": "Pidgey",
+      "japanese": "???",
+      "chinese": "??",
+      "french": "Roucool"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 40,
+      "Attack": 45,
+      "Defense": 40,
+      "SpAttack": 35,
+      "SpDefense": 35,
+      "Speed": 56
+    }
+},
+  {
+    "id": 17,
+    "name": {
+        "english": "Pidgeotto",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Roucoups"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 63,
+      "Attack": 60,
+      "Defense": 55,
+      "SpAttack": 50,
+      "SpDefense": 50,
+      "Speed": 71
+    }
+},
+  {
+    "id": 18,
+    "name": {
+        "english": "Pidgeot",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Roucarnage"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 83,
+      "Attack": 80,
+      "Defense": 75,
+      "SpAttack": 70,
+      "SpDefense": 70,
+      "Speed": 101
+    }
+},
+  {
+    "id": 19,
+    "name": {
+        "english": "Rattata",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Rattata"
+    },
+    "type": [
+      "Normal"
+    ],
+    "statbase": {
+        "HP": 30,
+      "Attack": 56,
+      "Defense": 35,
+      "SpAttack": 25,
+      "SpDefense": 35,
+      "Speed": 72
+    }
+},
+  {
+    "id": 20,
+    "name": {
+        "english": "Raticate",
+      "japanese": "???",
+      "chinese": "??",
+      "french": "Rattatac"
+    },
+    "type": [
+      "Normal"
+    ],
+    "statbase": {
+        "HP": 55,
+      "Attack": 81,
+      "Defense": 60,
+      "SpAttack": 50,
+      "SpDefense": 70,
+      "Speed": 97
+    }
+},
+  {
+    "id": 21,
+    "name": {
+        "english": "Spearow",
+      "japanese": "?????",
+      "chinese": "??",
+      "french": "Piafabec"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 40,
+      "Attack": 60,
+      "Defense": 30,
+      "SpAttack": 31,
+      "SpDefense": 31,
+      "Speed": 70
+    }
+},
+  {
+    "id": 22,
+    "name": {
+        "english": "Fearow",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Rapasdepic"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "statbase": {
+        "HP": 65,
+      "Attack": 90,
+      "Defense": 65,
+      "SpAttack": 61,
+      "SpDefense": 61,
+      "Speed": 100
+    }
+},
+  {
+    "id": 23,
+    "name": {
+        "english": "Ekans",
+      "japanese": "???",
+      "chinese": "???",
+      "french": "Abo"
+    },
+    "type": [
+      "Poison"
+    ],
+    "statbase": {
+        "HP": 35,
+      "Attack": 60,
+      "Defense": 44,
+      "SpAttack": 40,
+      "SpDefense": 54,
+      "Speed": 55
+    }
+},
+  {
+    "id": 24,
+    "name": {
+        "english": "Arbok",
+      "japanese": "?????",
+      "chinese": "???",
+      "french": "Arbok"
+    },
+    "type": [
+      "Poison"
+    ],
+    "statbase": {
+        "HP": 60,
+      "Attack": 95,
+      "Defense": 69,
+      "SpAttack": 65,
+      "SpDefense": 79,
+      "Speed": 80
     }
 },
   {
@@ -16258,6 +16567,109 @@
 },
   {
     "id": 809,
+    "name": {
+      "english": "Meltan",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Magnéti"
+    },
+    "type": [
+      "Steel"
+    ],
+    "statbase": {
+      "HP": 46,
+      "Attack": 65,
+      "Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 35,
+      "Speed": 34
+    }
+  },
+  {
+    "id": 810,
+    "name": {
+      "english": "Meltan",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Leviator"
+    },
+    "type": [
+      "Steel"
+    ],
+    "statbase": {
+      "HP": 46,
+      "Attack": 65,
+      "Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 35,
+      "Speed": 34
+    }
+  },
+  {
+    "id": 811,
+    "name": {
+      "english": "Meltan",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Evoli"
+    },
+    "type": [
+      "Steel"
+    ],
+    "statbase": {
+      "HP": 46,
+      "Attack": 65,
+      "Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 35,
+      "Speed": 34
+    }
+  },
+
+  {
+    "id": 812,
+    "name": {
+      "english": "Meltan",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Ptera"
+    },
+    "type": [
+      "Steel"
+    ],
+    "statbase": {
+      "HP": 46,
+      "Attack": 65,
+      "Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 35,
+      "Speed": 34
+    }
+  },
+
+  {
+    "id": 813,
+    "name": {
+      "english": "Meltan",
+      "japanese": "????",
+      "chinese": "???",
+      "french": "Elechtor"
+    },
+    "type": [
+      "Steel"
+    ],
+    "statbase": {
+      "HP": 46,
+      "Attack": 65,
+      "Defense": 65,
+      "SpAttack": 55,
+      "SpDefense": 35,
+      "Speed": 34
+    }
+  },
+  
+  {
+    "id": 814,
     "name": {
         "english": "Melmetal",
       "japanese": "?????",

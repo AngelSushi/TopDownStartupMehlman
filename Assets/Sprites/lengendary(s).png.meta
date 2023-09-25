@@ -1,0 +1,4637 @@
+fileFormatVersion: 2
+guid: b6a5439b87e28774cb491a0e488a6c39
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lengendary(s)_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 614
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be75d7bd73ea044aa4444db71f10f70
+      internalID: -1130788099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 614
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788856a3feafe284ba8d7e28b1eaad68
+      internalID: 133064152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 614
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f071a1f36c4ff47acc31cb94ba3641
+      internalID: 1220424678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 614
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1421aefca16694799f5f41fce6c0cb
+      internalID: -1838451109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 614
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dec14bc27c6d147860bf707ca02772
+      internalID: -1452640035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 614
+        width: 49
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7493473c4753b4cb8dda31522ddc46
+      internalID: 1162309596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_6
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 614
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917305b1793bbf44fa516deb7d8f196b
+      internalID: -1744416106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_7
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 614
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc2f783aabe8f7468c916179ad59cf6
+      internalID: -1450487825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_8
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 614
+        width: 65
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251536ce9900983449d4898ec0e3f67d
+      internalID: -895263061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 614
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b885b84003fd7142aebda2d4e3a99d1
+      internalID: 1658985498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_10
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 614
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161f0a6450c7a784aae281bf0e99ce33
+      internalID: -1599170150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_11
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 614
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba61d8c56eadc469948bb22681b2d5
+      internalID: 2002997500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_12
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 614
+        width: 63
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d524df1bb201a44cbc0924ff78daacb
+      internalID: -374604792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_13
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 614
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5996bf0f1514cb440bb6e75e548be108
+      internalID: 2090887029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_14
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 614
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc6283d5a21dd241a292e82ea824302
+      internalID: 1775686373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_15
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 554
+        width: 65
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd08dc117efd8d9459e3c3e7dd20beb4
+      internalID: -1863685856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 554
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31795bf72991d9d4b8f3f2ce0861ba33
+      internalID: 1668787234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 554
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4840c0bc17527b44a51411137e13bc4
+      internalID: 1391148041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 554
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761d36b68d1de7a4c82033789d443b5d
+      internalID: -1417775658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_19
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 554
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81c25a8b0572b14ab960cf1e66e9bf1
+      internalID: 1007940568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_20
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 554
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9732c2060f098545bc135686dab815a
+      internalID: 1894169579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_21
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 554
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d2f5a1ad04abf4883c2941aaf2088f
+      internalID: -1583691852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_22
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 554
+        width: 53
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3b6970693639249b68f69455bcf48e
+      internalID: -1836470169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_23
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 554
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0634937fd7222d44dbf945484c5829b3
+      internalID: 549941040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_24
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 509
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a845b7a55f13047a8e78447ccda71c
+      internalID: -1387746278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 509
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb402471f4123f747af81daa1950ace2
+      internalID: -642347010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 509
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fbb238fd8415343ac599d7ef2d626b
+      internalID: 2140052872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_27
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 509
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f86490ec5b25a46acea36c290c2a17
+      internalID: 1687474611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_28
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 509
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d175a284849758e4092a2004c76860a0
+      internalID: 1547139061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_29
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 509
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad44c2da0847249875952042351f71
+      internalID: 220128499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_30
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 509
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0d23ae130686f4ab174223ff8dee47
+      internalID: -564145507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_31
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 509
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161efbc45ea560d4ba53dd506061bb7d
+      internalID: 93943777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 446
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847b21ce67d46df4c8a821667d09f4c7
+      internalID: 1418501781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_33
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 496
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc050e919b48ad84eb1f00811ba80543
+      internalID: -856120798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_34
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 495
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07705fd2046a81249a85e467538cc9c8
+      internalID: -456024208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_35
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 492
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2203327988093ba4489c6c65992129d5
+      internalID: 455147311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_36
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 446
+        width: 44
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ebbad3a5e4c6e48a6ec39fd8ab4dd8
+      internalID: -505251960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_37
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 446
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef7e363ea71f1f42a7500ebc7fcaddb
+      internalID: -404061197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 492
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafd9dbe2c692b64baa3a6993f384393
+      internalID: 8962121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_39
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 446
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a670e5916a40584caece99b4eb41367
+      internalID: -1811956621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 493
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba208d05aef93ec4e83212982a07655b
+      internalID: 944074209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_41
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 491
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869d6e2e6d38a27438517251ce16796f
+      internalID: 549082285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_42
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 446
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7b954b56f27c643baa7440ba9cf9fb
+      internalID: -144819790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_43
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 489
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6677513a3e9b2434492b3686cb4eb50c
+      internalID: 1196068965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_44
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 485
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c765a5ceccdfe4f9870acf97eac055
+      internalID: -1465024944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 481
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5711f8b0b832e4485690756af44fbb
+      internalID: 1402853820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 484
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab0094d9fe682140b5e50021ddf7f6e
+      internalID: 1463885432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_47
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 446
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4229998b4c86f40be23bea257e7b8c
+      internalID: -908489900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_48
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 446
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c39142ed80a724685fac96e94bcfd7
+      internalID: -411845520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_49
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 446
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a009921dba927f4d872c07541cdaac5
+      internalID: -346392653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_50
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 394
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ce8c7b1a0132149a2c6bcd5df9a3c5
+      internalID: -483146161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_51
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 394
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee00497eb0247cf46ace57d04cd846dd
+      internalID: -681608297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_52
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 394
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb4b373d2e87d34baf3fd0bce0b58db
+      internalID: 980222836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 394
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625ff73f68a18c248bf9d33f385a0baa
+      internalID: -1266309965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_54
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 394
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c617da84e82251343b3010a54331c50e
+      internalID: -1325317359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_55
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 394
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74da4e169d3187142b6678ae60d4a1f2
+      internalID: -49348018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_56
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 394
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9c158e59f11fc4980241c5f050f8fe
+      internalID: -1247086735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_57
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 394
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33e7ae14a34e8948a6992e780a47c8d
+      internalID: -911981194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_58
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 394
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93969657d2ffc3542a910740353d9a4f
+      internalID: 351001809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_59
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 394
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af5ffd1b2962914daca5a6704a709e6
+      internalID: -542006416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_60
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 394
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d50fc0258e495409462476a72d6082
+      internalID: 1600240203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_61
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 394
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3ac6194939bee488376f29cf16eb5e
+      internalID: 1787388408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_62
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 394
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ae04e384367f94faee77b59aab71bf
+      internalID: 628866278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_63
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 394
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627012fe1bddb344da7a6c2cd60d6053
+      internalID: 1175266699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_64
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 394
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7422dcbe152b32489da54cd51d4a4c6
+      internalID: -1174588863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_65
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 353
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bd26f351a8d844cafc4f393be5e4a8
+      internalID: -74526845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_66
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 353
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8ec3a038131a14c9e1332fbc8b87e9
+      internalID: -756106281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_67
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 353
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1329c8a2adc591f41b1d49b9d596dd42
+      internalID: 1040781343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_68
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 353
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8c2e46ea429ef458fcd4d5af5b1517
+      internalID: -1758164673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_69
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 353
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6244933db2b81b14c86ec1d4c2bf3467
+      internalID: 1022558981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_70
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 298
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93361a0852b45e44e903060ebd6371f9
+      internalID: 1002304925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_71
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 298
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f506b157a9d51d043a137de9751c9632
+      internalID: 996175689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_72
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 298
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fd8c3d6285056449af59522b9bb300
+      internalID: -1515372062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_73
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 298
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c3f0dae6c911c4a9c4db8d54f8e4bb
+      internalID: -1185827569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_74
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 298
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9f973000b41e64494b8739e907a018
+      internalID: -1855603660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_75
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 298
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f8943bee0a32d429972088153d29dd
+      internalID: 1728764015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_76
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 298
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19dfb7925c1ad844bc30c65bca909c4
+      internalID: -1077601132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_77
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 298
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d3c0496a590ed468238e0526d59f3d
+      internalID: -2000710007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_78
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 298
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23877531315e0c841a2a8dbadb9da7a2
+      internalID: -397886167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_79
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 298
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d2a92ed0120ae47a768e664766ff2a
+      internalID: -1041963829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 232
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d319799bd9ece9f45acc0ed9b970382f
+      internalID: -2053220282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_81
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 232
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d6389d47505ab45b681e39682be6c3
+      internalID: 1435155731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_82
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 232
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3e4b7df0503f144aa3138a4690e42d
+      internalID: -327432571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_83
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 232
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d24a31325548243b360ae94d9728da
+      internalID: -253954578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_84
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 232
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548eb0d5edb08c740811946618669191
+      internalID: 2115323446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_85
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 232
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088939ac4c1bb08479b34f8cac069bee
+      internalID: 1029188557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 232
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3588fe1219644d64089949a40a63e30e
+      internalID: -945706698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_87
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 232
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400d49c37d06de54b883c152c19c0d3e
+      internalID: -1934471680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_88
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 232
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5206607bbb893141a866cf0ffe1b220
+      internalID: -630053590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_89
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 232
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb6dcfe843cd2c49a431e31b35607fc
+      internalID: 79908120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_90
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 179
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c02c8a25024c9441990b2c665d3dd4b
+      internalID: 578038457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_91
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 211
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45416a85c5769fd47b35c221cdeacf71
+      internalID: -275643361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_92
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 179
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447fd2df555862044baabb2d037033ee
+      internalID: -1185974155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_93
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 204
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6267e6bb3787744a5fa557c9185223
+      internalID: -518295067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_94
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 179
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faf5cf7bf8cc2143a83972e95a3a851
+      internalID: -1797543280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_95
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 179
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bc42f9fbc20e14498d10ceb4320d0d
+      internalID: -529326785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_96
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 217
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15876513c2254294e9d9b8953acc91be
+      internalID: -1248584540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_97
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 203
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a51506f1a3ee44fb30675a72a3c945
+      internalID: 1809726126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_98
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 205
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5afcd3303ac8d948b4739321099463e
+      internalID: 176943282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_99
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 205
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ead375e392bcb4fa54e717050b8a15
+      internalID: 1967224995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_100
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 179
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23ab1f88d7abad4896dae7a8d09ff7d
+      internalID: -18058940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_101
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 179
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f50df70d49c4640a1f965c7625ca43
+      internalID: -1928441863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_102
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 179
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad11462abac523247b6cca3fcd3eb6c2
+      internalID: -687966730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_103
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 195
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74703d6a04a38047ab9b2b474fa405f
+      internalID: -270184524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_104
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 179
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdb5d8bbb8ce9a408bc6cedd8fcfbbc
+      internalID: -120918060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_105
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 185
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320f6d515f0f5a945ad80fdd2ba57258
+      internalID: 347183313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_106
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 179
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd8e44274832f94d899db90e8848f0b
+      internalID: -1809975711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_107
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 179
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd5a0750fae9894b8d2fffb6dde9acf
+      internalID: -94027142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_108
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 179
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af91716ac951d2e479ff7ae9c83fefa9
+      internalID: 824044993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_109
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 181
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b3a69a4f1e0474ca35130f87d5063c
+      internalID: -2145573416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_110
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 179
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c21d0a0e0caa4d4586162969cb8cd85
+      internalID: -839804601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_111
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 120
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a687df23089945a6c202d8d66c97d
+      internalID: -1879310780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_112
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 120
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd12a8ff2755d9b4789fafdf2c1bf76c
+      internalID: -1918383244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_113
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 120
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe342440dec89e94bbd73b5a70de54e5
+      internalID: -659589522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_114
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 120
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baed6d5ee15ced14498d016fb7c8788e
+      internalID: -1277083730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_115
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 120
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c5124a35982a942a7cab249ccebecc
+      internalID: 504644065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_116
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 120
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e794c7218d2ca1140bfc377c6d6b8cb3
+      internalID: -798606392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_117
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 120
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176391f413e1ef4d900947e9dd37936
+      internalID: -56164619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_118
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 120
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7dec817166bc14382c628c36507a4a
+      internalID: -1394159069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_119
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 120
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeb371c0a193174b9cac415ac240e17
+      internalID: 462041387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_120
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 120
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50702865b1d590a498673f4b7a24669a
+      internalID: -1428126216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_121
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 120
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef2cfcf5127f1642a292773d87c878b
+      internalID: 380774842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_122
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 120
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005a2da73ec5be64caafaf7093363e8b
+      internalID: 119362326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_123
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 120
+        width: 79
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6639923c82331f74e9f77772e0b5779c
+      internalID: 811921822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_124
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 120
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3709636a0446b074dbafcebe5790ccff
+      internalID: 809261163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_125
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 120
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ebfb2fe6d54e04f821825b10a3f272
+      internalID: -1056706028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_126
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 56
+        width: 90
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f999b4cbe8d2341b00efc12412f3f8
+      internalID: -523592450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_127
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 56
+        width: 75
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b67ecedcb5eb2418f4971f84c60f70
+      internalID: -133246400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_128
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 56
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274b879fd90675e4a8c9929dc4b19981
+      internalID: -1455730911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_129
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 56
+        width: 71
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7a9c5f66b67b34eacb3cdb37f75f25
+      internalID: 234752904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_130
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 56
+        width: 91
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf7834153ead3a143b05e21c0d969327
+      internalID: 1999163072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_131
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 56
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9429ca874ecc714288ce9c8df15dc51
+      internalID: -1884805463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_132
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 56
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9e22065cd84be4591c00a33b71dafa
+      internalID: -67886765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_133
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 56
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3903ff7b74c746498b37ebb1df0474f
+      internalID: 1738247430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_134
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 56
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310963b7274b74e45a98ac5fdaf0b1db
+      internalID: 344675257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_135
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 56
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1705f8ca3f76943bc9a77f57768b41
+      internalID: -1460905859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_136
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 56
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1690d0d3384ef4ea1901ecab6a6f18
+      internalID: 1938027696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_137
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 56
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48da539deca2d324e9c8ba77b34a56f3
+      internalID: 597979783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_138
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 47
+        width: 56
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575301d146fc9894b81e93140af54abe
+      internalID: -1211550734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_139
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 5
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4879954f6d16db9488e48122108ca7bd
+      internalID: -843798581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_140
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 5
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83339da3433e5d146858e623c839407b
+      internalID: -764725058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_141
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 5
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29fdde09b67b9a4a8534a26f2aa2070
+      internalID: 570185402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_142
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 5
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29fbbcb6c9ebb94baade032d9375b7a
+      internalID: 1649182805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_143
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 5
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3a328764d32314a944e3c6150b9688
+      internalID: -1351824557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_144
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 36
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaae2e1d4febfb49888108de2d664e4
+      internalID: -515626697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_145
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 36
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3b030cdd562b54bbcfb0a1debb902d
+      internalID: 1521406484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_146
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4386323e2d0e7c24eb70e53f87f92321
+      internalID: 548243256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_147
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ca7890aab28fb4082f429b3b649bc1
+      internalID: 1872975249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_148
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54d9ebce4acea14cbaf4c030c1b2eaf
+      internalID: 1080823745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_149
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 35
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef994b6570e5ba947bb3a407a2f3233e
+      internalID: -73430600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_150
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 36
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c24307c1b3fcf4e90519aa07a49a7d
+      internalID: -1614837566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_151
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac224bf7bf848e4ca58739a47441f69
+      internalID: 224655166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_152
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 34
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b22a6db9c24824fad7f342eefa7c33
+      internalID: 1394002782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_153
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 36
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3d82b7f631d4b4a8502ab8e8decdf3
+      internalID: 2000104394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_154
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83db42ee6d071704eacfd739d08d27b8
+      internalID: 1687892277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_155
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e362f11da65f84b8197aa8a3ce0fcd
+      internalID: -2006263772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_156
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 36
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6a76afa11e066408c09bd05f1823f4
+      internalID: -691464691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_157
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb4a745e4369474fbdbd9fdb4edb279
+      internalID: -1370588213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_158
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e674b6d25d707de4a91484157d72e60f
+      internalID: -2133465586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_159
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 36
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d49ff320025f54ba27cc446fe01612
+      internalID: 6096429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_160
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1824ffac2d561e640b7b374fc6dcccda
+      internalID: -681259541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_161
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187f24415686d7a4eaab477272b4e3b4
+      internalID: 1501429129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_162
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f5b5203e0e9eb4db0aacc2695fb585
+      internalID: -57832872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_163
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 36
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55034ca3fd52984daf7e26e22f7a45f
+      internalID: 1123790030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_164
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 36
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817aee81b84e9b4ab2cdd67c570c31a
+      internalID: -6826547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_165
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 5
+        width: 75
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58dcc0a131db73f45ba09ee9c387b34b
+      internalID: 1157201327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_166
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 3
+        width: 77
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1078dae74a14af41a7f6e93cdf84b92
+      internalID: -1181858307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_167
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 5
+        width: 71
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc243a4c8975014c80e1e1e67654a8d
+      internalID: 732084391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 24
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc488cda27433c4d9c7ba4d6984c662
+      internalID: 804795092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_169
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b3d242287a07b488d8c7c18b8e54d6
+      internalID: 170666425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_170
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 24
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659611b247184a24084ebb6c3181e91b
+      internalID: -370329815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_171
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 24
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d9f55b5c5e7841bbc4174aa11a7b3
+      internalID: 1221888515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_172
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 24
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4f969cabee2ed448de9718bbd2505f
+      internalID: -1732986725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_173
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c3acae7034b9047b3b5e4080754429
+      internalID: -1415748720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_174
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65601cab5ef9184e84b184cdd02e1c0
+      internalID: 388878636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_175
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9361900a17080df41809ef1e854ec18c
+      internalID: 1994265369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_176
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 22
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af39cad78278f943a293faceb01216b
+      internalID: 2056900062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_177
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ff32835dc2ff8408511b6dbc254092
+      internalID: -1329749248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_178
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 24
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fac307a5fdbfa44b42c99ae8edd97f
+      internalID: 276893051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_179
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be91792e49720214999fff9e8d68fcae
+      internalID: 1778521526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_180
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 22
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6c59e4a4e9b4c43b1947e59f126506
+      internalID: 1459563118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_181
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 24
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e3d0ec3f90ab64e910fb3e14fe0397
+      internalID: -1883982633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_182
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af22f7d65f102a41b097dea3d4dff74
+      internalID: -690846406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_183
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b50b556fe5dbff46b2a69b18e8891d0
+      internalID: -2025709263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_184
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 22
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41b5a1108200a941af94541d55624b2
+      internalID: 711653177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_185
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad366a8b61f294744967d2ced20d9573
+      internalID: 258642445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_186
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbdd0079dc8aa14f9481946fe2c7f6d
+      internalID: -2142258510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_187
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 24
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd26a636ca6467409869cd34255af59
+      internalID: -1677185754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_188
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 5
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8544f4a79f4f0b6489b7423936eb1550
+      internalID: -4224910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_189
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 10
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b9d3c4845266047baad5d877d1d67e
+      internalID: -25864617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_190
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 10
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c22b23a30901ba489ef264c24cc4e03
+      internalID: 740388145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_191
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c847a8f10a53b4690f75d75343dc38
+      internalID: -1789145598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_192
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 12
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d2142ee34b82b45a808d75156ff63d
+      internalID: 914399680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_193
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 12
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 237745b484fa47e40a7be837cf39313f
+      internalID: 720383694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_194
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 10
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2badc601483e1745925f373c16b2b40
+      internalID: -29213755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_195
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 12
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe3bcb944f9bdf4f8a51281c1e2fb65
+      internalID: 233111074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_196
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 10
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0107aa7c79f6c4bbd8937c102361b5
+      internalID: 1068787532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_197
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 12
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27a81c589e22c34590eec2d1262f65b
+      internalID: 859180140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_198
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 12
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6e625174d8bf24aaf388ba87cd6444
+      internalID: 764268856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_199
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 10
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777bb7900667e3d44a896460656eb2d6
+      internalID: 2114018713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_200
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 12
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb64a994873be43a8e4a1a5c1c0333
+      internalID: 1360963480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_201
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d41700c048c61944abbb9f389fed8cd
+      internalID: 353612667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_202
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 12
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc29fed4dae020f49b4a316e190a6f58
+      internalID: 1205513125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_203
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 12
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eaaf2f0ddbf3a4f8503ee7a166c747
+      internalID: -739274075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lengendary(s)_204
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 12
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0006f954e2b5944b80aee81dde8aff0
+      internalID: 1269572668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      lengendary(s)_0: -1130788099
+      lengendary(s)_1: 133064152
+      lengendary(s)_10: -1599170150
+      lengendary(s)_100: -18058940
+      lengendary(s)_101: -1928441863
+      lengendary(s)_102: -687966730
+      lengendary(s)_103: -270184524
+      lengendary(s)_104: -120918060
+      lengendary(s)_105: 347183313
+      lengendary(s)_106: -1809975711
+      lengendary(s)_107: -94027142
+      lengendary(s)_108: 824044993
+      lengendary(s)_109: -2145573416
+      lengendary(s)_11: 2002997500
+      lengendary(s)_110: -839804601
+      lengendary(s)_111: -1879310780
+      lengendary(s)_112: -1918383244
+      lengendary(s)_113: -659589522
+      lengendary(s)_114: -1277083730
+      lengendary(s)_115: 504644065
+      lengendary(s)_116: -798606392
+      lengendary(s)_117: -56164619
+      lengendary(s)_118: -1394159069
+      lengendary(s)_119: 462041387
+      lengendary(s)_12: -374604792
+      lengendary(s)_120: -1428126216
+      lengendary(s)_121: 380774842
+      lengendary(s)_122: 119362326
+      lengendary(s)_123: 811921822
+      lengendary(s)_124: 809261163
+      lengendary(s)_125: -1056706028
+      lengendary(s)_126: -523592450
+      lengendary(s)_127: -133246400
+      lengendary(s)_128: -1455730911
+      lengendary(s)_129: 234752904
+      lengendary(s)_13: 2090887029
+      lengendary(s)_130: 1999163072
+      lengendary(s)_131: -1884805463
+      lengendary(s)_132: -67886765
+      lengendary(s)_133: 1738247430
+      lengendary(s)_134: 344675257
+      lengendary(s)_135: -1460905859
+      lengendary(s)_136: 1938027696
+      lengendary(s)_137: 597979783
+      lengendary(s)_138: -1211550734
+      lengendary(s)_139: -843798581
+      lengendary(s)_14: 1775686373
+      lengendary(s)_140: -764725058
+      lengendary(s)_141: 570185402
+      lengendary(s)_142: 1649182805
+      lengendary(s)_143: -1351824557
+      lengendary(s)_144: -515626697
+      lengendary(s)_145: 1521406484
+      lengendary(s)_146: 548243256
+      lengendary(s)_147: 1872975249
+      lengendary(s)_148: 1080823745
+      lengendary(s)_149: -73430600
+      lengendary(s)_15: -1863685856
+      lengendary(s)_150: -1614837566
+      lengendary(s)_151: 224655166
+      lengendary(s)_152: 1394002782
+      lengendary(s)_153: 2000104394
+      lengendary(s)_154: 1687892277
+      lengendary(s)_155: -2006263772
+      lengendary(s)_156: -691464691
+      lengendary(s)_157: -1370588213
+      lengendary(s)_158: -2133465586
+      lengendary(s)_159: 6096429
+      lengendary(s)_16: 1668787234
+      lengendary(s)_160: -681259541
+      lengendary(s)_161: 1501429129
+      lengendary(s)_162: -57832872
+      lengendary(s)_163: 1123790030
+      lengendary(s)_164: -6826547
+      lengendary(s)_165: 1157201327
+      lengendary(s)_166: -1181858307
+      lengendary(s)_167: 732084391
+      lengendary(s)_168: 804795092
+      lengendary(s)_169: 170666425
+      lengendary(s)_17: 1391148041
+      lengendary(s)_170: -370329815
+      lengendary(s)_171: 1221888515
+      lengendary(s)_172: -1732986725
+      lengendary(s)_173: -1415748720
+      lengendary(s)_174: 388878636
+      lengendary(s)_175: 1994265369
+      lengendary(s)_176: 2056900062
+      lengendary(s)_177: -1329749248
+      lengendary(s)_178: 276893051
+      lengendary(s)_179: 1778521526
+      lengendary(s)_18: -1417775658
+      lengendary(s)_180: 1459563118
+      lengendary(s)_181: -1883982633
+      lengendary(s)_182: -690846406
+      lengendary(s)_183: -2025709263
+      lengendary(s)_184: 711653177
+      lengendary(s)_185: 258642445
+      lengendary(s)_186: -2142258510
+      lengendary(s)_187: -1677185754
+      lengendary(s)_188: -4224910
+      lengendary(s)_189: -25864617
+      lengendary(s)_19: 1007940568
+      lengendary(s)_190: 740388145
+      lengendary(s)_191: -1789145598
+      lengendary(s)_192: 914399680
+      lengendary(s)_193: 720383694
+      lengendary(s)_194: -29213755
+      lengendary(s)_195: 233111074
+      lengendary(s)_196: 1068787532
+      lengendary(s)_197: 859180140
+      lengendary(s)_198: 764268856
+      lengendary(s)_199: 2114018713
+      lengendary(s)_2: 1220424678
+      lengendary(s)_20: 1894169579
+      lengendary(s)_200: 1360963480
+      lengendary(s)_201: 353612667
+      lengendary(s)_202: 1205513125
+      lengendary(s)_203: -739274075
+      lengendary(s)_204: 1269572668
+      lengendary(s)_21: -1583691852
+      lengendary(s)_22: -1836470169
+      lengendary(s)_23: 549941040
+      lengendary(s)_24: -1387746278
+      lengendary(s)_25: -642347010
+      lengendary(s)_26: 2140052872
+      lengendary(s)_27: 1687474611
+      lengendary(s)_28: 1547139061
+      lengendary(s)_29: 220128499
+      lengendary(s)_3: -1838451109
+      lengendary(s)_30: -564145507
+      lengendary(s)_31: 93943777
+      lengendary(s)_32: 1418501781
+      lengendary(s)_33: -856120798
+      lengendary(s)_34: -456024208
+      lengendary(s)_35: 455147311
+      lengendary(s)_36: -505251960
+      lengendary(s)_37: -404061197
+      lengendary(s)_38: 8962121
+      lengendary(s)_39: -1811956621
+      lengendary(s)_4: -1452640035
+      lengendary(s)_40: 944074209
+      lengendary(s)_41: 549082285
+      lengendary(s)_42: -144819790
+      lengendary(s)_43: 1196068965
+      lengendary(s)_44: -1465024944
+      lengendary(s)_45: 1402853820
+      lengendary(s)_46: 1463885432
+      lengendary(s)_47: -908489900
+      lengendary(s)_48: -411845520
+      lengendary(s)_49: -346392653
+      lengendary(s)_5: 1162309596
+      lengendary(s)_50: -483146161
+      lengendary(s)_51: -681608297
+      lengendary(s)_52: 980222836
+      lengendary(s)_53: -1266309965
+      lengendary(s)_54: -1325317359
+      lengendary(s)_55: -49348018
+      lengendary(s)_56: -1247086735
+      lengendary(s)_57: -911981194
+      lengendary(s)_58: 351001809
+      lengendary(s)_59: -542006416
+      lengendary(s)_6: -1744416106
+      lengendary(s)_60: 1600240203
+      lengendary(s)_61: 1787388408
+      lengendary(s)_62: 628866278
+      lengendary(s)_63: 1175266699
+      lengendary(s)_64: -1174588863
+      lengendary(s)_65: -74526845
+      lengendary(s)_66: -756106281
+      lengendary(s)_67: 1040781343
+      lengendary(s)_68: -1758164673
+      lengendary(s)_69: 1022558981
+      lengendary(s)_7: -1450487825
+      lengendary(s)_70: 1002304925
+      lengendary(s)_71: 996175689
+      lengendary(s)_72: -1515372062
+      lengendary(s)_73: -1185827569
+      lengendary(s)_74: -1855603660
+      lengendary(s)_75: 1728764015
+      lengendary(s)_76: -1077601132
+      lengendary(s)_77: -2000710007
+      lengendary(s)_78: -397886167
+      lengendary(s)_79: -1041963829
+      lengendary(s)_8: -895263061
+      lengendary(s)_80: -2053220282
+      lengendary(s)_81: 1435155731
+      lengendary(s)_82: -327432571
+      lengendary(s)_83: -253954578
+      lengendary(s)_84: 2115323446
+      lengendary(s)_85: 1029188557
+      lengendary(s)_86: -945706698
+      lengendary(s)_87: -1934471680
+      lengendary(s)_88: -630053590
+      lengendary(s)_89: 79908120
+      lengendary(s)_9: 1658985498
+      lengendary(s)_90: 578038457
+      lengendary(s)_91: -275643361
+      lengendary(s)_92: -1185974155
+      lengendary(s)_93: -518295067
+      lengendary(s)_94: -1797543280
+      lengendary(s)_95: -529326785
+      lengendary(s)_96: -1248584540
+      lengendary(s)_97: 1809726126
+      lengendary(s)_98: 176943282
+      lengendary(s)_99: 1967224995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

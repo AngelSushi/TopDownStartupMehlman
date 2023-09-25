@@ -44,4 +44,16 @@ namespace Game
 
         public BlocOnOff(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) { }
     }
+
+    [Serializable]
+    public class BlocPokemon : Bloc
+    {
+        public BlocPokemon(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) {}
+    }
+
+    [Serializable]
+    public class BlocVoid : Bloc
+    {
+        public BlocVoid(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) { }
+    }
 }

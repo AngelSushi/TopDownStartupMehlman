@@ -24,7 +24,7 @@ namespace Game
             
             foreach (BlocOnOff bloc in _blocs)
             {
-                Debug.Log("solve is " + bloc.RoomPosition + " value " + bloc.IsOn + " " + RoomManager.instance._currentRoom.Blocs.IndexOf(bloc));
+//                Debug.Log("solve is " + bloc.RoomPosition + " value " + bloc.IsOn + " " + RoomManager.instance._currentRoom.Blocs.IndexOf(bloc));
             }
 
             if (Input.GetKeyDown(KeyCode.E))

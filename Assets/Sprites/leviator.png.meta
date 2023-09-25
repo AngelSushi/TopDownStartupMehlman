@@ -1,0 +1,5297 @@
+fileFormatVersion: 2
+guid: 15a8080d63376794bacc3014a00377dc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: leviator_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1011
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bf9ebb57f3ccd488fdbf5d50b1a3cc
+      internalID: -1174221521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1011
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738df49a680f914aa87460c1069bc01
+      internalID: 529668258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1024
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806585ba9067bba4ba3d85698f34d0b4
+      internalID: 1571951606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb15caac7454edf49a131f9c2d8190ed
+      internalID: 1305770236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1022
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2100d2f184c9b384ebcf49bdc50a10a8
+      internalID: 1089588968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1024
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a7f165b61332d44a754a627b4ca9b0
+      internalID: -1147151989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_6
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e9440d85fc0c641970cbaac8afb3b6
+      internalID: -1972833076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1022
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d740e5ba485ea9944be50648e879a5e4
+      internalID: -1000958169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_8
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1009
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060cdc25dc471ea449d7c19c1dc9ac6e
+      internalID: -848440088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1024
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb6cee776848cf4c8480a01162c8bf6
+      internalID: 2056510079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_10
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d206b64f203275428ed3446e169787d
+      internalID: 243604076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1022
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ed3ef1ea75c444b9e6bc3fd2458819
+      internalID: 2052542154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_12
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ed49f134ae7b148881fd0d221749bd
+      internalID: -653435299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa18b4ed22aeaf448dfc536d1c1f28a
+      internalID: -1565314478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01388c08bfed49449db85fbe5e70fa6
+      internalID: -675656085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_15
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1001
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d098db3dc2a514da6d1ae0e0de124b
+      internalID: 410753911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1025
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9c3d3b12f0cf42b5112b9813b8926
+      internalID: 1354882189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_17
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1024
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c235556d8241e409140a02ff85af8d
+      internalID: 663777380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a3d212f676c984da1a9a2bb7be2537
+      internalID: 1734698356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_19
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1024
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0fe412ab7f8ec43ad56c9e3ee68ab8
+      internalID: 1635639126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_20
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1013
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb817ecc6b098154b89a24534d969420
+      internalID: -1270111887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_21
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1013
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a730cc9673f4e7e4987b4081de2736d0
+      internalID: -771912123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1024
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f585e304eb291ff4b8ffd0e66eb4c1fc
+      internalID: -247129604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_23
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3e62136a322ad4b95226d2d091e0f4
+      internalID: 471142860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a3c5ee7a1bff94995bd6321eeaef2c
+      internalID: -1807373186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_25
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1022
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1367dff567d165d44b232d2939eb3b53
+      internalID: 320163564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1024
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e886a9db1e20fa4cb971c38e70cbfab
+      internalID: -1391760679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1022
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121ce392bef31e94b9dd0eb6d865bc0e
+      internalID: 965521564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1012
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d2f2ee3ffe6ba4dae0bfdcce9a87de
+      internalID: 864634722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1012
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb833200d1ab2e469e20f087233c4fe
+      internalID: 1724164427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1012
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc30d3470eb41e4ea0abd6d6473c221
+      internalID: -896638750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_31
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1012
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37a82d4d3bd96342b789d747f4c0361
+      internalID: 1899772926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_32
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1010
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6335f8c46d9e87c42857bf4e51ffe78f
+      internalID: 1006374231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_33
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1010
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd42f8a77b006744da427ebe023f6210
+      internalID: -2065584699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_34
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1012
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9102982d3b68c41bcd3ada2f8c9f76
+      internalID: 704356416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1010
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c02005c45dfbf4d973af7a899be001
+      internalID: -1632882279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 987
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecefadbd90f20546bdff7d45143c459
+      internalID: -1056388588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 987
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dc61bb55b56d145afd0e6dc0d2c1bf
+      internalID: 1777439261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 984
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d7835b55ee70644a7c037bded06f71
+      internalID: -1479130751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_39
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 998
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b7784ed2a266f438514dca5a334018
+      internalID: 1797523466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_40
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1000
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3787e5b81739e34ebc43b81b0b51179
+      internalID: -786759722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_41
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1000
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55afad38e02702745aa8657531636cb2
+      internalID: 823110381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_42
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1000
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a13abf57c954f4f99a7d6279ebe70d
+      internalID: -34700153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_43
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1000
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d385472654ba6c4b9296d87c12e8b20
+      internalID: 297840397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_44
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 988
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e85453ba69c514192b26693075b1f3
+      internalID: 594043898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 986
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c76a7ce7390b634d8bd665027404132
+      internalID: 1288792180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 989
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e522caa0ba8d014681dc07281a9c6b3
+      internalID: 1169256685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_47
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 988
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302ae4ba03727ed4a87b5864601f5e16
+      internalID: -1962688341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 961
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71044ffe17087b4a8a171a85c860de5
+      internalID: 1874139544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 961
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250a4378318a1e54b9c675f8cf1e0275
+      internalID: 600272154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_50
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 980
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddcdad708a626d4186e5829da429a51
+      internalID: -613744659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_51
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 965
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc18908289e3e5b4696e75beaa7290a0
+      internalID: -712219568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_52
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 957
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81855d5049c358148ba5131b866494b9
+      internalID: -791426724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_53
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 932
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83c870995ee94a47ab37dcd0bbc6863
+      internalID: 1616392129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 953
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4ab4320d056be498cda7d4969bb14f
+      internalID: 332120201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_55
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 954
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1817cd2bdd3e634c8fba0bf03f7e002
+      internalID: 565520740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 931
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d3055af2607bc458c321589d5fbce1
+      internalID: 118056230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_57
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 931
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86590bafa8c8fb40a13f29e673d03a9
+      internalID: -842374569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_58
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 933
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03ce323b463d6a45864859b666d9c52
+      internalID: 2118118619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 903
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583dea456d3750741bd247ff3a868671
+      internalID: 1808009073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_60
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 903
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465fd44b00ecdc4caa6dbf3a04fc670
+      internalID: 1997345350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_61
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 909
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58c92187367364590a303c92ffa30c
+      internalID: 1853659119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_62
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 921
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950b7f9eac451474e9e236e465e37ebf
+      internalID: 2021582383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_63
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 921
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd8b2fdcea0dac469d609766afb80fa
+      internalID: 898812222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_64
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 888
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e007a4419e39242813ec2d17924565
+      internalID: 1903499279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_65
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 902
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfb3357cd7f5eb439e028d62c93849c
+      internalID: 1885314236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 877
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116177d601970ea45b29c33c7b937b13
+      internalID: -937424229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_67
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 877
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f34c70e06b6644aa6fcff3c104068d
+      internalID: -1681775542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_68
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 890
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056c6965650be59459ef0347fa15f335
+      internalID: -167896976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_69
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 870
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa98c5093d79ec4d96706e06f3dd365
+      internalID: 2120674978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_70
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 890
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99572169c0d9f7c40b1899d3b6ab62d1
+      internalID: -1654363862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 852
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88234d5bd03d5834e88483de26f1333d
+      internalID: 872856065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_72
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 852
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d508599df07b5084c955a791a5c90ffa
+      internalID: 315133920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_73
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 864
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c587e841381e2ed48b5670dd19677592
+      internalID: -1039422066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 859
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb799a4f5815604eae7abaf8a88e847
+      internalID: -944749722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_75
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 859
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938c918551733f549ba92a6a5d99339a
+      internalID: -2004935136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_76
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 825
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963bb831ad97011428447849009ad2f3
+      internalID: 1010305869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_77
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 825
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da0cabc5ad255a4cb6b00228a3153c4
+      internalID: -1790430487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_78
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 835
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe557303079c772418be687b675dceda
+      internalID: 1974239560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_79
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 840
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaea06c468c5954aa5df8454ec7aab2
+      internalID: -734315677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_80
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 807
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68b73e846aa2b241b2be415c179b1de
+      internalID: 2114094906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_81
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 829
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5e3fc4b54be044d832ffadb7e51abb
+      internalID: -584810511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_82
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 828
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6463181efb81564894841dc1484bf60
+      internalID: 1713383532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 794
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c79294b5fbe3c4cb42bd2e046ad755
+      internalID: -1022732792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_84
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 795
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680efcde32a3bf4428a96675c5456233
+      internalID: -2070366381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_85
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 771
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cc97a32b1bd834f9899859a5d3ce03
+      internalID: 497322628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_86
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 786
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27f2be7480fe8346b7d06f51c183094
+      internalID: -479653656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_87
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 669
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd8cf4506cb59244b8e89a78707a638
+      internalID: 1208700378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 716
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c318d651d2dcd4d9cb90c2e86fdf9d
+      internalID: 383223234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_89
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 714
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b0a52a1e3058e42b60dd36be8a5cae
+      internalID: -1187730164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_90
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378797dc4b0827a46a50df43020d1c97
+      internalID: -1690524531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_91
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 716
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819832117c253e54493becf3d458a76d
+      internalID: 2029314934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_92
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 716
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8073046b73daf2d4c8b3f8502e8e57dc
+      internalID: 958158641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_93
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ca0db90d0d0044c921fa868e32bcd5
+      internalID: 512225862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_94
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e1a1bee9a004f4f83ac175e524835c
+      internalID: 1509414650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_95
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 669
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa97f9541065614eb1b8eb1f2e476e8
+      internalID: -2120456627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_96
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 669
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb9af5a7329a1fc4db7d824089333059
+      internalID: 708306142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_97
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 669
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254e6020f7d611c42bd82a945ca038b6
+      internalID: 1053206338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_98
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 717
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e34de1f9aa5a424e8daa8e8f94b2945
+      internalID: 1254380977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_99
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692c858e650700b438e204c30d6f4373
+      internalID: -2015532545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_100
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 717
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3b94578a1c88f4984b680a2cb649ad
+      internalID: -416026723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_101
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f62f280a9ce27409ea2330257022fa
+      internalID: 2064533530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_102
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 715
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6ddd17e38506f49b49d2dc013d60ae
+      internalID: -1688773670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_103
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 669
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfdd0c9700581e46a7b385a5c516359
+      internalID: 183578630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_104
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 669
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb183884a666ef342bb8585e6e81de43
+      internalID: -1222432735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_105
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 669
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87373c69ee2a307428337de7f71c39df
+      internalID: 31375539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_106
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 716
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bacef1ede22c2479762de349a3cca8
+      internalID: -178069670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_107
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f28f3b09d0d664587893a348ddd547
+      internalID: -130099263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_108
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9816f5e7d8d9341a646843a317987e
+      internalID: -1524090212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_109
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5ca2b79984f864abe60b85fbc2b51a
+      internalID: -1936646128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_110
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 716
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6559006f93741794fbf85ee6d59f43b0
+      internalID: -1776360343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_111
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5a3f14419955547be1c67c88b4da1d
+      internalID: -83543784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_112
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 714
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3557ebf2b5ba1b4cb7f68c88bb4d148
+      internalID: -1481625275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_113
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 668
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08e48d98e4f83c49b4003a57486d7dc
+      internalID: -495118668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_114
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 717
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be92a5eabcf17604588ac627dec61327
+      internalID: 1841949936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_115
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cdfe8e8a87a3d40ad51ec3e6b8c916
+      internalID: 1587029829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_116
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 717
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19f530f370c96441aa908a894363ffa
+      internalID: -655068028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_117
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 673
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ed6e5406b0efa43bc1685cc734cfef
+      internalID: 1559951643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_118
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 672
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63781adb48558e4f8ced784fc1660b3
+      internalID: -414616773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_119
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 716
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a95e04b3541a4e87a744a21627457
+      internalID: -1053003410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_120
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9666ea2c625c2134b966cee852e421e6
+      internalID: 1697306361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_121
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d49339c03d90ea49856210c989f0938
+      internalID: 770254106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_122
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 714
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a66a3626c0aad7439440a586f446d30
+      internalID: 1685654896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_123
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62529b5581dd8854387edbf36c6d1e7e
+      internalID: 319640223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_124
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 714
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba7319c66d5a8b4987f29d01b3f955f
+      internalID: 996788611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_125
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 711
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f949ade693aad644b66feb1d28e7ea8
+      internalID: 1691826581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_126
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 712
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477293133d3e7aa40b790151ddd7d0d5
+      internalID: 1957160930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_127
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 704
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68d8fd1860910b49bfd96ef307bf1d3
+      internalID: -1543665382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_128
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 704
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68327b56e99a0ba49a4e24496ba69c16
+      internalID: -1276377261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_129
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 702
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6814b505617c5424a8e5d8e7b4ff23af
+      internalID: -6342527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_130
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 704
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d30c0be8f180b4bb337d33dfbaec52
+      internalID: -1146017156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_131
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 702
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06e2500cacd9e4499ca01da60e6d248
+      internalID: 1416043200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_132
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 704
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af2d13856bfe89489051769d68d1cbc
+      internalID: -2109902544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_133
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 704
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3a78bfaec443041ae7bad153f0a5f2
+      internalID: -309800030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_134
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 703
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b112c48cad0f7488d92cb2385770aa
+      internalID: 198145183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_135
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 692
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b5c8aa803aaee49bc3e6726619bf1a
+      internalID: -285444490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_136
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 692
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d063b87d2abd39489efd53415bf813e
+      internalID: 2108969682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_137
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 692
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a4d0a0f9ced324b87688c362ed2e55
+      internalID: 1544930066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_138
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 692
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfae846c47eb5bc4c8eb61e2a5f37a43
+      internalID: 313030302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_139
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 692
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ffeaa113b5c3145a7c28c56f79f27b
+      internalID: 1733871177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_140
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 692
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b403a4bd0f0a641aa067925cd44547
+      internalID: 703622061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_141
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 692
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7ece451809834ab5c516584b8e95e
+      internalID: 803966776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_142
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 690
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe14bad518de9e4fa647cd2a109fc80
+      internalID: 1987338096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_143
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 680
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40fdfb47ac321d4d9637f37805913eb
+      internalID: 867864025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_144
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 678
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e652326d54643104ebef8a1c64ea88ea
+      internalID: 11756595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_145
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 680
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cd6ae5692bfb542be71402f82e40a7
+      internalID: -269635534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_146
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 680
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7821c67ba6f1c4fa0e2d40c98a3a0e
+      internalID: 693851775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_147
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 678
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecac4bf5d42cb1498a5700a151e8ce0
+      internalID: 795366461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_148
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 666
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d629cf0318387d41a59cf92d8897356
+      internalID: 162418639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_149
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2469ef5b6225684bb9f94e369889fcf
+      internalID: -1103511162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_150
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 668
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1cb9c2a4d0ede40892f8c664b2ab58
+      internalID: -2147269053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_151
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5089d1c636e48124e87bc8e2cddf704f
+      internalID: 814327800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_152
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a08e5198f1e9724ca9ab217e87c3407
+      internalID: -2118303587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_153
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd83d9d8e902339408abd03c36b5416b
+      internalID: -266373540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_154
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 668
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde86c8cdb010e64b89637c2b4e0944e
+      internalID: -905868936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_155
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 666
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca8fb4dc0bc19844bb066ee3703ac6f
+      internalID: 510439136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_156
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 668
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48e11cd8b7ba77479b0f3a1dfa241f8
+      internalID: -458013734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_157
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 668
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57e3e7e9186ea248a15b92b0cbbaeb9
+      internalID: -1089851009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_158
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 666
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deed01d1fdaf082418ddc233633429b2
+      internalID: 1598417381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_159
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 610
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee74999ed4cd84d9de3e8050fd5eb9
+      internalID: 2131889394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_160
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 604
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2664c8e413c45684d9cb6a262103b34d
+      internalID: -312531400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_161
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 604
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5366493a32222404a91d4bb6cb92142b
+      internalID: -1347336180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_162
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 655
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2cb6ea56675794bb441711f1cfe662
+      internalID: -1627444273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_163
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 601
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576c8852115cf854d8de58d7633d7231
+      internalID: -950517953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_164
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 657
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cd5e74799245f41a988ef388b27027
+      internalID: -906524521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_165
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 604
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4d0dc792643334cb2e9581f6895594
+      internalID: -1984877535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_166
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 649
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b486fae60318b4fa13f63e79a58e1e
+      internalID: -996423805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_167
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 578
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c225c90b9caba43418a7086eab601bb5
+      internalID: 29861898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_168
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 642
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea85e0b4370ad6948b052a5b58b48da7
+      internalID: -1820282496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_169
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 642
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53da71e4dc98ba4fa227ab8b4002244
+      internalID: -584563638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_170
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 642
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5287477e71a6d841a1809fe3f796272
+      internalID: 545327100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_171
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 640
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ff52275e8896e4487a77df2f9ad227
+      internalID: 326640070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_172
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 642
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134be5b9566a41041ace4d67b2a6b9db
+      internalID: 37775598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_173
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 640
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7491ef0adcbcccd4e9be5b53807856a4
+      internalID: -1565635512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_174
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 578
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d41cd9c1e92046a70585cfd131809
+      internalID: -1464681759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_175
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 628
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e1e244e4b1d3d40a8e938ece6c0677
+      internalID: -1233093225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_176
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 630
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7da72890f5a4a44bad9be06ae481105
+      internalID: 355668625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_177
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 630
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565fcf7dab824ea4ba13275e1593c2bb
+      internalID: 1811811253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_178
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 628
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db0ae6a089318c488b374af11ad1df7
+      internalID: 806133981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_179
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 630
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714078fe15b46c4f8d23eb146a277cb
+      internalID: 1481741534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_180
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 628
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bffb87aa9ac3746ab6fc6c74357ade
+      internalID: 2089465162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_181
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 630
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21215fd7ccd406647bdc4351bd8ba7cb
+      internalID: 459265502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_182
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 630
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979346ea3c15e0e4e9ed613977426cff
+      internalID: -2005994105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_183
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 628
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e704b40a994779d43bc8d78a21e79770
+      internalID: 230655442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_184
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 551
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ed91f79b83964468727eb12337d17f
+      internalID: -2026730913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_185
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 532
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadb1974717e9ab418ae0d767eec62d4
+      internalID: 2098755121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_186
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 532
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a19807bad8236247b82949d8551c1a8
+      internalID: -1933620703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_187
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 532
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f39439ec7e41f4081f21f8dd6592fa
+      internalID: -364105371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_188
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 506
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac06f9489863c04f92f4f977c36890c
+      internalID: -667800790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_189
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 506
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056d942068306dd4382151c48d1d1765
+      internalID: 404377121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_190
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 535
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f198ea3d5f6ef2a4081179b00e1b64fb
+      internalID: 241330358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_191
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 485
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921fd6423dae5544bb85ad395aa857c9
+      internalID: -1860077932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_192
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 458
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d28791e64bd5a746adf21a237efb870
+      internalID: 1770875519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_193
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 458
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f8255afd1ec8b40ab56cfe7c60927f
+      internalID: 2138629307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_194
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 458
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a795f1aaa1a0e41b4e65486cec0467
+      internalID: 1529130050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_195
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 506
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad35c5378d287b449739b3fd6eac50b
+      internalID: -1113169252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_196
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 469
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc95630142e8d1d4fafa89838ff26a09
+      internalID: -1357891524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_197
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 416
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788cd4779b6308947a87c8c54a06cc29
+      internalID: 560036637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_198
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 420
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3367dedb2bfe4ea7d6064fbaca170
+      internalID: 1652007284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_199
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 420
+        width: 89
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecefdb0442f0e684188126c1090923bf
+      internalID: -1371636033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_200
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 454
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21b35cb4d3d7334f815e560f762a2a0
+      internalID: 454827791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_201
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 401
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae3a1c626485da448c8e5e3f010a59c
+      internalID: -407925438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_202
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 453
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e364779f10ae4ebc04d0beb84d57c
+      internalID: -1398438991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_203
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 350
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478f6ff75a5f06a4b824a33662bc4829
+      internalID: -982196312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_204
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 382
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cf71415e21c9e41ba56485c2d4d4a8
+      internalID: 834658264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_205
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 382
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af94e7b62f895f4e9b6f3d9da74409e
+      internalID: -153240838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_206
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 382
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c5cfbffb37d74287030cb54f44055
+      internalID: 1749789537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_207
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 333
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703355943b28b6449df590bdd0ed57f
+      internalID: 1435855910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_208
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 333
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0b7cb99bba73e4e95e91e55d363e4b
+      internalID: -1779562975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_209
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 335
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129397ac69b68f44195a319d819baa22
+      internalID: -1450222962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_210
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 309
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362834eaaf1db804c8516d1f98461a01
+      internalID: 1359199576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_211
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 372
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d135bde6988f1c49bef2a5ce6e998c6
+      internalID: -1252927218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_212
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 291
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb326c718a56b440a5443ecac6d1901
+      internalID: 1941602290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_213
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 309
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497bd73a1c8f4e24089235dacf8371de
+      internalID: -2072542479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_214
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 309
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4782e1f1a208a7468ede35b47bbe270
+      internalID: -480313561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_215
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 246
+        width: 35
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ee59602fb22a146a78b27333e8d2e3
+      internalID: 1368246047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_216
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 269
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cc9e4f67ccb6a468c4e817a40c17b5
+      internalID: 978424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_217
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 232
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f15e068bc985894f903a5bf3cef1cfd
+      internalID: 194503081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_218
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 237
+        width: 83
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23e27b4384ec804a8c2f01ad52154b1
+      internalID: 1454281510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_219
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 237
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e6c76178f35c46aca09c0df94d42a
+      internalID: 1506219222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_220
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 237
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8985a648877f841893ab29114ef20d
+      internalID: -974871453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_221
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 246
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220bec764d30b154a9b8f3ce49f2ac18
+      internalID: -2032023800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_222
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 202
+        width: 53
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f6d4988eba73c43bc2b0d7b1e42356
+      internalID: 597084933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_223
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 258
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6c17d79e1903140ae0258b25660c5c
+      internalID: -1200886598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_224
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc30fd1264affe349b17626d761adfd8
+      internalID: 170129672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_225
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 250
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d28a410a2e7ce4dbb50703b1ca0073
+      internalID: -326368676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_226
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 172
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b5180dee669a4eafbf7fd15a07f66
+      internalID: 1732986883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_227
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 172
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5cbae2e6fc10b43ad4c55a39e774d9
+      internalID: -1917924347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_228
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 172
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34c286be265e184783991061e5a8d03
+      internalID: 977787655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_229
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 159
+        width: 45
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af00f005e360048bd7ceccb07ec5cf
+      internalID: 2135262421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_230
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 159
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d4acaf80b64ac4a9fdb81e3bfb24e4
+      internalID: -613202113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_231
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 73
+        width: 65
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9f1c1591afc9479bbf4e8790bb449
+      internalID: 1512885686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_232
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 73
+        width: 89
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5df460a190a9de4c88009bc2c7b07ae
+      internalID: 437235120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_233
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82441b2d31ea9fd47a1635c66f78fcb9
+      internalID: 743152110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leviator_234
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1374bc98edf0418eb3897eae80cd1
+      internalID: 1740173373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      leviator_0: -1174221521
+      leviator_1: 529668258
+      leviator_10: 243604076
+      leviator_100: -416026723
+      leviator_101: 2064533530
+      leviator_102: -1688773670
+      leviator_103: 183578630
+      leviator_104: -1222432735
+      leviator_105: 31375539
+      leviator_106: -178069670
+      leviator_107: -130099263
+      leviator_108: -1524090212
+      leviator_109: -1936646128
+      leviator_11: 2052542154
+      leviator_110: -1776360343
+      leviator_111: -83543784
+      leviator_112: -1481625275
+      leviator_113: -495118668
+      leviator_114: 1841949936
+      leviator_115: 1587029829
+      leviator_116: -655068028
+      leviator_117: 1559951643
+      leviator_118: -414616773
+      leviator_119: -1053003410
+      leviator_12: -653435299
+      leviator_120: 1697306361
+      leviator_121: 770254106
+      leviator_122: 1685654896
+      leviator_123: 319640223
+      leviator_124: 996788611
+      leviator_125: 1691826581
+      leviator_126: 1957160930
+      leviator_127: -1543665382
+      leviator_128: -1276377261
+      leviator_129: -6342527
+      leviator_13: -1565314478
+      leviator_130: -1146017156
+      leviator_131: 1416043200
+      leviator_132: -2109902544
+      leviator_133: -309800030
+      leviator_134: 198145183
+      leviator_135: -285444490
+      leviator_136: 2108969682
+      leviator_137: 1544930066
+      leviator_138: 313030302
+      leviator_139: 1733871177
+      leviator_14: -675656085
+      leviator_140: 703622061
+      leviator_141: 803966776
+      leviator_142: 1987338096
+      leviator_143: 867864025
+      leviator_144: 11756595
+      leviator_145: -269635534
+      leviator_146: 693851775
+      leviator_147: 795366461
+      leviator_148: 162418639
+      leviator_149: -1103511162
+      leviator_15: 410753911
+      leviator_150: -2147269053
+      leviator_151: 814327800
+      leviator_152: -2118303587
+      leviator_153: -266373540
+      leviator_154: -905868936
+      leviator_155: 510439136
+      leviator_156: -458013734
+      leviator_157: -1089851009
+      leviator_158: 1598417381
+      leviator_159: 2131889394
+      leviator_16: 1354882189
+      leviator_160: -312531400
+      leviator_161: -1347336180
+      leviator_162: -1627444273
+      leviator_163: -950517953
+      leviator_164: -906524521
+      leviator_165: -1984877535
+      leviator_166: -996423805
+      leviator_167: 29861898
+      leviator_168: -1820282496
+      leviator_169: -584563638
+      leviator_17: 663777380
+      leviator_170: 545327100
+      leviator_171: 326640070
+      leviator_172: 37775598
+      leviator_173: -1565635512
+      leviator_174: -1464681759
+      leviator_175: -1233093225
+      leviator_176: 355668625
+      leviator_177: 1811811253
+      leviator_178: 806133981
+      leviator_179: 1481741534
+      leviator_18: 1734698356
+      leviator_180: 2089465162
+      leviator_181: 459265502
+      leviator_182: -2005994105
+      leviator_183: 230655442
+      leviator_184: -2026730913
+      leviator_185: 2098755121
+      leviator_186: -1933620703
+      leviator_187: -364105371
+      leviator_188: -667800790
+      leviator_189: 404377121
+      leviator_19: 1635639126
+      leviator_190: 241330358
+      leviator_191: -1860077932
+      leviator_192: 1770875519
+      leviator_193: 2138629307
+      leviator_194: 1529130050
+      leviator_195: -1113169252
+      leviator_196: -1357891524
+      leviator_197: 560036637
+      leviator_198: 1652007284
+      leviator_199: -1371636033
+      leviator_2: 1571951606
+      leviator_20: -1270111887
+      leviator_200: 454827791
+      leviator_201: -407925438
+      leviator_202: -1398438991
+      leviator_203: -982196312
+      leviator_204: 834658264
+      leviator_205: -153240838
+      leviator_206: 1749789537
+      leviator_207: 1435855910
+      leviator_208: -1779562975
+      leviator_209: -1450222962
+      leviator_21: -771912123
+      leviator_210: 1359199576
+      leviator_211: -1252927218
+      leviator_212: 1941602290
+      leviator_213: -2072542479
+      leviator_214: -480313561
+      leviator_215: 1368246047
+      leviator_216: 978424
+      leviator_217: 194503081
+      leviator_218: 1454281510
+      leviator_219: 1506219222
+      leviator_22: -247129604
+      leviator_220: -974871453
+      leviator_221: -2032023800
+      leviator_222: 597084933
+      leviator_223: -1200886598
+      leviator_224: 170129672
+      leviator_225: -326368676
+      leviator_226: 1732986883
+      leviator_227: -1917924347
+      leviator_228: 977787655
+      leviator_229: 2135262421
+      leviator_23: 471142860
+      leviator_230: -613202113
+      leviator_231: 1512885686
+      leviator_232: 437235120
+      leviator_233: 743152110
+      leviator_234: 1740173373
+      leviator_24: -1807373186
+      leviator_25: 320163564
+      leviator_26: -1391760679
+      leviator_27: 965521564
+      leviator_28: 864634722
+      leviator_29: 1724164427
+      leviator_3: 1305770236
+      leviator_30: -896638750
+      leviator_31: 1899772926
+      leviator_32: 1006374231
+      leviator_33: -2065584699
+      leviator_34: 704356416
+      leviator_35: -1632882279
+      leviator_36: -1056388588
+      leviator_37: 1777439261
+      leviator_38: -1479130751
+      leviator_39: 1797523466
+      leviator_4: 1089588968
+      leviator_40: -786759722
+      leviator_41: 823110381
+      leviator_42: -34700153
+      leviator_43: 297840397
+      leviator_44: 594043898
+      leviator_45: 1288792180
+      leviator_46: 1169256685
+      leviator_47: -1962688341
+      leviator_48: 1874139544
+      leviator_49: 600272154
+      leviator_5: -1147151989
+      leviator_50: -613744659
+      leviator_51: -712219568
+      leviator_52: -791426724
+      leviator_53: 1616392129
+      leviator_54: 332120201
+      leviator_55: 565520740
+      leviator_56: 118056230
+      leviator_57: -842374569
+      leviator_58: 2118118619
+      leviator_59: 1808009073
+      leviator_6: -1972833076
+      leviator_60: 1997345350
+      leviator_61: 1853659119
+      leviator_62: 2021582383
+      leviator_63: 898812222
+      leviator_64: 1903499279
+      leviator_65: 1885314236
+      leviator_66: -937424229
+      leviator_67: -1681775542
+      leviator_68: -167896976
+      leviator_69: 2120674978
+      leviator_7: -1000958169
+      leviator_70: -1654363862
+      leviator_71: 872856065
+      leviator_72: 315133920
+      leviator_73: -1039422066
+      leviator_74: -944749722
+      leviator_75: -2004935136
+      leviator_76: 1010305869
+      leviator_77: -1790430487
+      leviator_78: 1974239560
+      leviator_79: -734315677
+      leviator_8: -848440088
+      leviator_80: 2114094906
+      leviator_81: -584810511
+      leviator_82: 1713383532
+      leviator_83: -1022732792
+      leviator_84: -2070366381
+      leviator_85: 497322628
+      leviator_86: -479653656
+      leviator_87: 1208700378
+      leviator_88: 383223234
+      leviator_89: -1187730164
+      leviator_9: 2056510079
+      leviator_90: -1690524531
+      leviator_91: 2029314934
+      leviator_92: 958158641
+      leviator_93: 512225862
+      leviator_94: 1509414650
+      leviator_95: -2120456627
+      leviator_96: 708306142
+      leviator_97: 1053206338
+      leviator_98: 1254380977
+      leviator_99: -2015532545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

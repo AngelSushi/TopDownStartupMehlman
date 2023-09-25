@@ -10,18 +10,24 @@ namespace Game
     [Serializable]
     public struct RoomData
     {
+        public GameObject roomParent;
         public Texture2D patternRef;
         public Color patternGroundColor;
         public Color patternOnOffColor;
+        public Color patternPokemonColor;
+        public Color patternVoidColor;
         public Vector2 startCoords;
     }
     
     [System.Serializable]
     public class Room
     {
+        [SerializeField] private GameObject roomParent;
         [SerializeField] private Texture2D patternRef;
         [SerializeField] private Color patternGroundColor;
         [SerializeField] private Color patternOnOffColor;
+        [SerializeField] private  Color patternPokemonColor;
+        [SerializeField] private  Color patternVoidColor;
         [SerializeField] private Vector2 startCoords;
 
         [SerializeField] private List<Bloc> blocs = new List<Bloc>();
@@ -51,11 +57,19 @@ namespace Game
             set => hasUnlockMecanism = value;
         }
 
-        public Room(Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor, Vector2 startCoords)
+        public GameObject RoomParent
         {
+            get => roomParent;
+        }
+
+        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords)
+        {
+            this.roomParent = roomParent;
             this.patternRef = patternRef;
             this.patternGroundColor = patternGroundColor;
             this.patternOnOffColor = patternOnOffColor;
+            this.patternPokemonColor = patternPokemonColor;
+            this.patternVoidColor = patternVoidColor;
             this.startCoords = startCoords;
         }
 
@@ -80,6 +94,16 @@ namespace Game
                         if (pixelColor == patternOnOffColor)
                         {
                             blocs.Add(new BlocOnOff(new Vector2(startCoords.x +  j,startCoords.y +  i),new Vector2Int(i,j))); // with a cell size of (1,1)
+                        }
+
+                        if (pixelColor == patternPokemonColor)
+                        {
+                            blocs.Add(new BlocPokemon(new Vector2(startCoords.x + j,startCoords.y + i),new Vector2Int(i,j)));
+                        }
+
+                        if (pixelColor == patternVoidColor)
+                        {
+                            blocs.Add(new BlocVoid(new Vector2(startCoords.x + j,startCoords.y + i),new Vector2Int(i,j)));
                         }
                     }
                 }

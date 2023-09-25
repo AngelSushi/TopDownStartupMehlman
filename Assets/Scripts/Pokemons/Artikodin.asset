@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Artikodin
+  m_EditorClassIdentifier: 
+  name: Artikodin
+  data:
+    id: 144
+    name:
+      english: Articuno
+      japanese: ?????
+      chinese: ???
+      french: Artikodin
+    type:
+    - Ice
+    - Flying
+    statbase:
+      HP: 90
+      Attack: 85
+      Defense: 100
+      SpAttack: 95
+      SpDefense: 125
+      Speed: 85
+  sprite: {fileID: -1130788099, guid: b6a5439b87e28774cb491a0e488a6c39, type: 3}
+  rarity: 5

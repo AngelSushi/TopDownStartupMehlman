@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Sulfura
+  m_EditorClassIdentifier: 
+  name: Sulfura
+  data:
+    id: 146
+    name:
+      english: Moltres
+      japanese: ?????
+      chinese: ???
+      french: Sulfura
+    type:
+    - Fire
+    - Flying
+    statbase:
+      HP: 90
+      Attack: 100
+      Defense: 90
+      SpAttack: 125
+      SpDefense: 85
+      Speed: 90
+  sprite: {fileID: -1918383244, guid: b6a5439b87e28774cb491a0e488a6c39, type: 3}
+  rarity: 5

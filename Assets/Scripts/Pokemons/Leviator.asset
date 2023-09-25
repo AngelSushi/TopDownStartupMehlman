@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Leviator
+  m_EditorClassIdentifier: 
+  name: Leviator
+  data:
+    id: 808
+    name:
+      english: Meltan
+      japanese: ????
+      chinese: ???
+      french: Leviator
+    type:
+    - Steel
+    statbase:
+      HP: 46
+      Attack: 65
+      Defense: 65
+      SpAttack: 55
+      SpDefense: 35
+      Speed: 34
+  sprite: {fileID: 1208700378, guid: 15a8080d63376794bacc3014a00377dc, type: 3}
+  rarity: 15

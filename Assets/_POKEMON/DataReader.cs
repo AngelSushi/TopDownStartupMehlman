@@ -54,7 +54,7 @@ public class DataReader : MonoBehaviour
         else return true;
     }
 
-    [SerializeField] TextAsset _pokemonFile;
+    [SerializeField] public TextAsset _pokemonFile;
     [SerializeField] TextAsset _itemFile;
     [SerializeField] TextAsset _movesFile;
     [SerializeField] TextAsset _typeFile;
@@ -101,5 +101,5 @@ public class DataReader : MonoBehaviour
     public IEnumerable<(int id, int power)> DecoratePokemonIdWithPower(IEnumerable<int> ids)
         => throw new NotImplementedException();
 
-    public Pokemon GetPokemonByName(string name) => GetPokemons().First(pokemon => pokemon.name.french.Equals(name));
+    public Pokemon GetPokemonByName(string name) => GetPokemons().FirstOrDefault(pokemon => pokemon.name.french.Equals(name));
 }

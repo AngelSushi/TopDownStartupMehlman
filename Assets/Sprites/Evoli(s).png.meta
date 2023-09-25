@@ -1,0 +1,7739 @@
+fileFormatVersion: 2
+guid: 876deaa24d3ea6a4984475828ce45a23
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Evoli(s)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 944
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9e829254726a148b48baf3c9008a7e
+      internalID: 472592945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 944
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155a0cf4c4072b141820f6c56e80270d
+      internalID: -1346920182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 939
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2356998141b8940872dbf2742b3a2b
+      internalID: 1301319820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 939
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215148b4d8b96ce46937b70f5bac21f0
+      internalID: 1819492476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 939
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea9ed17e027cf544ae42a8d13575aa7
+      internalID: 1286743030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 939
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5978789187c22444b2a111b17fa8443
+      internalID: 597401366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 939
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849cc965f6273ce4393c647191834438
+      internalID: -459501199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 953
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0567ac6b43158464782eee5663641d74
+      internalID: -1737297279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 951
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f442296c1eaa2794b8bebebd40c6fb1c
+      internalID: 1062208313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ea0cb59c02b714c8bb66bc4521af8d
+      internalID: -108459015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_10
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 953
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de9aa7fa4abf324aab6925327455d7f
+      internalID: -435698640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 953
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098b2b2a54ce6964290357db49bfd252
+      internalID: -1546372045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_12
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 937
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88508de64b24aac4fa2080bf5a610909
+      internalID: -1332998398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_13
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 957
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ff8e833b7ae49408f24a9fe539cf5e
+      internalID: -1389612128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 953
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bade776ec67edb44db0165c65beba167
+      internalID: 1876757799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d88e90c26b7242bd34657a8561dbd
+      internalID: 1724995576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_16
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 953
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f36aad6dbbe3534b825c32ab0d0b01d
+      internalID: -1783498563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_17
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 944
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f7cf26440c32a4594fe04bfba2b63a
+      internalID: 39627455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 944
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65374d60bc74e644bd55b4f33194690
+      internalID: 766394120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 953
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369d17ac142fe814586bb4d0c8fe27e3
+      internalID: 2008085251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686480d904284a94b94529a8fb5f66cd
+      internalID: 186760950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_21
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1174b6836297f3f42b321f4216874153
+      internalID: 1933541704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 951
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df746b105e49c5b46adba1156f6070d9
+      internalID: -885293356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_23
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc084fca099a8a5489437e539b3eb654
+      internalID: 1592820598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_24
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 951
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71b7e7e9b922c443801a46863d6200f
+      internalID: -1264009476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_25
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 943
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298bdb6d13a303044a512cfb9bb6be8b
+      internalID: -866471354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_26
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 943
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4ae85d32f8433429d0395317c7f0fe
+      internalID: 993737945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_27
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 953
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba6b22b2e6eeac46be4215700fa33b9
+      internalID: -1096782638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_28
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f85cc6f030c22439743c03af464c85
+      internalID: -1377102793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_29
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08b793941c8945418aff7c6d650dd75
+      internalID: -74417026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_30
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 951
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e180bf52b1ae44eb4c1d926a2f948f
+      internalID: 1258384735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_31
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 953
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c751bc626d7cc844abad01fc94305ee
+      internalID: -1402634672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_32
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 951
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f84eedc022544a439bc9b388b281906
+      internalID: 418578693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_33
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 939
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af492905c16bd824ca9de225da7fb0d7
+      internalID: 1523942303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_34
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 952
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c2272f86c28df4fb5c2c802a27e976
+      internalID: -778782932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_35
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 951
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6434d288260cc6e4dae0b4666e2716dd
+      internalID: -233525893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 941
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602ebc4ddb6f736469364c2365046d3a
+      internalID: -572250469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 941
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198770c0007e109409440e2e69ffb05d
+      internalID: -1675823357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_38
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 941
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e582ed87d712442892354cad644152
+      internalID: -1402880493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 941
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2910b299e0bb68e4a88bb0b84a1eb78a
+      internalID: -545140318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_40
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 941
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdfbed0ea239614f89e6f243c561b83
+      internalID: -182370544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 919
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a2e038cd2e6c34cbae8ba66407a3ed
+      internalID: 342567549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_42
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 919
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62612d4e75357e4a9958da94b881f2d
+      internalID: -295767906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 913
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891d4992ca0864d4dae6ba390defc469
+      internalID: 879764933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_44
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 913
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc677549a2557dd43b7cea2bdc499e7e
+      internalID: 2008902052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_45
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 913
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff9b64f59deb5342afe69e19a6be0a5
+      internalID: 1701308736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_46
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 913
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de522e3549a478488dbe1760ccf1dd8
+      internalID: 75544474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_47
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 913
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b930bd45ceb18b40bc2806a7deb5766
+      internalID: -1673298668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_48
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 926
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffbc07fd6bd07c408ae85aa92ddcace
+      internalID: 1281458008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_49
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 916
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9a0e39649709d41b753f89afb18468
+      internalID: -1448666178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_50
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 916
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4023c55aafa196b45b2119311c404707
+      internalID: 1707860390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_51
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 916
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0772646a6a267594d809ba6db643c344
+      internalID: 1805251484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_52
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 931
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f749ba9249778ba4295b7b752bb5a254
+      internalID: -336060121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_53
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 931
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c7e4745dfc46743a2da77004b6783f
+      internalID: 1277177426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_54
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 931
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a7e63fe68a2b24f81b27e47934a57d
+      internalID: 2094489029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_55
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 931
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332037f08196bc149b2c424c07c2eb49
+      internalID: -674301758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_56
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 929
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dad1f7bebf3cfa40b3f491f27cba850
+      internalID: -1782796568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_57
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 931
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ce1a2b508c9b45b58a99bfc27e3db
+      internalID: 529536561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_58
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 929
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435cd24862f2c68478f496d932b16955
+      internalID: 1857984474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_59
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 913
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f10103203429fb42bec742bf72129a2
+      internalID: 662325761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_60
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 922
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5923f7a4c8d42e540927f192dbe8bdec
+      internalID: -1937728280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_61
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 906
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeee4278a46bad499a65ca4a71d2f94
+      internalID: -479875639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_62
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 893
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f18d05961a8689478805ced3dfdd77a
+      internalID: -1317422959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_63
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 893
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b684a10e8f1a1ff4f83cf68bf3123107
+      internalID: 1394885355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 887
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f566175a67b824cb9067c1cb9da731
+      internalID: 868344556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_65
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 887
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c842cad20511f594d921acb90abf2e34
+      internalID: 1266688109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_66
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 887
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98af238db8790a941bf45b218a87cd23
+      internalID: -1247354045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_67
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 887
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1ab09435a2ee843bbf33690d93ad94
+      internalID: 556969970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_68
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 887
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f414b9466085443a0305a5413251ee
+      internalID: 806333915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_69
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 887
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b065ffae8a037714aa914a7128540a6b
+      internalID: 351083551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_70
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 888
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00e953ab9d2dd646be7b172cfb06b85
+      internalID: -2040146576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_71
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 888
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1342c3fc9416b438503f0b248d80f4
+      internalID: -336453333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_72
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 888
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9322d74c68a6cc04a87a260bce3d5222
+      internalID: 2101378629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_73
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 901
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6eb70a81af519469ca35d88963e9a8
+      internalID: 1031616684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_74
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 901
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad44e9d6437b046b64310c8082daea
+      internalID: -1799383452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_75
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 901
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b05c3ab36e45bc4eb85b640247c957d
+      internalID: 100177581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 901
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ec96e9dcf05fa4791857c65f8038be
+      internalID: -130262044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_77
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 901
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f5765567f5e14fbecbfa3a1c79eac
+      internalID: 1620858640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_78
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 901
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e816d229c316f614cbc3b81c8a2cd89a
+      internalID: 155766158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_79
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 901
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e05be65aef157542b25913b1cd725a3
+      internalID: 966436145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_80
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 901
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe515a64ca7bb34bbf3a39b5fb72e9d
+      internalID: 401985327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_81
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 901
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5042b8c4f3747b948a86f2178e5b6ccb
+      internalID: 461816862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_82
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 893
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3eb35cfa4b4dd488740437ec96ff55
+      internalID: -494403782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_83
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 896
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d353995d49a54a542a1a25c47dcfc190
+      internalID: 1046165336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_84
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 895
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a8b72e7947e4940902f1b588dd06f0
+      internalID: -348949827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 867
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fcaf97fad38d84f99b3c2d84faf4c9
+      internalID: 1623654197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_86
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 867
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df4b5168df0057459f3d1c1e169a67c
+      internalID: -1633376350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 860
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24673d225c021e4bba9cbe8be840347
+      internalID: -950513180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_88
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 860
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff80ad5992d23045875247ed2cc78f0
+      internalID: -588374996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 860
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120b9e8acbebc69498306cc72c82dd20
+      internalID: 1788951686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_90
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 860
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611eaaeef86684c4b8524ea5f10ac679
+      internalID: -712149695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 860
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeffc74db1f382d4e99e5f599805c87b
+      internalID: -1830821258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_92
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 860
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096b6d47d6d9ae746beb6f66bf7071d6
+      internalID: 1400057624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_93
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 877
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e06181d07d4643849a688ccc29a9e
+      internalID: -7771218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_94
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 859
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b7a6c54f501d546bb7fc6bbcacce22
+      internalID: 1808260140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_95
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 859
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf01e716349200428e6d04d83d77c93
+      internalID: 1072749223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_96
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 876
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3f436bb301b7544b1285d7e15c60bc
+      internalID: 2136893742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_97
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43259802a155c449b99abc85f39211d
+      internalID: -1382508304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_98
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 876
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cced1de68843e7f418b26988177d6dfa
+      internalID: 1229677424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_99
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a01ed72adb03847ab1b17bc2d8ec19
+      internalID: -1771488732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_100
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 874
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea254e28d1af004c9fdd97383ad6fcf
+      internalID: 1538922444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_101
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 876
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207f3891ac26e404ebb18b66ec41f6c4
+      internalID: 1917271192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_102
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e035b9210deb44caa4a68c89ad2b93
+      internalID: 1452504985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_103
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb381d3384bab24995958183c19400b
+      internalID: -1880724536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_104
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 876
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1652c631613fc541b3db79e10b4172c
+      internalID: -1438263037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_105
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 868
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f2da2b6926f04fa5425787537dc7f
+      internalID: -212126601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_106
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 865
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec7ee1d2a86698499cedfeeedc3ad4c
+      internalID: -1188812635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_107
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 859
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d57fc163032d5428afa650b8cd23d0
+      internalID: 2139651221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 843
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99991c658ed82bb4381891de12704a4c
+      internalID: 287758435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_109
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 843
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd790d0962b85ae45975760ca9a79c4f
+      internalID: -1651730732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 831
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb7ce2263321ad4dba7554987beb560
+      internalID: -693726512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_111
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 831
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b3b00188f97ea4ebd6c5547c3bd98a
+      internalID: 1950220033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_112
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 831
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2e738d269232428c8fa15f5fab78e
+      internalID: 1373218855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_113
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 831
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cb2fcbdbfbb28438932f8c40b524f4
+      internalID: 1029891554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_114
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 831
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de01757fc62133440a67d7cd1e5edbf3
+      internalID: -283525140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_115
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 831
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e53b6bf3bddb4a932aeb7fd6e66da
+      internalID: -1714516814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_116
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 847
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9828a67155cf74ebd9dc6955b72218
+      internalID: -517521921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_117
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 833
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e278da5437204189e07721cde844e
+      internalID: -1013893967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_118
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 833
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9dcdc7ccbc2fe468c43f84851da304
+      internalID: 1674401848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_119
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 846
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54757631a7466e48b3fbc00c82d8eff
+      internalID: -105182454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_120
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 846
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c37d01a41ff3f4eab5f67b60b5f675
+      internalID: 438670066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_121
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 846
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf5bdb3f25fc1a498977437a1764b64
+      internalID: 580976865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_122
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 846
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb03ff0678930fe46bff6f953db7359d
+      internalID: -903233908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_123
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 846
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a38e080f4be8449a7a5b726c1e0be
+      internalID: 882134262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_124
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 844
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9991df41be27146881a5da388a19e7
+      internalID: -1963270516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_125
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 816
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f5bcac1f4be1a498a0e07cde1bbf80
+      internalID: -2099947991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_126
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 836
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567602f2acbb4b458cf3dbfe31feec8
+      internalID: -253810737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_127
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 836
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b11e8d586cb3cf4fb272648e670792c
+      internalID: 959527861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_128
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 835
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8171302ce93c04d8469edd8fc6e48b
+      internalID: -901786619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_129
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 809
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dec0462ec0d6642828bff6682a29e3
+      internalID: 1775979973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_130
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 821
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f46934916746a49b4f5601fbc911e7
+      internalID: 1856396508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_131
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 821
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f15e7dae4fdfd458b5aa64ee95ebd4
+      internalID: -539121044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_132
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 819
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9e76b35ea9339429532c795cfff6d2
+      internalID: 2029138114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_133
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 821
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eded22f390dc44438fc3037fd7cb674
+      internalID: -375082838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_134
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 821
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845ce33503506b44f9bf2e3bbf30d9dd
+      internalID: 1633072256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_135
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 821
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5bd1aa813c58446ac65402f64dec64
+      internalID: 1065860055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_136
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 783
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ebffb6a81127d4e8e4b63fc2622a8e
+      internalID: 1440761964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_137
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 783
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43100aa3ba96224fb1526dfe1959e04
+      internalID: 159313284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_138
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 783
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba99087773989c41a86ebca13055061
+      internalID: -934629550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_139
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 796
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1fd8ff8fe661940a5399ed29226a52
+      internalID: 261770117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_140
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 796
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baf3bb3da68aee4fbd4020be005db56
+      internalID: -1149373531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 796
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e172ce7e64d6c42a62d4cb473551e5
+      internalID: -2143712489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_142
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 794
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbb98bc70a807a47bafdd85adb1674c
+      internalID: 1779376180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_143
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 752
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07310885b01834c94ecd4c2debfcf6
+      internalID: -1120684917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_144
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 770
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9e1a00ddbbe4548ba0212886214a01
+      internalID: 304062534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_145
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 770
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf44ee13bbfa184ba0919733173e2b2
+      internalID: 139817740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_146
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 770
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b046238b3407ad46be743057b225aad
+      internalID: 396097528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_147
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 770
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb18ed350a4e349ae5f8af47b164f1
+      internalID: -1287851942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_148
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 770
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8522680954d976b4893e40c5ac49e830
+      internalID: 321470279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_149
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 770
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e157ad5488e96a2409c198cca0694abb
+      internalID: -1580894492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_150
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 770
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9166ad869d5eb7549972b8fe1a21b4da
+      internalID: 1057631312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_151
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 758
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd407d8c388d08d40b60de60619b7c2a
+      internalID: -815456692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_152
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 758
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5195496c559eb89488607f3f61fa61a9
+      internalID: 776390234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_153
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 758
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adea214f5e438943b939e8dd9d22f1c
+      internalID: 825313720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_154
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 758
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bf9b925b46be24b9b2d775e211a8dc
+      internalID: -889958474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 695
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069e80c31ecf19f48aff54ae985ac3f1
+      internalID: -164173848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_156
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 695
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55abb72549b904ca6666241aa6875a
+      internalID: 1462307727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_157
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 695
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f98227417c7cc4089b709f4bed9295
+      internalID: 522911755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_158
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 695
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87e6debe94b13846baecb839c9ac6e5
+      internalID: 1207095206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_159
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 695
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3cbfc2cb3090e428eed4e1df85a1f9
+      internalID: 411025648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_160
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 684
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764acab68ad1f4e4f8d45fa9b4a2fec1
+      internalID: 1962986707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_161
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 716
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4698fe74cb2574e47bda6a75757482a0
+      internalID: -1674739740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_162
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 716
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21df396f5f4afd4990b4eff0024144e
+      internalID: 1490146779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_163
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7e818bf166e8498696ec35e753d68
+      internalID: -178805000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_164
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40448b1832ea2db43b9c9e4acd1b778e
+      internalID: -2133669148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_165
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 716
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b4c9a81e58da74c8b753e0a89438ac
+      internalID: -2044777140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_166
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 714
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b298167ed26cf00438dd315fd15b45ce
+      internalID: -732925736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_167
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 695
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecf815042f3c7648929560bc8bd89ac
+      internalID: -1447420563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_168
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 717
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d060a5b10b9dcd3468246309bbae7f55
+      internalID: -1008079140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_169
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 716
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79422a49e18f6e441b36177c4b750139
+      internalID: 482916916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_170
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 716
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e494328213d4e724a92d839b27d414c5
+      internalID: -1193819393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_171
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 716
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882dffbb4139140488dfe71de0c64c8b
+      internalID: -1965604486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 701
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7452fa8240f2b2f4c936414793e09dfd
+      internalID: -472204550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_173
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 701
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e7893f939f25249acb1b4d477a8b82
+      internalID: 118803082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_174
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 717
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a43dbe25844ff44828735382cdbf90
+      internalID: -794383094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_175
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40c792ddbf7b3d4d8eb5c3616e8adcb
+      internalID: 1198076935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_176
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc95a4d65a7f7724588d69d8bab3f345
+      internalID: -985904210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_177
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 715
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b004b368ef6cdf478754ef8f9b45e13
+      internalID: -404967168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_178
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 717
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ec521edf548154c8cbaf8dedc96a35
+      internalID: -361878463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_179
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 715
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce6722851db50a4c9695e82acf5eb51
+      internalID: 140686228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_180
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 659
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4497f6b071782342906786c0c51c9fd
+      internalID: -1812634387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_181
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 664
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167db188e70122845a70b1dd01118bef
+      internalID: 585699258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_182
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 664
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84465089744cf084f8e9f3a052b19b65
+      internalID: -77881319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_183
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 664
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a51c13e85af2b9408f2c3728aa7e527
+      internalID: -2113798514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_184
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 664
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec83399a776627c4e9b318674930257a
+      internalID: -1024533021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_185
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 660
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6988981df8ad940ab0db4b94ef9573
+      internalID: -1514296254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_186
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 684
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c229792e4d9aff488b95d2771d3b260
+      internalID: 340994981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_187
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 624
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d354944729e9b4da6dcb2e0a973cc2
+      internalID: -291701928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_188
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 632
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef5a8c5438dd0f408c8a21b05586a28
+      internalID: 383120534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_189
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 632
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0daf3ee331c1324e90a82d5f583bac4
+      internalID: 1044815500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_190
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 632
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ce1503436b9a48bfaadf11b09cbe5
+      internalID: -1366562768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_191
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 632
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4990d29e9e283784492005b61948f0c2
+      internalID: 1844428520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_192
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 642
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d74aaebb3da9b4ea816d120b8166a6
+      internalID: -1068212785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_193
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 624
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438598c00fbb35c40a4fc558d9308c9f
+      internalID: 633547017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_194
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 648
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20303c836a8b3c8468e0e34949312eee
+      internalID: 1753326870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_195
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 649
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8419ab9358237554abfbf866c7fc0151
+      internalID: -601392853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_196
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 583
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6bb3f78b5cd0044bd409d102cb1519
+      internalID: 1831070594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_197
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 596
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e640962d6508bfb48ad901380687edce
+      internalID: -2018176216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_198
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 596
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e228258cc405b74299bda9a0a3b1b71
+      internalID: 2106693442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_199
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 596
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60b0be11ddef184b880b926088553c0
+      internalID: 24700105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_200
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 596
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d8489e3102ca74485a5f1c0934d0a5
+      internalID: -2055703868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_201
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 612
+        width: 39
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818fdef51caccc74382cf568f93b912d
+      internalID: -1118849039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_202
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 591
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcf883fb9e74234e8f48d4590c35c37
+      internalID: -88272773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_203
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 614
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d3eb102e30db841a1674cf0e3f8c97
+      internalID: -1045027587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_204
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 559
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ef121604cc4f49a992322db7cdf06
+      internalID: 408186410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_205
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 559
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8482cd968870bb145b57ebda6d10828f
+      internalID: 1122084167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_206
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 559
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9919bba01509b9848a43e4cd6e3aa7de
+      internalID: 796518490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_207
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 559
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651c20467db7e9d44b5a80adb651a0ed
+      internalID: -1580592602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_208
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 580
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40028cf92ab20d2468228ff0c04d7503
+      internalID: -993368012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_209
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 556
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdccf7b52b2a194c9e000d9b681e374
+      internalID: -1482885246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_210
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 581
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2295c7179e35025439d07098ca26f0f4
+      internalID: -1025722248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_211
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 580
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0576cddb86ab71c48999c08230006572
+      internalID: -2116781949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_212
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 544
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43ec004474fd2243bacaeb1aceceb3c
+      internalID: 1632331615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_213
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 546
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1f14e1a2b3d6f4bbf588ded94abbdc
+      internalID: 1093410821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_214
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 493
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4355b2155db045982bd6a448fc5c6
+      internalID: -206592216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_215
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 493
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae7b6ca2d5168345915d502feeffaca
+      internalID: 2061301697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_216
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 493
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4018d745fefa6549b9c1f83ef6a50b1
+      internalID: 198843256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_217
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 493
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63689ba8117b6f0438d711cce8e884e1
+      internalID: -271030802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_218
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 493
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f53bafeed928f43bafb7dd289d2184
+      internalID: 1093310497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_219
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 492
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6d2eebfef86774890dceca7ad9e817
+      internalID: 724887173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_220
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 511
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2209147d3a92a974980926aa52b83b7b
+      internalID: -526359559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_221
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 511
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fd6fd9b9a70854197b0da46bc4a232
+      internalID: -43773778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_222
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b682b72c2a5764fb3657f40b8e21b8
+      internalID: 1143472129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_223
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5d1662b4e332b4185ed346d11b6b38
+      internalID: 1251890374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_224
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 511
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf9117e8fa8ad47a00663f0395dea2
+      internalID: 1494090875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_225
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 509
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5acf3c6cf1c4a5747baba230e0d51b55
+      internalID: 1108287123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_226
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 487
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac283c298efe2f45961211bfc9d13e6
+      internalID: 1260606363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_227
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 508
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3c1875625a8e4408affbe676f7cf55
+      internalID: -1283904499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_228
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 512
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5158f0d9b76e448419515947ff592da7
+      internalID: 1423169448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_229
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 512
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb968eb1b02ee9843b546730322efc7c
+      internalID: -338153912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_230
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 512
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a828532445441846a37073a67646e41
+      internalID: -981887864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_231
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 496
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0dad65858d9fa49ac43f658e25d7e0
+      internalID: -888453821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_232
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 496
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cc2eda128118849807b9b8c3d0ba7d
+      internalID: 1719250859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_233
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 511
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0759f6f4fd1e7be43bfdae6cbacb3e38
+      internalID: 1445184507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_234
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d35f76734410544a9bbb5e1d50afb1
+      internalID: -916561716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_235
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d15d8980f4a624590383165418b01a
+      internalID: -56453646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_236
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 509
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40772a01f87fd2b409eb35a8fbd6dd00
+      internalID: 1149109404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_237
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 511
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d60c4ab689aa3c4aaea044728df8687
+      internalID: 524039539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_238
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 509
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de5f8c53a0953f48a15f9f4ee603a21
+      internalID: -1682126188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_239
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 460
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd82fd176979d4d831524e02a302c0
+      internalID: 394761851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_240
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 462
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07d5a1b5d19e814f974b29a7d458e22
+      internalID: -473203339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_241
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 462
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb99f7e91fdbd7409fca6a61b7f64d7
+      internalID: 1382453123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_242
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 462
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504cc2be5d5140148b76df1ce7da3dfa
+      internalID: 1502011634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_243
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 462
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6880100449ca043a0f608428d4a32d
+      internalID: -536070974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_244
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 461
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561220d964d50bd47bd320203edc3c14
+      internalID: 1378126335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_245
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 450
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8c871296752d4b8c9b2e64de11a22
+      internalID: 1446718849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_246
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 477
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f9d8fa30200cf45aedca99c78c4dc7
+      internalID: 1160208249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_247
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 467
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a0e09f231d3344e9ad7fcfb2ff3de8
+      internalID: -1291348506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_248
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 460
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4678fd43fa35e49be2fe47cc2759eb
+      internalID: -646387131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_249
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 428
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ba1ffc450af4f4385d26393f87b7d2
+      internalID: 599342282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_250
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 432
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4fa3e57dede0864f8b00629ce228c14
+      internalID: -1987880196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_251
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 432
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8100a7b27e846874ab7f3999939867c0
+      internalID: -397002004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_252
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 432
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc25a08548ef4547b7433776656deaf
+      internalID: 1917503660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_253
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 432
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bef99bf18f5a64ea09ab6ab1ebd7a5
+      internalID: 1598360779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_254
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 433
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6543e8279b65ae54097497fe78e12198
+      internalID: -461401688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_255
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 439
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d7c59baa59b3b46a79dac37793a8c8
+      internalID: 969777902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_256
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 441
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87b0b9c75b9d0c4696c2f4e0b0456b9
+      internalID: -1955937792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_257
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 396
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2579dfcf05d855049b8792e5a0ad66bc
+      internalID: -246887035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_258
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 401
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a6fc76c4b463a448ca4b8309591f87
+      internalID: 1348734335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_259
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 401
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71979cd43d41c6341b36b5d19b4b813e
+      internalID: 230290348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_260
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 401
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57dd1a4abc61c45aebd491a123b386
+      internalID: 748140690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_261
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 401
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d37a3a18b8c5984c9120e58dda9f3b5
+      internalID: 444170126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_262
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 401
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8fa7bec86e9c8488f3feb5a0558cd2
+      internalID: 1101467295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_263
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 416
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cddff40a1c4bbc47a21df3dac28181c
+      internalID: -1002428866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_264
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 382
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e13d94dcef9b064f9dfa2020820e71f
+      internalID: 1320492414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_265
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 405
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875edac2404cbda4ebfce1431323bdba
+      internalID: 1535324315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_266
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 366
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a19981f91947fc4fb04b2d9622f0bd4
+      internalID: -1650756556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_267
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 368
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47dd6e3a2530d2443bbee66c10cd64fb
+      internalID: 447571112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_268
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 368
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d323f4384b5b6459f3511920657d4f
+      internalID: 1327263207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_269
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 368
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ef32111773e50479c2ec09469dfcd4
+      internalID: -601005034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_270
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 368
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347b3f82c705b14d88d96630feddf81
+      internalID: -1897162636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_271
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 370
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddddeeeeebe0b9479bc71a918c18fcc
+      internalID: -2143264103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_272
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 387
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3cf4057e2502a4baf3135c49ec1eb6
+      internalID: -1431477783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_273
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 346
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007219d18f3d3d640b478abddc16660c
+      internalID: 1967582149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_274
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 368
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a8a0a714d13e14299f8c9089a71270
+      internalID: -927379988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_275
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 367
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88e86b3434d5342a82f1ad5335a6c0
+      internalID: -509639039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_276
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 362
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb905d815d577f6498a5a6099fa88025
+      internalID: -1469042558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_277
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 297
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193dc1b7c576fb4693acbc20a1baaba
+      internalID: 1227836667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_278
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 297
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04ac33e9f02cf44087aeaf87dedeaf7
+      internalID: -1268199375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_279
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 297
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0750c4dd85929f84c8af9dbf1805cbb0
+      internalID: 948687349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_280
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 292
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf661c7f6acb4e4da700dab646bfc4a
+      internalID: 1522292061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_281
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 292
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19be4f4f4edc9040bcb8c2e53ac8f0b
+      internalID: -305841676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_282
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 292
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a9586668f08b40a52d58dc1a27007
+      internalID: 1798926745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_283
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 292
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bef24954d346a469785cffd652d563
+      internalID: -1301136797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_284
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 295
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36df75d453161d4691ff3bf1d4abf42
+      internalID: -1268221241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_285
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 312
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2375e0c2ea4624590f5c44baa102f1
+      internalID: 680732711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_286
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 310
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9a472356132e7428b48abc0fd5cd4d
+      internalID: 1025891406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_287
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bffe7fb7b76aa5438bc58aa0210247d
+      internalID: 784966040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_288
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 312
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dd1961634d66742a08324b050a1285
+      internalID: -1023934683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_289
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 312
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fb4721169c4364f8dacebd4c02bbe2
+      internalID: 866622479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_290
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 287
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f34a1dd6b6a994fb2131b0605c2e45
+      internalID: -1303521362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_291
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 313
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b58e889b4cec344b4e8fbffec6557a
+      internalID: -1346016865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_292
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 313
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78438af9a6b18ba41abdb45df8e2e2dd
+      internalID: 220769827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_293
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 312
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9264ff88ff9321439ad70cfaa7085e2
+      internalID: 1942985388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_294
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0833291b5fa237847b8c895ebd1092c7
+      internalID: -163865899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_295
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 312
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52c15f85da36ec4497590f5875a8ec6
+      internalID: -1470451222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_296
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 298
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d4932ed3ebf304995c7880e9e10c4a
+      internalID: -690044196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_297
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 298
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e44e742ca7820b448522f567c32c533
+      internalID: -717489513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_298
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 312
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d707bb00abcf7df46aaff0378a639a1e
+      internalID: -912343675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_299
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5ebb8b91e3a8a4d99f8f3339c388b4
+      internalID: -105623066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_300
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fb494a8d5ff9746b28e6b5644ab5b4
+      internalID: 1436304657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_301
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 310
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806166b6960d8de46a098738df2960b8
+      internalID: -22340782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_302
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 312
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b323eaa66713a4db28d063a22f6ff1
+      internalID: 1839291109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_303
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 310
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc1510951648354da7024a7ace1afd6
+      internalID: -537180081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_304
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 300
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba879b02c99f0db40a7e027456d02201
+      internalID: 1730755118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_305
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 300
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f54b05af11c574e9b19445fa344a2e
+      internalID: 2076632669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_306
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a107604263115242b8732818b174c07
+      internalID: -622140401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_307
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 300
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d59e2e0171c54496901a20b266ec9
+      internalID: -735430629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_308
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 300
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129b0c033fc76c24c9bb0f87ffb14b47
+      internalID: -375413011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_309
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 269
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c544debbcb93cf4bbdb820afea8ffc5
+      internalID: -467420514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_310
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 269
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1d70dadff8eb24394803687ee56088
+      internalID: -15694286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_311
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 269
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11593a3c583d923478f651ef2f215cfd
+      internalID: 273623809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_312
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 263
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0559e3d7a3c81a34cba03f31125c35b6
+      internalID: 1836395559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_313
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 263
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41597c532c71e5c4d8a139224501330c
+      internalID: -1778712717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_314
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 263
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c246c29fb739b4db8d7f1827a4f894
+      internalID: 1553292187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_315
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 263
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f6d4f10e513b41aad81a84eff6f39
+      internalID: -816132723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_316
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 267
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9611cf3a585cba941be062e4c9d2bbcd
+      internalID: 1477309489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_317
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 252
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f31e9049e49bc4ca1c1aa438743607
+      internalID: 982833182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_318
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 241
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c051f0e45eded4997b801671ea5453
+      internalID: 827898479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_319
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 241
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03997d78862fb54c8997aaa1d508d77
+      internalID: -2071177220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_320
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 241
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6cc250aff947342bdff03d015581a5
+      internalID: -1889202631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_321
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 235
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f638ca90ad91cb3439b392533a544741
+      internalID: -894908259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_322
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 235
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6155ec92a9729b64ea984d19f7f9ead0
+      internalID: -286166483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_323
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 235
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4f72a1941301940bf15181aaa68648
+      internalID: -865364124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_324
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 235
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf96e929a5c3a041ab5c9b21b3b0d65
+      internalID: -90112268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_325
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 239
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc13073328c6844cb5c726a2a5248c1
+      internalID: 1307298078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_326
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 217
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09e0cbc5a2b07c4d8f026bab63f5a2c
+      internalID: -1700142036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_327
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 212
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466dd54a86515eb4db66fff206531e38
+      internalID: -1359400227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_328
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 212
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bdc5ad6c598dc4381ef11f06bf2bd0
+      internalID: 922922637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_329
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 212
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30eced8d1b03514d9f66838f9b36598
+      internalID: -1921585991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_330
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 205
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83026ac8411e44545913dc71444f962f
+      internalID: -1318395407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_331
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 205
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5ddd2685748d43a4345a4b3ce1304
+      internalID: 1534034317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_332
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 205
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd090d24ac30104cad626a737cf043b
+      internalID: 1501377601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_333
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 205
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baeab14c328afc4fb7163dc71eb878e
+      internalID: -1018165709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_334
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 209
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9ff85e4b5746645b2c318825482be2
+      internalID: -737586549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_335
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 184
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3442ca4207adf0442aaf9b9dc5df8a4e
+      internalID: -1576050647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_336
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 184
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841a6d60eb269c428f794d412281f6a
+      internalID: -1455596753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_337
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 184
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8297ff83717c7e4983c716506951b9d
+      internalID: -677855803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_338
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8714609d7d643546be29f2d941eb781
+      internalID: 1196898179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_339
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 176
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170333d8b515ec143a48c43782f6f7e2
+      internalID: -859716223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_340
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473381d365456234ca3e8925d292cd57
+      internalID: -1612837053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_341
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 176
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305ab6ef09c5e50458ea95473f992875
+      internalID: -1882826107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_342
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 180
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac423bc3c587db4d99bb0b4c42471be
+      internalID: 1352068116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_343
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 183
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe83a09b9a8b7d4d9601e312abc7d18
+      internalID: -1492213383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_344
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 147
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064c97b8d2abe84bb0984183ffb5527
+      internalID: 686034837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Evoli(s)_345
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 171
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddc71089e0a845489773189f6d29a28
+      internalID: 492094017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Evoli(s)_0: 472592945
+      Evoli(s)_1: -1346920182
+      Evoli(s)_10: -435698640
+      Evoli(s)_100: 1538922444
+      Evoli(s)_101: 1917271192
+      Evoli(s)_102: 1452504985
+      Evoli(s)_103: -1880724536
+      Evoli(s)_104: -1438263037
+      Evoli(s)_105: -212126601
+      Evoli(s)_106: -1188812635
+      Evoli(s)_107: 2139651221
+      Evoli(s)_108: 287758435
+      Evoli(s)_109: -1651730732
+      Evoli(s)_11: -1546372045
+      Evoli(s)_110: -693726512
+      Evoli(s)_111: 1950220033
+      Evoli(s)_112: 1373218855
+      Evoli(s)_113: 1029891554
+      Evoli(s)_114: -283525140
+      Evoli(s)_115: -1714516814
+      Evoli(s)_116: -517521921
+      Evoli(s)_117: -1013893967
+      Evoli(s)_118: 1674401848
+      Evoli(s)_119: -105182454
+      Evoli(s)_12: -1332998398
+      Evoli(s)_120: 438670066
+      Evoli(s)_121: 580976865
+      Evoli(s)_122: -903233908
+      Evoli(s)_123: 882134262
+      Evoli(s)_124: -1963270516
+      Evoli(s)_125: -2099947991
+      Evoli(s)_126: -253810737
+      Evoli(s)_127: 959527861
+      Evoli(s)_128: -901786619
+      Evoli(s)_129: 1775979973
+      Evoli(s)_13: -1389612128
+      Evoli(s)_130: 1856396508
+      Evoli(s)_131: -539121044
+      Evoli(s)_132: 2029138114
+      Evoli(s)_133: -375082838
+      Evoli(s)_134: 1633072256
+      Evoli(s)_135: 1065860055
+      Evoli(s)_136: 1440761964
+      Evoli(s)_137: 159313284
+      Evoli(s)_138: -934629550
+      Evoli(s)_139: 261770117
+      Evoli(s)_14: 1876757799
+      Evoli(s)_140: -1149373531
+      Evoli(s)_141: -2143712489
+      Evoli(s)_142: 1779376180
+      Evoli(s)_143: -1120684917
+      Evoli(s)_144: 304062534
+      Evoli(s)_145: 139817740
+      Evoli(s)_146: 396097528
+      Evoli(s)_147: -1287851942
+      Evoli(s)_148: 321470279
+      Evoli(s)_149: -1580894492
+      Evoli(s)_15: 1724995576
+      Evoli(s)_150: 1057631312
+      Evoli(s)_151: -815456692
+      Evoli(s)_152: 776390234
+      Evoli(s)_153: 825313720
+      Evoli(s)_154: -889958474
+      Evoli(s)_155: -164173848
+      Evoli(s)_156: 1462307727
+      Evoli(s)_157: 522911755
+      Evoli(s)_158: 1207095206
+      Evoli(s)_159: 411025648
+      Evoli(s)_16: -1783498563
+      Evoli(s)_160: 1962986707
+      Evoli(s)_161: -1674739740
+      Evoli(s)_162: 1490146779
+      Evoli(s)_163: -178805000
+      Evoli(s)_164: -2133669148
+      Evoli(s)_165: -2044777140
+      Evoli(s)_166: -732925736
+      Evoli(s)_167: -1447420563
+      Evoli(s)_168: -1008079140
+      Evoli(s)_169: 482916916
+      Evoli(s)_17: 39627455
+      Evoli(s)_170: -1193819393
+      Evoli(s)_171: -1965604486
+      Evoli(s)_172: -472204550
+      Evoli(s)_173: 118803082
+      Evoli(s)_174: -794383094
+      Evoli(s)_175: 1198076935
+      Evoli(s)_176: -985904210
+      Evoli(s)_177: -404967168
+      Evoli(s)_178: -361878463
+      Evoli(s)_179: 140686228
+      Evoli(s)_18: 766394120
+      Evoli(s)_180: -1812634387
+      Evoli(s)_181: 585699258
+      Evoli(s)_182: -77881319
+      Evoli(s)_183: -2113798514
+      Evoli(s)_184: -1024533021
+      Evoli(s)_185: -1514296254
+      Evoli(s)_186: 340994981
+      Evoli(s)_187: -291701928
+      Evoli(s)_188: 383120534
+      Evoli(s)_189: 1044815500
+      Evoli(s)_19: 2008085251
+      Evoli(s)_190: -1366562768
+      Evoli(s)_191: 1844428520
+      Evoli(s)_192: -1068212785
+      Evoli(s)_193: 633547017
+      Evoli(s)_194: 1753326870
+      Evoli(s)_195: -601392853
+      Evoli(s)_196: 1831070594
+      Evoli(s)_197: -2018176216
+      Evoli(s)_198: 2106693442
+      Evoli(s)_199: 24700105
+      Evoli(s)_2: 1301319820
+      Evoli(s)_20: 186760950
+      Evoli(s)_200: -2055703868
+      Evoli(s)_201: -1118849039
+      Evoli(s)_202: -88272773
+      Evoli(s)_203: -1045027587
+      Evoli(s)_204: 408186410
+      Evoli(s)_205: 1122084167
+      Evoli(s)_206: 796518490
+      Evoli(s)_207: -1580592602
+      Evoli(s)_208: -993368012
+      Evoli(s)_209: -1482885246
+      Evoli(s)_21: 1933541704
+      Evoli(s)_210: -1025722248
+      Evoli(s)_211: -2116781949
+      Evoli(s)_212: 1632331615
+      Evoli(s)_213: 1093410821
+      Evoli(s)_214: -206592216
+      Evoli(s)_215: 2061301697
+      Evoli(s)_216: 198843256
+      Evoli(s)_217: -271030802
+      Evoli(s)_218: 1093310497
+      Evoli(s)_219: 724887173
+      Evoli(s)_22: -885293356
+      Evoli(s)_220: -526359559
+      Evoli(s)_221: -43773778
+      Evoli(s)_222: 1143472129
+      Evoli(s)_223: 1251890374
+      Evoli(s)_224: 1494090875
+      Evoli(s)_225: 1108287123
+      Evoli(s)_226: 1260606363
+      Evoli(s)_227: -1283904499
+      Evoli(s)_228: 1423169448
+      Evoli(s)_229: -338153912
+      Evoli(s)_23: 1592820598
+      Evoli(s)_230: -981887864
+      Evoli(s)_231: -888453821
+      Evoli(s)_232: 1719250859
+      Evoli(s)_233: 1445184507
+      Evoli(s)_234: -916561716
+      Evoli(s)_235: -56453646
+      Evoli(s)_236: 1149109404
+      Evoli(s)_237: 524039539
+      Evoli(s)_238: -1682126188
+      Evoli(s)_239: 394761851
+      Evoli(s)_24: -1264009476
+      Evoli(s)_240: -473203339
+      Evoli(s)_241: 1382453123
+      Evoli(s)_242: 1502011634
+      Evoli(s)_243: -536070974
+      Evoli(s)_244: 1378126335
+      Evoli(s)_245: 1446718849
+      Evoli(s)_246: 1160208249
+      Evoli(s)_247: -1291348506
+      Evoli(s)_248: -646387131
+      Evoli(s)_249: 599342282
+      Evoli(s)_25: -866471354
+      Evoli(s)_250: -1987880196
+      Evoli(s)_251: -397002004
+      Evoli(s)_252: 1917503660
+      Evoli(s)_253: 1598360779
+      Evoli(s)_254: -461401688
+      Evoli(s)_255: 969777902
+      Evoli(s)_256: -1955937792
+      Evoli(s)_257: -246887035
+      Evoli(s)_258: 1348734335
+      Evoli(s)_259: 230290348
+      Evoli(s)_26: 993737945
+      Evoli(s)_260: 748140690
+      Evoli(s)_261: 444170126
+      Evoli(s)_262: 1101467295
+      Evoli(s)_263: -1002428866
+      Evoli(s)_264: 1320492414
+      Evoli(s)_265: 1535324315
+      Evoli(s)_266: -1650756556
+      Evoli(s)_267: 447571112
+      Evoli(s)_268: 1327263207
+      Evoli(s)_269: -601005034
+      Evoli(s)_27: -1096782638
+      Evoli(s)_270: -1897162636
+      Evoli(s)_271: -2143264103
+      Evoli(s)_272: -1431477783
+      Evoli(s)_273: 1967582149
+      Evoli(s)_274: -927379988
+      Evoli(s)_275: -509639039
+      Evoli(s)_276: -1469042558
+      Evoli(s)_277: 1227836667
+      Evoli(s)_278: -1268199375
+      Evoli(s)_279: 948687349
+      Evoli(s)_28: -1377102793
+      Evoli(s)_280: 1522292061
+      Evoli(s)_281: -305841676
+      Evoli(s)_282: 1798926745
+      Evoli(s)_283: -1301136797
+      Evoli(s)_284: -1268221241
+      Evoli(s)_285: 680732711
+      Evoli(s)_286: 1025891406
+      Evoli(s)_287: 784966040
+      Evoli(s)_288: -1023934683
+      Evoli(s)_289: 866622479
+      Evoli(s)_29: -74417026
+      Evoli(s)_290: -1303521362
+      Evoli(s)_291: -1346016865
+      Evoli(s)_292: 220769827
+      Evoli(s)_293: 1942985388
+      Evoli(s)_294: -163865899
+      Evoli(s)_295: -1470451222
+      Evoli(s)_296: -690044196
+      Evoli(s)_297: -717489513
+      Evoli(s)_298: -912343675
+      Evoli(s)_299: -105623066
+      Evoli(s)_3: 1819492476
+      Evoli(s)_30: 1258384735
+      Evoli(s)_300: 1436304657
+      Evoli(s)_301: -22340782
+      Evoli(s)_302: 1839291109
+      Evoli(s)_303: -537180081
+      Evoli(s)_304: 1730755118
+      Evoli(s)_305: 2076632669
+      Evoli(s)_306: -622140401
+      Evoli(s)_307: -735430629
+      Evoli(s)_308: -375413011
+      Evoli(s)_309: -467420514
+      Evoli(s)_31: -1402634672
+      Evoli(s)_310: -15694286
+      Evoli(s)_311: 273623809
+      Evoli(s)_312: 1836395559
+      Evoli(s)_313: -1778712717
+      Evoli(s)_314: 1553292187
+      Evoli(s)_315: -816132723
+      Evoli(s)_316: 1477309489
+      Evoli(s)_317: 982833182
+      Evoli(s)_318: 827898479
+      Evoli(s)_319: -2071177220
+      Evoli(s)_32: 418578693
+      Evoli(s)_320: -1889202631
+      Evoli(s)_321: -894908259
+      Evoli(s)_322: -286166483
+      Evoli(s)_323: -865364124
+      Evoli(s)_324: -90112268
+      Evoli(s)_325: 1307298078
+      Evoli(s)_326: -1700142036
+      Evoli(s)_327: -1359400227
+      Evoli(s)_328: 922922637
+      Evoli(s)_329: -1921585991
+      Evoli(s)_33: 1523942303
+      Evoli(s)_330: -1318395407
+      Evoli(s)_331: 1534034317
+      Evoli(s)_332: 1501377601
+      Evoli(s)_333: -1018165709
+      Evoli(s)_334: -737586549
+      Evoli(s)_335: -1576050647
+      Evoli(s)_336: -1455596753
+      Evoli(s)_337: -677855803
+      Evoli(s)_338: 1196898179
+      Evoli(s)_339: -859716223
+      Evoli(s)_34: -778782932
+      Evoli(s)_340: -1612837053
+      Evoli(s)_341: -1882826107
+      Evoli(s)_342: 1352068116
+      Evoli(s)_343: -1492213383
+      Evoli(s)_344: 686034837
+      Evoli(s)_345: 492094017
+      Evoli(s)_35: -233525893
+      Evoli(s)_36: -572250469
+      Evoli(s)_37: -1675823357
+      Evoli(s)_38: -1402880493
+      Evoli(s)_39: -545140318
+      Evoli(s)_4: 1286743030
+      Evoli(s)_40: -182370544
+      Evoli(s)_41: 342567549
+      Evoli(s)_42: -295767906
+      Evoli(s)_43: 879764933
+      Evoli(s)_44: 2008902052
+      Evoli(s)_45: 1701308736
+      Evoli(s)_46: 75544474
+      Evoli(s)_47: -1673298668
+      Evoli(s)_48: 1281458008
+      Evoli(s)_49: -1448666178
+      Evoli(s)_5: 597401366
+      Evoli(s)_50: 1707860390
+      Evoli(s)_51: 1805251484
+      Evoli(s)_52: -336060121
+      Evoli(s)_53: 1277177426
+      Evoli(s)_54: 2094489029
+      Evoli(s)_55: -674301758
+      Evoli(s)_56: -1782796568
+      Evoli(s)_57: 529536561
+      Evoli(s)_58: 1857984474
+      Evoli(s)_59: 662325761
+      Evoli(s)_6: -459501199
+      Evoli(s)_60: -1937728280
+      Evoli(s)_61: -479875639
+      Evoli(s)_62: -1317422959
+      Evoli(s)_63: 1394885355
+      Evoli(s)_64: 868344556
+      Evoli(s)_65: 1266688109
+      Evoli(s)_66: -1247354045
+      Evoli(s)_67: 556969970
+      Evoli(s)_68: 806333915
+      Evoli(s)_69: 351083551
+      Evoli(s)_7: -1737297279
+      Evoli(s)_70: -2040146576
+      Evoli(s)_71: -336453333
+      Evoli(s)_72: 2101378629
+      Evoli(s)_73: 1031616684
+      Evoli(s)_74: -1799383452
+      Evoli(s)_75: 100177581
+      Evoli(s)_76: -130262044
+      Evoli(s)_77: 1620858640
+      Evoli(s)_78: 155766158
+      Evoli(s)_79: 966436145
+      Evoli(s)_8: 1062208313
+      Evoli(s)_80: 401985327
+      Evoli(s)_81: 461816862
+      Evoli(s)_82: -494403782
+      Evoli(s)_83: 1046165336
+      Evoli(s)_84: -348949827
+      Evoli(s)_85: 1623654197
+      Evoli(s)_86: -1633376350
+      Evoli(s)_87: -950513180
+      Evoli(s)_88: -588374996
+      Evoli(s)_89: 1788951686
+      Evoli(s)_9: -108459015
+      Evoli(s)_90: -712149695
+      Evoli(s)_91: -1830821258
+      Evoli(s)_92: 1400057624
+      Evoli(s)_93: -7771218
+      Evoli(s)_94: 1808260140
+      Evoli(s)_95: 1072749223
+      Evoli(s)_96: 2136893742
+      Evoli(s)_97: -1382508304
+      Evoli(s)_98: 1229677424
+      Evoli(s)_99: -1771488732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
