@@ -35,6 +35,7 @@ namespace Game
            */
 
 
+        
         public event Func<PokemonObject> OnGeneratePokemon; 
 
         private void Start()
@@ -54,14 +55,14 @@ namespace Game
             //InstantiateRoomPokemon(_currentRoom);
         }
 
-        private void InstantiateRoomPokemon(Room room)
+        public void InstantiateRoomPokemon(Room room)
         {
             PokemonObject roomPokemon = OnGeneratePokemon?.Invoke();
             
             Debug.Log("generate pokemon is " + roomPokemon.Name);
             
-            GameObject roomPokemonInstance = Instantiate(pokemonPrefab, room.RoomParent.transform);
-            roomPokemonInstance.transform.position = room.Blocs.First(bloc => bloc is BlocPokemon).WorldPosition;
+            GameObject roomPokemonInstance = Instantiate(pokemonPrefab, room.RoomGO.transform);
+            roomPokemonInstance.transform.localPosition = room.Blocs.First(bloc => bloc is BlocPokemon).WorldPosition;
             roomPokemonInstance.GetComponentInChildren<SpriteRenderer>().sprite = roomPokemon.Sprite;
         }
 

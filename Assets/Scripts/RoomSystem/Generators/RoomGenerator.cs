@@ -15,10 +15,13 @@ namespace Game
         [SerializeField] private int squareSpawnSize;
 
         // Aucun retour en arrière possible ==> rmmove de la porte quand on sort
-        
-        private void Start()
+
+        private void Update()
         {
-            GenerateRoom();
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                GenerateRoom();
+            }
         }
 
         private void GenerateRoom()
@@ -27,19 +30,16 @@ namespace Game
 
             for (int i = 0; i < roomToGenerate; i++)
             {
-                
-                Debug.Log("generate room ");
-                
                 int randomRoom = Random.Range(0, roomManager.RoomsData.Count);
                 RoomData randomRoomData = roomManager.RoomsData[randomRoom];
                 
-                Room room = new Room(randomRoomData.roomParent,randomRoomData.patternRef,randomRoomData.patternGroundColor,randomRoomData.patternOnOffColor,randomRoomData.patternPokemonColor,randomRoomData.patternVoidColor,randomRoomData.startCoords);
+                Room room = new Room(randomRoomData.roomParent,randomRoomData.patternRef,randomRoomData.patternGroundColor,randomRoomData.patternOnOffColor,randomRoomData.patternPokemonColor,
+                    randomRoomData.patternVoidColor,randomRoomData.startCoords,randomRoomData.canHaveMecanism);
+                
                 room.GenerateRoom();
 
                 int randomX = Random.Range(-squareSpawnSize, squareSpawnSize);
                 int randomY = Random.Range(-squareSpawnSize, squareSpawnSize);
-                
-                Debug.Log("position " + new Vector2(randomX,randomY));
 
                 while (Physics2D.OverlapCircleAll(new Vector2(randomX, randomY), 25, 1 << 3).Length > 0)
                 {
@@ -51,6 +51,10 @@ namespace Game
                 GameObject roomInstance = Instantiate(room.RoomParent, roomManager.transform);
                 roomInstance.transform.position = new Vector3(randomX, randomY, roomInstance.transform.position.z);
                 roomInstance.SetActive(true);
+
+                room.RoomGO = roomInstance;
+                
+                roomManager.InstantiateRoomPokemon(room);
                 
                 roomManager.GeneratedRooms.Add(room);
 

@@ -17,6 +17,7 @@ namespace Game
         public Color patternPokemonColor;
         public Color patternVoidColor;
         public Vector2 startCoords;
+        public bool canHaveMecanism;
     }
     
     [System.Serializable]
@@ -29,9 +30,21 @@ namespace Game
         [SerializeField] private  Color patternPokemonColor;
         [SerializeField] private  Color patternVoidColor;
         [SerializeField] private Vector2 startCoords;
-
+        [SerializeField] private GameObject room;
         [SerializeField] private List<Bloc> blocs = new List<Bloc>();
+        [SerializeField] private bool canHaveMecanism;
 
+        public bool CanHaveMecanism
+        {
+            get => canHaveMecanism;
+            set => canHaveMecanism = value;
+        }
+
+        public GameObject RoomGO
+        {
+            get => room;
+            set => room = value;
+        }
         public List<Bloc> Blocs
         {
             get => blocs;
@@ -62,7 +75,7 @@ namespace Game
             get => roomParent;
         }
 
-        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords)
+        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords,bool canHaveMecanism)
         {
             this.roomParent = roomParent;
             this.patternRef = patternRef;
@@ -71,6 +84,7 @@ namespace Game
             this.patternPokemonColor = patternPokemonColor;
             this.patternVoidColor = patternVoidColor;
             this.startCoords = startCoords;
+            this.canHaveMecanism = canHaveMecanism;
         }
 
 
