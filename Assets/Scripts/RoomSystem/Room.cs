@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -17,7 +18,7 @@ namespace Game
         public Color patternPokemonColor;
         public Color patternVoidColor;
         public Vector2 startCoords;
-        public bool canHaveMecanism;
+        public List<MecanismType> allMecanisms;
     }
     
     [System.Serializable]
@@ -32,12 +33,21 @@ namespace Game
         [SerializeField] private Vector2 startCoords;
         [SerializeField] private GameObject room;
         [SerializeField] private List<Bloc> blocs = new List<Bloc>();
-        [SerializeField] private bool canHaveMecanism;
+        [SerializeField] private List<MecanismType> allMecanisms;
 
+        public Texture2D PatternRef
+        {
+            get => patternRef;
+        }
+        
         public bool CanHaveMecanism
         {
-            get => canHaveMecanism;
-            set => canHaveMecanism = value;
+            get => allMecanisms.Count > 0;
+        }
+
+        public List<MecanismType> AllMecanisms
+        {
+            get => allMecanisms;
         }
 
         public GameObject RoomGO
@@ -59,7 +69,7 @@ namespace Game
 
         public bool HasMecanism
         {
-            get => mecanisms.Count > 0;
+            get => Mecanisms.Count > 0;
         }
         
         [SerializeField] private bool hasUnlockMecanism;
@@ -75,7 +85,7 @@ namespace Game
             get => roomParent;
         }
 
-        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords,bool canHaveMecanism)
+        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords,List<MecanismType> allMecanisms)
         {
             this.roomParent = roomParent;
             this.patternRef = patternRef;
@@ -84,7 +94,7 @@ namespace Game
             this.patternPokemonColor = patternPokemonColor;
             this.patternVoidColor = patternVoidColor;
             this.startCoords = startCoords;
-            this.canHaveMecanism = canHaveMecanism;
+            this.allMecanisms = allMecanisms;
         }
 
 
@@ -124,6 +134,17 @@ namespace Game
             }
             
         }
+
+        public void AddMecanism(Mecanism mecanism) => Mecanisms.Add(mecanism);
+
+        public bool Exists(Vector2Int roomCoords) => blocs.Where(bloc => bloc.RoomPosition == roomCoords).ToList().Count > 0;
+        
+        
+        public Bloc GetBlocAt(Vector2Int roomCoords)
+        {
+            return blocs.FirstOrDefault(bloc => bloc.RoomPosition == roomCoords);
+        }
+        
 
     }
 }
