@@ -10,9 +10,6 @@ public class PlayerInjector : MonoBehaviour
 
     ISet<Entity> RealRef => _ref;
 
-    public IReadOnlyList<int> T { get => t; }
-
-    List<int> t;
 
     void Awake()
     {

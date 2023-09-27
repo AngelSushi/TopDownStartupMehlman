@@ -68,13 +68,32 @@ namespace Game
         
         public event Action<EntityLiving> OnLeaderChanged;
 
-        private Pokemon _attachedPokemon;
-
-        public Pokemon AttachedPokemon
+        private Room _currentRoom;
+        
+        public Room CurrentRoom
         {
-            get => _attachedPokemon;
-            set => _attachedPokemon = value;
+            get
+            {
+                GameObject collideRoom = null;
+                
+                foreach (Collider2D collider2D in Physics2D.OverlapCircleAll(transform.position,3,1 << 3))
+                {
+                    collideRoom = collider2D.gameObject;
+                }
+
+                if (collideRoom != null)
+                {
+                    _currentRoom = RoomManager.GetRoomByGameObject(collideRoom);
+                    return _currentRoom;
+                }
+                else
+                    return null;
+                
+                
+            }
+            protected set => _currentRoom =value;
         }
+
 
         public virtual void Start()
         { 
@@ -88,6 +107,10 @@ namespace Game
             {
                 Move();
             }
+            
+            
+            Debug.Log("Room " + CurrentRoom?.RoomGO + " called from " + gameObject.name);
+            
         }
 
         public virtual void Move()

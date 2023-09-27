@@ -8,12 +8,12 @@ namespace Game
     [Serializable]
     public class Bloc
     {
-        [SerializeField] private Vector2 worldPosition;
+        [SerializeField] private Vector2 localPosition;
 
-        public Vector2 WorldPosition
+        public Vector2 LocalPosition
         {
-            get => worldPosition;
-            set => worldPosition = value;
+            get => localPosition;
+            set => localPosition = value;
         }
 
         [SerializeField] private Vector2Int roomPosition;
@@ -24,9 +24,9 @@ namespace Game
             set => roomPosition = value;
         }
 
-        public Bloc(Vector2 worldPosition, Vector2Int roomPosition)
+        public Bloc(Vector2 localPosition, Vector2Int roomPosition)
         {
-            this.worldPosition = worldPosition;
+            this.localPosition = localPosition;
             this.roomPosition = roomPosition;
         }
     }
@@ -42,18 +42,30 @@ namespace Game
             set => isOn = value;
         }
 
-        public BlocOnOff(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) { }
+        public BlocOnOff(Vector2 localPosition, Vector2Int roomPosition) : base(localPosition, roomPosition) { }
     }
 
     [Serializable]
     public class BlocPokemon : Bloc
     {
-        public BlocPokemon(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) {}
+        public BlocPokemon(Vector2 localPosition, Vector2Int roomPosition) : base(localPosition, roomPosition) {}
     }
 
     [Serializable]
     public class BlocVoid : Bloc
     {
-        public BlocVoid(Vector2 worldPosition, Vector2Int roomPosition) : base(worldPosition, roomPosition) { }
+        public BlocVoid(Vector2 localPosition, Vector2Int roomPosition) : base(localPosition, roomPosition) { }
+    }
+
+    [Serializable]
+    public class BlockSpawn : Bloc
+    {
+        public BlockSpawn(Vector2 localPosition, Vector2Int roomPosition) : base(localPosition, roomPosition) { }
+    }
+
+    [Serializable]
+    public class BlockTp : Bloc
+    {
+        public BlockTp(Vector2 localPosition, Vector2Int roomPosition) : base(localPosition, roomPosition) { }
     }
 }

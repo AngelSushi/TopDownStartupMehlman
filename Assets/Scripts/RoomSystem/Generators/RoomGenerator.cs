@@ -26,14 +26,14 @@ namespace Game
             roomManager.OnGenerateRoom -= GenerateRoom;
         }
 
-        private Room GenerateRoom()
+        private Room GenerateRoom(List<Room> generatedRooms)
         {
             
             int randomRoom = Random.Range(0, roomManager.RoomsData.Count);
             RoomData randomRoomData = roomManager.RoomsData[randomRoom];
             
             Room room = new Room(randomRoomData.roomParent,randomRoomData.patternRef,randomRoomData.patternGroundColor,randomRoomData.patternOnOffColor,randomRoomData.patternPokemonColor,
-                randomRoomData.patternVoidColor,randomRoomData.startCoords,randomRoomData.allMecanisms);
+                randomRoomData.patternVoidColor,randomRoomData.patternSpawnColor,randomRoomData.patternTpColor,randomRoomData.startCoords,randomRoomData.allMecanisms);
             
             room.GenerateRoom();
 

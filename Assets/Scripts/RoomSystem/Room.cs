@@ -17,6 +17,8 @@ namespace Game
         public Color patternOnOffColor;
         public Color patternPokemonColor;
         public Color patternVoidColor;
+        public Color patternSpawnColor;
+        public Color patternTpColor;
         public Vector2 startCoords;
         public List<MecanismType> allMecanisms;
     }
@@ -30,6 +32,8 @@ namespace Game
         [SerializeField] private Color patternOnOffColor;
         [SerializeField] private  Color patternPokemonColor;
         [SerializeField] private  Color patternVoidColor;
+        [SerializeField] private Color patternSpawnColor;
+        [SerializeField] private Color patternTpColor;
         [SerializeField] private Vector2 startCoords;
         [SerializeField] private GameObject room;
         [SerializeField] private List<Bloc> blocs = new List<Bloc>();
@@ -85,7 +89,12 @@ namespace Game
             get => roomParent;
         }
 
-        public Room(GameObject roomParent,Texture2D patternRef, Color patternGroundColor,Color patternOnOffColor,Color patternPokemonColor,Color patternVoidColor,Vector2 startCoords,List<MecanismType> allMecanisms)
+        public Vector2 StartCoords
+        {
+            get => startCoords;
+        }
+
+        public Room(GameObject roomParent, Texture2D patternRef, Color patternGroundColor, Color patternOnOffColor, Color patternPokemonColor, Color patternVoidColor, Color patternSpawnColor, Color patternTpColor, Vector2 startCoords,List<MecanismType> allMecanisms)
         {
             this.roomParent = roomParent;
             this.patternRef = patternRef;
@@ -93,6 +102,8 @@ namespace Game
             this.patternOnOffColor = patternOnOffColor;
             this.patternPokemonColor = patternPokemonColor;
             this.patternVoidColor = patternVoidColor;
+            this.patternSpawnColor = patternSpawnColor;
+            this.patternTpColor = patternTpColor;
             this.startCoords = startCoords;
             this.allMecanisms = allMecanisms;
         }
@@ -129,6 +140,16 @@ namespace Game
                         {
                             blocs.Add(new BlocVoid(new Vector2(startCoords.x + j,startCoords.y + i),new Vector2Int(i,j)));
                         }
+
+                        if (pixelColor == patternSpawnColor)
+                        {
+                            blocs.Add(new BlockSpawn(new Vector2(startCoords.x +  j,startCoords.y +  i),new Vector2Int(i,j)));
+                        }
+
+                        if (pixelColor == patternTpColor)
+                        {
+                            blocs.Add(new BlockTp(new Vector2(startCoords.x +  j,startCoords.y +  i),new Vector2Int(i,j)));
+                        }
                     }
                 }
             }
@@ -144,7 +165,5 @@ namespace Game
         {
             return blocs.FirstOrDefault(bloc => bloc.RoomPosition == roomCoords);
         }
-        
-
     }
 }
