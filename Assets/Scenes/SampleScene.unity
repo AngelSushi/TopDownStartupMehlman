@@ -22121,8 +22121,8 @@ MonoBehaviour:
   pokemonGrassPrefab: {fileID: 1131654632947911055, guid: dcb951436c6396f4484c3f55024b643a, type: 3}
   followersPokemons:
   - {fileID: 535272151}
-  - {fileID: 657742849}
   - {fileID: 2078189434}
+  - {fileID: 657742849}
 --- !u!1 &711767239
 GameObject:
   m_ObjectHideFlags: 0
