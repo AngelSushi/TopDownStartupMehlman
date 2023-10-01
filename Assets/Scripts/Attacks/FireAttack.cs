@@ -14,6 +14,10 @@ namespace Game
 
         [SerializeField] private PoolInstance pool;
         
+        private bool _canLaunchAttack;
+        
+        [SerializeField] private float attackCooldown;
+        
         private void Awake()
         {
             if (playerRef.Instance != null)
@@ -25,7 +29,10 @@ namespace Game
                 playerRef.OnValueChanged += SpawnPlayerRef;
                 
             }
+
+            _canLaunchAttack = true;
         }
+        
         private void SpawnPlayerRef(Entity sEntity,Entity oEntity)
         {
             if (sEntity != null && sEntity is Player)
@@ -48,11 +55,18 @@ namespace Game
 
         private void OnLaunchAttack(EntityLiving attacker)
         {
-            if (entityRef == attacker)
+            if (entityRef == attacker && _canLaunchAttack)
             {
-                Debug.Log("on launch");
-                pool?.Pool.Get(); 
+                pool?.Pool.Get();
+                StartCoroutine(WaitCooldown());
             }
+        }
+        
+        private IEnumerator WaitCooldown()
+        {
+            _canLaunchAttack = false;
+            yield return new WaitForSeconds(attackCooldown);
+            _canLaunchAttack = true;
         }
         
     }

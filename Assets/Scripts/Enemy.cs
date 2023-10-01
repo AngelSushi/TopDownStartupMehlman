@@ -6,46 +6,17 @@ using UnityEngine;
 namespace Game
 {
     public class Enemy : EntityLiving
-    {
-
-        public PoolInstance pool;
-        
+    { // Class Pokemon
 
 
-        public override void Start()
+        [SerializeField] private PokemonObject attachedPokemon;
+
+        public PokemonObject AttachedPokemon
         {
-            base.Start();
-          //  StartCoroutine(SpawnBullet());
-
-            if (leader != null)
-            {
-
-                if (transform.parent != leader.transform)
-                {
-                    transform.parent = leader.transform;
-                    transform.position = leader.transform.position - leader.transform.up * -1.5f;
-                }
-            }
+            get => attachedPokemon;
+            set => attachedPokemon = value;
         }
 
 
-        private IEnumerator SpawnBullet()
-        {
-            yield return new WaitForSeconds(0.5f);
-            
-            pool?.Pool.Get();
-
-            StartCoroutine(SpawnBullet());
-        }
-
-        public override void Move()
-        {
-            base.Move();
-        }
-
-        public override void StopMove()
-        {
-            base.StopMove();
-        }
     }
 }

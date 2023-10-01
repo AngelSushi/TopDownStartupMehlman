@@ -20,12 +20,7 @@ namespace Game
 
         public override bool Solve()
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                _blocs.First(bloc => !bloc.IsOn).IsOn = true;
-                Debug.Log("set true for bloc ");
-            }
-            
+
             return _blocs.All(bloc => bloc.IsOn);
         }
     }

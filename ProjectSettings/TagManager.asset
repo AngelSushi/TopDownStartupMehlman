@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Ice
+  - Torch
+  - Button
   layers:
   - Default
   - TransparentFX
@@ -11,10 +15,10 @@ TagManager:
   - Room
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - PushableBloc
+  - PressObject
+  - Pokemon
+  - Stele
   - 
   - 
   - 

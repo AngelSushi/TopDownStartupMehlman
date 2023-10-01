@@ -21,17 +21,11 @@ public class CameraBinder : MonoBehaviour
         UpdateCameraFollow(_playerRef.Instance,_playerRef.Instance);
 
         _playerRef.OnValueChanged += UpdateCameraFollow;
-
-        Player p = (Player)_playerRef.Instance;
-        p.OnLeaderChanged += OnLeaderChanged;
     }
 
     private void OnDestroy()
     {
         _playerRef.OnValueChanged -= UpdateCameraFollow;
-        
-        Player p = (Player)_playerRef.Instance;
-        p.OnLeaderChanged -= OnLeaderChanged;
         
         Debug.Log("leave");
     }
@@ -41,9 +35,4 @@ public class CameraBinder : MonoBehaviour
         _cam.Follow = obj.transform;
     }
 
-    private void OnLeaderChanged(EntityLiving newLeader)
-    { 
-        //Debug.Log("new focus on " + newLeader.name);
-       // _cam.Follow = newLeader.transform;
-    }
 }

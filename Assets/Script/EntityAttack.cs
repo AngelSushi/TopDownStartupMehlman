@@ -9,7 +9,6 @@ public class EntityAttack : MonoBehaviour
 {
 
     
-    [SerializeField] AttackZone _attackZone;
     
     [SerializeField, BoxGroup("Dependencies")] private PlayerReference playerRef;
     [SerializeField, BoxGroup("Dependencies")] private EntityLiving entityRef;
@@ -18,6 +17,8 @@ public class EntityAttack : MonoBehaviour
     public event UnityAction OnAttack;
 
 
+    
+    
     
     /*public void LaunchAttack()
     {

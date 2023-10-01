@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -9,8 +11,8 @@ namespace Game
     public class EntityLiving : Entity,IMovable
     {
 
+        [SerializeField, BoxGroup("Dependencies")] protected RoomManagerRef roomManager;
         protected bool isMoving;
-
         public bool IsMoving
         {
             get => isMoving;
@@ -64,36 +66,58 @@ namespace Game
         [SerializeField] private bool canBeCaptured;
 
         protected Rigidbody2D rb;
-        [SerializeField] protected float speed; 
-        
-        public event Action<EntityLiving> OnLeaderChanged;
+        [SerializeField] protected float speed;
 
         private Room _currentRoom;
         
-        public Room CurrentRoom
+        public  Room CurrentRoom
         {
             get
             {
                 GameObject collideRoom = null;
                 
-                foreach (Collider2D collider2D in Physics2D.OverlapCircleAll(transform.position,3,1 << 3))
+                foreach (Collider2D collider2D in Physics2D.OverlapCircleAll(transform.position,8,1 << 3))
                 {
                     collideRoom = collider2D.gameObject;
                 }
-
+                
                 if (collideRoom != null)
                 {
-                    _currentRoom = RoomManager.GetRoomByGameObject(collideRoom);
+                    _currentRoom = roomManager.Instance.GetRoomByGameObject(collideRoom);
                     return _currentRoom;
                 }
-                else
-                    return null;
+                
+                return null;
                 
                 
             }
-            protected set => _currentRoom =value;
         }
 
+        private Bloc _currentBloc;
+
+        public Bloc CurrentBloc
+        {
+            get
+            {
+                _currentBloc = CurrentRoom.Blocs.FirstOrDefault(bloc =>
+                {
+                    Vector3 worldBlocPos = CurrentRoom.RoomGO.transform.TransformPoint(bloc.LocalPosition);
+                    
+                    if (transform.position.x >= worldBlocPos.x - 0.5f && transform.position.x <= worldBlocPos.x + 0.5f)
+                    {
+                        if (transform.position.y >= worldBlocPos.y - 0.5f && transform.position.y <= worldBlocPos.y + 0.5f)
+                        {
+                            return true;
+                        }
+                    }
+
+                    return false;
+                });
+
+                return _currentBloc;
+            }
+        }
+        
 
         public virtual void Start()
         { 
@@ -107,10 +131,6 @@ namespace Game
             {
                 Move();
             }
-            
-            
-            Debug.Log("Room " + CurrentRoom?.RoomGO + " called from " + gameObject.name);
-            
         }
 
         public virtual void Move()
@@ -140,52 +160,41 @@ namespace Game
                 FirstLeader.Followers.Add(this);
             }    
         }
-        
-        protected void OnMove(InputAction.CallbackContext e)
+
+        private void OnTriggerEnter2D(Collider2D col)
         {
-            if (HasLeader)
+            if (!HasLeader)
             {
-                if (e.started)
+                if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
                 {
-                    FirstLeader.IsMoving = true;
-                }
-
-                if (e.performed)
-                {
-                    FirstLeader.Direction = e.ReadValue<Vector2>();
-                }
-            
-                if (e.canceled)
-                {
-                    FirstLeader.IsMoving = false;
-                    FirstLeader.StopMove();
-                }
-            }
-            else
-            {
-                if (e.started)
-                {
-                    IsMoving = true;
-                }
-
-                if (e.performed)
-                {
-                    Direction = e.ReadValue<Vector2>();
-                }
-            
-                if (e.canceled)
-                {
-                    IsMoving = false;
-                    StopMove();
+                    if (col.gameObject.TryGetComponent(out OnOff onOff))
+                    {
+                        Debug.Log("on");
+                        onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,true);
+                        onOff.TurnSprite();
+                    }
+                    
+                    
                 }
             }
         }
 
-        public void CallOnLeaderChanged(EntityLiving newLeader)
+        private void OnTriggerExit2D(Collider2D col)
         {
-            Debug.Log("call from " + gameObject.name);
-            
-            OnLeaderChanged?.Invoke(newLeader);
+            if (!HasLeader)
+            {
+                if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
+                {
+                    if (col.gameObject.TryGetComponent(out OnOff onOff))
+                    {
+                        Debug.Log("off");
+                        onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,false);
+                        onOff.TurnSprite();
+                    }
+                    
+                    
+                }
+            }
         }
     }
 }

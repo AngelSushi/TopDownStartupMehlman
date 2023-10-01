@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3144451702397495768}
   - component: {fileID: 4259735451989551782}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Render
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1086342795639541978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Physics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,8 +124,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1609646447594241658}
-  - component: {fileID: 3700180401344349879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Action
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,21 +146,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2300341138270135536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3700180401344349879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2768857027985367268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4df4d01b8befe81498c455801a1ed015, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerRef: {fileID: 11400000, guid: a17ad5991bc00fc41991e8b0cba566bf, type: 2}
-  entityRef: {fileID: 0}
-  pool: {fileID: 0}
 --- !u!1 &6915829725456469029
 GameObject:
   m_ObjectHideFlags: 0
@@ -171,12 +155,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2300341138270135536}
-  - component: {fileID: 5230213612964103170}
+  - component: {fileID: 2118179859223884705}
   - component: {fileID: 618112974327559999}
   - component: {fileID: 5381889988694449774}
   - component: {fileID: 3713895942736663215}
-  m_Layer: 0
-  m_Name: PokemonPrefab
+  m_Layer: 8
+  m_Name: EmptyPokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +184,7 @@ Transform:
   - {fileID: 1609646447594241658}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5230213612964103170
+--- !u!114 &2118179859223884705
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,14 +193,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6915829725456469029}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808d3c8b29724924281e90cbb6959cc3, type: 3}
+  m_Script: {fileID: 11500000, guid: d974407230b9ba54b920446d19045203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _health: {fileID: 618112974327559999}
+  roomManager: {fileID: 11400000, guid: d8ef3c71804057b4c981adbd85e1def7, type: 2}
   leader: {fileID: 0}
   _followers: []
   canBeCaptured: 1
   speed: 5
+  attachedPokemon: {fileID: 0}
 --- !u!114 &618112974327559999
 MonoBehaviour:
   m_ObjectHideFlags: 0

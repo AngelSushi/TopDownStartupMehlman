@@ -11,44 +11,106 @@ namespace Game
     public class Player : EntityLiving
     {
 
-        [SerializeField, BoxGroup("Dependencies")] private RoomManagerRef roomManager;
+        [SerializeField] private List<PokemonObject> ownedPokemons = new List<PokemonObject>();
+        [SerializeField] private List<PokemonObject> seenPokemons = new List<PokemonObject>();
+        [SerializeField] private bool isInInventory;
+        [SerializeField] private ManageFollowers manageFollowers;
+        public bool IsInInventory
+        {
+            get => isInInventory;
+            set => isInInventory = value;
+        }
         
-        
-        [SerializeField] private InputActionReference action;
+        public List<PokemonObject> OwnedPokemons
+        {
+            get => ownedPokemons;
+        }
 
-        [SerializeField] private DataReader data;
+        public List<PokemonObject> SeenPokemons
+        {
+            get => seenPokemons;
+        }
         
-        public event Action<Pokemon> OnCapturePokemon;
+        
+
+        public event Action<List<PokemonObject>, List<PokemonObject>,Player> OnOpenInventory;
+        public event Func<Player,List<PokemonObject>> OnCloseInventory;
+        public event Action<List<PokemonObject>> OnUpdateFollowers;
+        public event Action OnCapturePokemon;
         public event Action<EntityLiving> OnLaunchAttack;
 
         public override void Start()
         {
             base.Start();
-            action.action.started += OnMove;
-            action.action.performed += OnMove;
-            action.action.canceled += OnMove;
-
             roomManager.Instance.OnFinishGenerateRoom += OnFinishGenerateRoom;
+            
+            foreach (EntityLiving pokemonEntity in Followers)
+            {
+                if (pokemonEntity is Enemy)
+                {
+                    Enemy enemy = (Enemy)pokemonEntity;
+                    OwnedPokemons.Add(enemy.AttachedPokemon);
+                    enemy.gameObject.SetActive(true);
+                }
+            }
+
+            
+        }
+
+        private void OnDestroy()
+        {
+            roomManager.Instance.OnFinishGenerateRoom -= OnFinishGenerateRoom;
+        }
+
+        public override void Update()
+        {
+            base.Update();
+
+            if (CurrentRoom != null)
+            {
+                if (CurrentBloc is BlockTp)
+                {
+                    Room lastRoom = roomManager.Instance.GeneratedRooms[0];
+                    Destroy(lastRoom.RoomGO);
+                    roomManager.Instance.GeneratedRooms.Remove(lastRoom);
+                    roomManager.Instance.GenerateRoom();
+                    Room newRoom = roomManager.Instance.GeneratedRooms[0];
+                    transform.position = newRoom.RoomGO.transform.TransformPoint(newRoom.Blocs.FirstOrDefault(bloc => bloc is BlockSpawn).LocalPosition);
+                }
+                
+                if (CurrentRoom != null && CurrentRoom.HasMecanism && CurrentRoom.Mecanisms.All(mecanism => mecanism.Solve()) && !CurrentRoom.HasUnlockMecanism)
+                {
+                    CurrentRoom.HasUnlockMecanism = true;
+                    CurrentRoom.RoomPokemon.SetActive(true);
+                    Debug.Log("solve mechanic can go to other room");// Drop Key Anim   
+                }
+            }
         }
 
         public void LaunchAttack(EntityLiving attacker) => OnLaunchAttack?.Invoke(attacker);
-        public void CapturePokemon(Pokemon pokemon) => OnCapturePokemon?.Invoke(pokemon);
-
+        public void CapturePokemon() => OnCapturePokemon?.Invoke();
+        
         private void OnFinishGenerateRoom(bool isFirstGeneration) {
-            
             if (isFirstGeneration)
             {
                 Room targetRoom = roomManager.Instance.GeneratedRooms[0];
                 transform.position = targetRoom.RoomGO.transform.TransformPoint(targetRoom.Blocs.FirstOrDefault(bloc => bloc is BlockSpawn).LocalPosition);
             }
         }
-        
-        /*
-             *
-             *
-             * IL me faudrait un script par attaque ( Fireball, Ice, Liane)
-             * Un event est attaché a celui ci lorsuq'on attack depuis le playerbrain
-             * 
-         */
+
+        public void ManageInventory()
+        {
+            if (!isInInventory)
+            {
+                OnOpenInventory?.Invoke(OwnedPokemons,SeenPokemons,this);
+                manageFollowers.DestroyFollowers();
+            }
+            else
+            {
+                List<PokemonObject> newFollowers = OnCloseInventory?.Invoke(this);
+                OnUpdateFollowers?.Invoke(newFollowers);
+                manageFollowers.UpdateFollowersObject(newFollowers);
+            }
+        }
     }
 }

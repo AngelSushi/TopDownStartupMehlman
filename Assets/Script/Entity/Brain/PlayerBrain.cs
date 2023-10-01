@@ -48,59 +48,97 @@ public class PlayerBrain : MonoBehaviour
     [SerializeField,BoxGroup("Input")] private InputActionProperty attack;
 
     [SerializeField, BoxGroup("Input")] private InputActionProperty capture;
+    [SerializeField, BoxGroup("Input")] private InputActionProperty push;
 
+    [SerializeField, BoxGroup("Input")] private InputActionProperty menu;
+
+    [SerializeField, BoxGroup("Input")] private InputActionProperty move;
 
     private void Start()
-    {
-        _moveInput.action.started += UpdateMove;
-        _moveInput.action.performed += UpdateMove;
-        _moveInput.action.canceled += StopMove;
-
-      /*  moveFirst.action.started += SwitchFirst;
+    { 
+        moveFirst.action.started += SwitchFirst;
         moveSecond.action.started += SwitchSecond;
         moveThird.action.started += SwitchThird;
         moveFourth.action.started += SwitchFourth;
-*/
-      
         attack.action.started += OnAttack;
-
         capture.action.started += OnCapture;
+        push.action.started += OnPush;
+        push.action.performed += OnPushPerf;
+        menu.action.started += OnOpenInventory;
+        
+        
+        move.action.started += OnMove;
+        move.action.performed += OnMove;
+        move.action.canceled += OnMove;
+
     }
-    
+
+   
+
     private void OnDestroy()
     {
-        _moveInput.action.started -= UpdateMove;
-        _moveInput.action.performed -= UpdateMove;
-        _moveInput.action.canceled -= StopMove;
-        
-      /*  moveFirst.action.started -= SwitchFirst;
+        moveFirst.action.started -= SwitchFirst;
         moveSecond.action.started -= SwitchSecond;
         moveThird.action.started -= SwitchThird;
         moveFourth.action.started -= SwitchFourth;
-*/
-      
         attack.action.started -= OnAttack;
-
         capture.action.started -= OnCapture;
+        push.action.started -= OnPush;
+        push.action.performed -= OnPushPerf;
+        menu.action.started -= OnOpenInventory;
+        
+        
+        move.action.started += OnMove;
+        move.action.performed += OnMove;
+        move.action.canceled += OnMove;
+
     }
+    
+    private void OnOpenInventory(InputAction.CallbackContext obj)
+    {
+        ((Player)playerRef.Instance).ManageInventory();
+    }
+    
 
     private void OnCapture(InputAction.CallbackContext e)
     {
+        if (((Player)playerRef.Instance).IsInInventory)
+        {
+            return;
+        }
         
+        ((Player)playerRef.Instance).CapturePokemon();
     }
 
     private void OnAttack(InputAction.CallbackContext e)
     {
+        if (((Player)playerRef.Instance).IsInInventory)
+        {
+            return;
+        }
+        
         ((Player)playerRef.Instance).LaunchAttack(leader.HasLeader ? leader.FirstLeader : leader);
     }
 
-    private void UpdateMove(InputAction.CallbackContext obj)
+    private void OnPush(InputAction.CallbackContext e)
     {
-        _movement.Move(obj.ReadValue<Vector2>().normalized);
+
+        if (((Player)playerRef.Instance).IsInInventory)
+        {
+            return;
+        }
+        
+        Collider2D boxCollider = Physics2D.OverlapCircle(transform.position, 1,1 << 6);
+        
+        if (boxCollider != null && boxCollider.TryGetComponent(out PushableBloc pushableBloc))
+        {
+            pushableBloc.PushBlock(((Player)playerRef.Instance).Direction);
+        }
     }
-    private void StopMove(InputAction.CallbackContext obj)
+
+    private void OnPushPerf(InputAction.CallbackContext e)
     {
-        _movement.Move(Vector2.zero);
+        Debug.Log("perff");
     }
 
     private void SwitchFirst(InputAction.CallbackContext e) => SwitchLeader(0);
@@ -112,6 +150,10 @@ public class PlayerBrain : MonoBehaviour
     
     private void SwitchLeader(int newLeaderIndex)
     {
+        if (((Player)playerRef.Instance).IsInInventory)
+        {
+            return;
+        }
         
         EntityLiving newLeader = leader.Followers[newLeaderIndex];
         leader.IsMoving = false;
@@ -140,6 +182,53 @@ public class PlayerBrain : MonoBehaviour
         newLeader.Leader = null;
       //player.Followers = order;   
         
-        FindObjectOfType<CameraBinder>().Cam.Follow = leader.transform;
+        FindObjectOfType<CameraBinder>().Cam.Follow = leader.transform; // A ENLEVER AIE AIE AIE 
+    }
+    
+    protected void OnMove(InputAction.CallbackContext e)
+    {
+        Player p = (Player)playerRef.Instance;
+
+        if (p.IsInInventory)
+        {
+            return;
+        }
+        
+        if (p.HasLeader)
+        {
+            if (e.started)
+            {
+                p.FirstLeader.IsMoving = true;
+            }
+
+            if (e.performed)
+            {
+                p.FirstLeader.Direction = e.ReadValue<Vector2>();
+            }
+            
+            if (e.canceled)
+            {
+                p.FirstLeader.IsMoving = false;
+                p.FirstLeader.StopMove();
+            }
+        }
+        else
+        {
+            if (e.started)
+            {
+                p.IsMoving = true;
+            }
+
+            if (e.performed)
+            {
+                p.Direction = e.ReadValue<Vector2>();
+            }
+            
+            if (e.canceled)
+            {
+                p.IsMoving = false;
+                p.StopMove();
+            }
+        }
     }
 }

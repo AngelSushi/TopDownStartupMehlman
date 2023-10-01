@@ -10,7 +10,8 @@ namespace Game
     {
 
         [SerializeField] private List<RoomData> roomsData;
-        [SerializeField] private static List<Room> generatedRooms = new List<Room>();
+        [SerializeField] private List<RoomData> roomsDataCopy;
+        [SerializeField] private List<Room> generatedRooms = new List<Room>();
         [SerializeField] private GameObject pokemonPrefab;
 
      //   private Room _currentRoom;
@@ -43,7 +44,6 @@ namespace Game
         {
             if (Input.GetKeyDown(KeyCode.G))
             {
-                Debug.Log("enter g");
                 GenerateRoom();
             }
             
@@ -58,7 +58,6 @@ namespace Game
         public void GenerateRoom()
         {
             int roomToGenerate = maxGenerateRoom - GeneratedRooms.Count;
-
             bool isFirstGeneration = generatedRooms.Count == 0;
             
             for (int i = 0; i < roomToGenerate; i++)
@@ -67,12 +66,9 @@ namespace Game
 
                 if (newRoom != null)
                 {
-                    Debug.Log("room is not null");
                     generatedRooms.Add(newRoom);
                     GenerateMecanism(newRoom);
                     InstantiateRoomPokemon(newRoom);
-            
-                    // a enlever la ligne du dessous
                 }
             }
             
@@ -86,7 +82,9 @@ namespace Game
             GameObject roomPokemonInstance = Instantiate(pokemonPrefab, room.RoomGO.transform);
             roomPokemonInstance.transform.localPosition = room.Blocs.First(bloc => bloc is BlocPokemon).LocalPosition;
             roomPokemonInstance.GetComponentInChildren<SpriteRenderer>().sprite = roomPokemon.Sprite;
+            roomPokemonInstance.GetComponent<Enemy>().AttachedPokemon = roomPokemon;
             roomPokemonInstance.SetActive(!room.HasMecanism);
+            room.RoomPokemon = roomPokemonInstance;
         }
 
         public void GenerateMecanism(Room room)
@@ -99,7 +97,7 @@ namespace Game
             }
         }
         
-        public static Room GetRoomByGameObject(GameObject go) => generatedRooms.FirstOrDefault(room => room.RoomGO == go);
+        public Room GetRoomByGameObject(GameObject go) => generatedRooms.FirstOrDefault(room => room.RoomGO == go);
 
     }
 }

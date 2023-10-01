@@ -28,7 +28,6 @@ namespace Game
 
         private Room GenerateRoom(List<Room> generatedRooms)
         {
-            
             int randomRoom = Random.Range(0, roomManager.RoomsData.Count);
             RoomData randomRoomData = roomManager.RoomsData[randomRoom];
             
@@ -39,6 +38,7 @@ namespace Game
 
             int randomX = Random.Range(-squareSpawnSize, squareSpawnSize);
             int randomY = Random.Range(-squareSpawnSize, squareSpawnSize);
+            
 
             while (Physics2D.OverlapCircleAll(new Vector2(randomX, randomY), 25, 1 << 3).Length > 0)
             {
@@ -53,6 +53,13 @@ namespace Game
 
             room.RoomGO = roomInstance;
 
+           /* foreach (Bloc bloc in room.Blocs)
+            {
+                GameObject blocObj = new GameObject();
+                blocObj.transform.parent = room.RoomGO.transform;
+                blocObj.transform.localPosition = bloc.LocalPosition;
+            }
+*/
             return room;
             
 

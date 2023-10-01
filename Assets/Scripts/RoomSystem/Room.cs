@@ -89,9 +89,12 @@ namespace Game
             get => roomParent;
         }
 
-        public Vector2 StartCoords
+        private GameObject roomPokemon;
+
+        public GameObject RoomPokemon
         {
-            get => startCoords;
+            get => roomPokemon;
+            set => roomPokemon = value;
         }
 
         public Room(GameObject roomParent, Texture2D patternRef, Color patternGroundColor, Color patternOnOffColor, Color patternPokemonColor, Color patternVoidColor, Color patternSpawnColor, Color patternTpColor, Vector2 startCoords,List<MecanismType> allMecanisms)
@@ -150,6 +153,7 @@ namespace Game
                         {
                             blocs.Add(new BlockTp(new Vector2(startCoords.x +  j,startCoords.y +  i),new Vector2Int(i,j)));
                         }
+
                     }
                 }
             }

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Carapuce
+  m_EditorClassIdentifier: 
+  name: Carapuce
+  data:
+    id: 7
+    name:
+      english: 
+      japanese: 
+      chinese: 
+      french: Carapuce
+    type:
+    - Water
+    statbase:
+      HP: 44
+      Attack: 48
+      Defense: 65
+      SpAttack: 59
+      SpDefense: 64
+      Speed: 43
+  sprite: {fileID: 1936517473, guid: dacaf882e72e7e441b306e1aee0d726b, type: 3}
+  rarity: 0

@@ -7,7 +7,14 @@ namespace Game
 {
     public class PoolInstance : MonoBehaviour
     {
-        public GameObject bulletPrefab;
+        [SerializeField] private GameObject bulletPrefab;
+        [SerializeField] private PlayerReference playerRef;
+
+        public PlayerReference PlayerRef
+        {
+            get => playerRef;
+            set => playerRef = value;
+        }
 
         private ObjectPool<GameObject> _pool;
 
@@ -22,25 +29,29 @@ namespace Game
 
         private GameObject CreateBullet()
         {
-            Debug.Log("on create");
+            Vector3 direction = ((Player)playerRef.Instance).FirstLeader.Direction;
+            
             GameObject bulletInstance = Instantiate(bulletPrefab);
             bulletInstance.transform.parent = transform;
             bulletInstance.transform.position = transform.position;
+            bulletInstance.transform.Rotate(0,0,Vector3.Angle(bulletInstance.transform.up,direction) + 90);
             
-            bulletInstance.GetComponent<bullet>().Sender = this;
+            
             return bulletInstance;
         }
 
         private void OnTakeBullet(GameObject bullet)
         {
-            Debug.Log("take bullet");
-            bullet.transform.position = transform.position;
+            Vector3 direction = ((Player)playerRef.Instance).FirstLeader.Direction;
+            bullet.transform.position = transform.position + direction * 0.5f;
+            
+            bullet.GetComponent<bullet>().Sender = this;
+            bullet.GetComponent<bullet>().Direction = direction;
             bullet.SetActive(true);
         }
 
         private void OnReturnBullet(GameObject bullet)
         {
-            Debug.Log("return bullet");
             bullet.SetActive(false);
         }
 
