@@ -40,21 +40,12 @@ namespace Game
         public event Func<PokemonObject> OnGeneratePokemon;
         public event Func<Room,Mecanism> OnGenerateMecanism;
         public event Action<bool> OnFinishGenerateRoom;
-        private void Update()
+
+        private void Start()
         {
-            if (Input.GetKeyDown(KeyCode.G))
-            {
-                GenerateRoom();
-            }
-            
-         /*   if (_currentRoom != null && _currentRoom.HasMecanism && _currentRoom.Mecanisms.All(mecanism =>mecanism.Solve()) && !_currentRoom.HasUnlockMecanism)
-            {
-                _currentRoom.HasUnlockMecanism = true;
-                Debug.Log("solve mechanic can go to other room");// Drop Key Anim   
-            }
-           */ 
+            GenerateRoom();
         }
-        
+
         public void GenerateRoom()
         {
             int roomToGenerate = maxGenerateRoom - GeneratedRooms.Count;

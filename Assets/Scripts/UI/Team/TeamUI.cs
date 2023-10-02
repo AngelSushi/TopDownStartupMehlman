@@ -4,13 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography;
 using Codice.Client.Common.FsNodeReaders;
+using NaughtyAttributes;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Game
 {
     public class TeamUI : MonoBehaviour
     {
 
+        [SerializeField, BoxGroup("Dependencies")] private TypeSpriteConverterRef typeSpriteConverterRef;
+        
         [SerializeField] private GameObject pokemonUIPrefab;
         [SerializeField] private PlayerReference player;
 
@@ -64,6 +68,8 @@ namespace Game
         {
             Player p = (Player)player.Instance;
             _childs.Clear();
+            
+            Debug.Log("update " + followers.Count);
 
             foreach (PokemonObject pokemonObject in followers)
             {
@@ -86,6 +92,15 @@ namespace Game
                     return false;
                 });
 
+                foreach (string type in pokemonEntity?.AttachedPokemon.Data.type)
+                {
+                    GameObject typeObject = new GameObject();
+                    typeObject.transform.parent = pokemonUI.PokemonTypeParent.transform;
+                    Image image = typeObject.AddComponent<Image>();
+                    image.sprite = typeSpriteConverterRef.Instance.GetTypeSmallSpriteByName(type);
+                    typeObject.GetComponent<RectTransform>().sizeDelta = new Vector2(40, 30); 
+                }
+                
                 pokemonUI.HealthBar.Health = pokemonEntity.GetComponent<Health>();
                 pokemonUI.HealthBar.HealthText = pokemonUI.HealthText;
                 _childs.Add(initPrefab);

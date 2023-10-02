@@ -11,7 +11,13 @@ namespace Game
 
 
         [SerializeField, BoxGroup("Dependencies")] private PokemonsDataManager dataManager;
-        
+
+        public PokemonsDataManager DataManager
+        {
+            get => dataManager;
+            set => dataManager = value;
+        }
+
         [SerializeField, Required("nop")] private Health health;
         
         [SerializeField, Expandable] private PokemonObject attachedPokemon;
@@ -21,22 +27,14 @@ namespace Game
             set => attachedPokemon = value;
         }
 
-
-        private void Awake()
-        {
-        }
-
         public override void Start()
         {
             base.Start();
-                        
             attachedPokemon = dataManager.GetPokemonWithName(attachedPokemon.Name);
-            //attachedPokemon = attachedPokemon.GetClone();
-            //Debug.Log("starter " + attachedPokemon.IsStarter);
-            //attachedPokemon.Data.statbase.MaxHP = attachedPokemon.Data.statbase.HP;
             
-            health.MaxHealth = attachedPokemon.Data.statbase.HP;
-            health.CurrentHealth = health.MaxHealth;
+            
+            health.MaxHealth = attachedPokemon.Data.statbase.MaxHP;
+            health.CurrentHealth = attachedPokemon.Data.statbase.HP;
             
             if (!AttachedPokemon.IsStarter)
             {
@@ -44,17 +42,22 @@ namespace Game
             }
         }
 
-        private void Update() => attachedPokemon.Data.statbase.HP = health.CurrentHealth;
+        public override void Update()
+        { 
+            base.Update();
+            attachedPokemon.Data.statbase.HP = health.CurrentHealth;
+        }
 
         private IEnumerator Damage()
         {
             yield return new WaitForSeconds(5f);
-            health.Damage(50);
+            health.Damage(5);
 
 
             if (health.IsDead)
             {
                 Debug.Log("kill");
+                attachedPokemon.Data.statbase.HP = 0;
                 AttachedPokemon.IsDead = true;
                 Destroy(gameObject);
                 yield return null;

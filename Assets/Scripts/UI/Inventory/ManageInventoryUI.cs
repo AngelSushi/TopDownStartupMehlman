@@ -98,18 +98,6 @@ namespace Game
             
             // Faire en sorte que les 3 premiers de la liste ownedPokemons soit oujours les followers 
 
-            for (int i = 0; i < player.Followers.Count; i++)
-            {
-                if (player.Followers[i] is PokemonEntity)
-                {
-                    PokemonEntity enemy = (PokemonEntity)player.Followers[i];
-                    _showedPokemons.Remove(enemy.AttachedPokemon);
-                    _showedPokemons.Insert(i,enemy.AttachedPokemon);
-                }
-            }
-            
-            
-
             inventory.SetActive(true);
             player.IsInInventory = true;
             for (int i = 0; i < _showedPokemons.Count; i++)

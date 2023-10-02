@@ -39,11 +39,15 @@ public class PokemonObject : ScriptableObject
 
     public bool IsStarter
     {
-        get;
-        set;
+        get => isStarter;
+        set => isStarter = value;
     }
 
-    public bool IsDead { get; set; }
+    public bool IsDead
+    {
+        get => isDead; 
+        set => isDead = value;
+    }
 
     public PokemonObject GetClone()
     {

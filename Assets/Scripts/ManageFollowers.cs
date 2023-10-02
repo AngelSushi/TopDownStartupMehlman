@@ -8,6 +8,7 @@ namespace Game
     public class ManageFollowers : MonoBehaviour
     {
         [SerializeField,BoxGroup("Dependencies")] private PlayerReference playerRef;
+        [SerializeField,BoxGroup("Dependencies")] private PokemonsDataManager dataManager;
 
 
         [SerializeField] private GameObject pokemonEmptyPrefab;
@@ -16,6 +17,7 @@ namespace Game
         [SerializeField] private GameObject pokemonGrassPrefab;
         
         [SerializeField] private GameObject[] followersPokemons = new GameObject[3];
+        
 
 
         public void UpdateFollowersObject(List<PokemonObject> followers)
@@ -48,12 +50,13 @@ namespace Game
                 PokemonEntity enemy = pokemonInstance.GetComponent<PokemonEntity>();
                 enemy.AttachedPokemon = followers[i];
                 enemy.Leader = i == 0 ? p : followersPokemons[i - 1].GetComponent<EntityLiving>();
+                enemy.DataManager = dataManager;
                 pokemonInstance.name = targetPokemon.Name;
                 enemy.GetComponent<Health>().CurrentHealth = targetPokemon.Data.statbase.HP;
                 
                 pokemonInstance.transform.position = (enemy.Leader.transform.position - (Vector3)enemy.FirstLeader.Direction * 1.5f);
+                pokemonInstance.GetComponentInChildren<SpriteRenderer>().enabled = targetPokemon.Data.statbase.HP > 0;
                 
-                //
                 
                 p.Followers.Add(enemy);
                 followersPokemons[i] = pokemonInstance;

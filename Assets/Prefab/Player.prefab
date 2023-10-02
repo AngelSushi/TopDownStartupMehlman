@@ -501,7 +501,7 @@ MonoBehaviour:
   - {x: 0.2958265, y: -0.2958265, z: 0}
   m_ShapePathHash: 1522865524
   m_Mesh: {fileID: 0}
-  m_InstanceId: -1364
+  m_InstanceId: -1982
   m_LocalBounds:
     m_Center: {x: -0.011600763, y: -0.10208678, z: 0}
     m_Extent: {x: 0.30742726, y: 0.19373971, z: 0}
@@ -517,7 +517,7 @@ GameObject:
   - component: {fileID: 8953601014868764065}
   - component: {fileID: 7614427025258085240}
   m_Layer: 0
-  m_Name: HitBox
+  m_Name: CapturePokemon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -729,6 +729,30 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: -1822951649453873343, guid: e5cefaa4e334f2e47b9f80413ae93bbc, type: 3}
+  menu:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Menu
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 5facbce2-ea68-4b31-9747-1d6d0de74d01
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -512644400154031392, guid: e5cefaa4e334f2e47b9f80413ae93bbc, type: 3}
+  move:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Move
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 61d41c49-72ad-4a15-a30b-dd82dc7d7b4b
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -2129038021963824971, guid: e5cefaa4e334f2e47b9f80413ae93bbc, type: 3}
 --- !u!1 &6932267719057111452
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,8 +783,76 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9033010137048210574}
+  - {fileID: 6433007456276010979}
   m_Father: {fileID: 2349297346374642035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8130273216601678128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6433007456276010979}
+  - component: {fileID: 8684644089203556360}
+  m_Layer: 0
+  m_Name: Collision
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6433007456276010979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130273216601678128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6882977646245493928}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &8684644089203556360
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8130273216601678128}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.016147614, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.26468277
 --- !u!1 &8773001925376712554
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,14 +905,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 716ccefff6198f34eabcf2390c4c1fad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 6274706908402581661}
   roomManager: {fileID: 11400000, guid: d8ef3c71804057b4c981adbd85e1def7, type: 2}
   leader: {fileID: 0}
-  _followers: []
+  _followers:
+  - {fileID: 0}
+  - {fileID: 0}
   canBeCaptured: 0
   speed: 5
-  action: {fileID: -2129038021963824971, guid: e5cefaa4e334f2e47b9f80413ae93bbc, type: 3}
-  ownedPokemons: []
+  ownedPokemons:
+  - {fileID: 11400000, guid: 2856260ce5a0dd34eb0f42d0db4c3786, type: 2}
+  - {fileID: 11400000, guid: afa63f31294d02f40ac226a9d6122ccd, type: 2}
+  - {fileID: 11400000, guid: 489e79576e547db46a2af8124bef47e3, type: 2}
+  - {fileID: 11400000, guid: 29db355a332409648b3b9519d952aea7, type: 2}
+  - {fileID: 11400000, guid: 5850ed823380641449f859b532ea3521, type: 2}
+  seenPokemons: []
+  isInInventory: 0
+  manageFollowers: {fileID: 0}
 --- !u!114 &6274706908402581661
 MonoBehaviour:
   m_ObjectHideFlags: 0

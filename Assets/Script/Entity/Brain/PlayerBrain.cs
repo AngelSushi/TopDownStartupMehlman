@@ -32,13 +32,10 @@ public static class AnimationExtension
 
 public class PlayerBrain : MonoBehaviour
 {
-    [SerializeField, BoxGroup("Dependencies")] private EntityMovement _movement;
 
     [SerializeField, BoxGroup("Dependencies")] private PlayerReference playerRef;
     
     [SerializeField] private EntityLiving leader;
-
-    [SerializeField, BoxGroup("Input")] InputActionProperty _moveInput;
 
     [SerializeField, BoxGroup("Input")] private InputActionProperty moveFirst;
     [SerializeField, BoxGroup("Input")] private InputActionProperty moveSecond;
@@ -54,6 +51,8 @@ public class PlayerBrain : MonoBehaviour
 
     [SerializeField, BoxGroup("Input")] private InputActionProperty move;
 
+    private EntityLiving _currentController;
+
     private void Start()
     { 
         moveFirst.action.started += SwitchFirst;
@@ -66,11 +65,9 @@ public class PlayerBrain : MonoBehaviour
         push.action.performed += OnPushPerf;
         menu.action.started += OnOpenInventory;
         
-        
         move.action.started += OnMove;
         move.action.performed += OnMove;
         move.action.canceled += OnMove;
-
     }
 
    
@@ -87,11 +84,9 @@ public class PlayerBrain : MonoBehaviour
         push.action.performed -= OnPushPerf;
         menu.action.started -= OnOpenInventory;
         
-        
         move.action.started += OnMove;
         move.action.performed += OnMove;
         move.action.canceled += OnMove;
-
     }
     
     private void OnOpenInventory(InputAction.CallbackContext obj)
@@ -117,7 +112,7 @@ public class PlayerBrain : MonoBehaviour
             return;
         }
         
-        ((Player)playerRef.Instance).LaunchAttack(leader.HasLeader ? leader.FirstLeader : leader);
+      //  ((Player)playerRef.Instance).LaunchAttack(leader.HasLeader ? leader.FirstLeader : leader);
     }
 
     private void OnPush(InputAction.CallbackContext e)
@@ -141,7 +136,12 @@ public class PlayerBrain : MonoBehaviour
         Debug.Log("perff");
     }
 
-    private void SwitchFirst(InputAction.CallbackContext e) => SwitchLeader(0);
+    private void SwitchFirst(InputAction.CallbackContext e)
+    {
+        Debug.Log("switch first");
+        SwitchLeader(0);
+    } 
+    
     private void SwitchSecond(InputAction.CallbackContext e) => SwitchLeader(1);
     private void SwitchThird(InputAction.CallbackContext e) => SwitchLeader(2);
     private void SwitchFourth(InputAction.CallbackContext e) => SwitchLeader(3);
@@ -154,6 +154,16 @@ public class PlayerBrain : MonoBehaviour
         {
             return;
         }
+        
+        
+      /*  Debug.Log("switch");
+        
+        if (((Player)playerRef.Instance).IsInInventory)
+        {
+            return;
+        }
+        
+        
         
         EntityLiving newLeader = leader.Followers[newLeaderIndex];
         leader.IsMoving = false;
@@ -173,16 +183,18 @@ public class PlayerBrain : MonoBehaviour
             if (i - 1 >= 0)
             {
                 Debug.Log("entity " + newLeader.Followers[i].name +" with leader " + newLeader.Followers[i-1].name);
-             //   newLeader.Followers[i].Leader = newLeader.Followers[i - 1];   
+              //  newLeader.Followers[i].Leader = newLeader.Followers[i - 1];   
             }
             
         }
 
         leader = newLeader;
-        newLeader.Leader = null;
+     //   newLeader.Leader = null;
       //player.Followers = order;   
         
         FindObjectOfType<CameraBinder>().Cam.Follow = leader.transform; // A ENLEVER AIE AIE AIE 
+        
+        */
     }
     
     protected void OnMove(InputAction.CallbackContext e)
@@ -193,8 +205,21 @@ public class PlayerBrain : MonoBehaviour
         {
             return;
         }
+
+
+        if (e.started)
+        {
+            _currentController.IsMoving = true;
+        }
+
+        if (e.canceled)
+        {
+            _currentController.IsMoving = false;
+        }
         
-        if (p.HasLeader)
+        
+        
+       /* if (p.HasLeader)
         {
             if (e.started)
             {
@@ -230,5 +255,6 @@ public class PlayerBrain : MonoBehaviour
                 p.StopMove();
             }
         }
+        */
     }
 }

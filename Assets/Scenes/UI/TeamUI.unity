@@ -238,6 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68b56f75b021bc4b9d0f50bcbbddb55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typeSpriteConverterRef: {fileID: 11400000, guid: 34ed71a14f137c64ba58261195399248, type: 2}
   pokemonUIPrefab: {fileID: 1273909766034573210, guid: 447ea1678cad6a6409a98db05e97ac79, type: 3}
   player: {fileID: 11400000, guid: a17ad5991bc00fc41991e8b0cba566bf, type: 2}
 --- !u!1 &1221154547

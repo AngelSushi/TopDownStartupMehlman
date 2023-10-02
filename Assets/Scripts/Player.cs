@@ -43,13 +43,15 @@ namespace Game
         {
             base.Start();
             roomManager.Instance.OnFinishGenerateRoom += OnFinishGenerateRoom;
-            
+
+            int index = 0;
             foreach (EntityLiving pokemonEntity in Followers)
             {
                 if (pokemonEntity is PokemonEntity)
                 {
                     PokemonEntity enemy = (PokemonEntity)pokemonEntity;
-                    OwnedPokemons.Add(enemy.AttachedPokemon);
+                    OwnedPokemons.Insert(index,enemy.AttachedPokemon);
+                    index++;
                     enemy.gameObject.SetActive(true);
                 }
             }

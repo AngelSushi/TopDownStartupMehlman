@@ -19,7 +19,7 @@ namespace Game
             set => isMoving = value;
         }
         
-        [SerializeField] protected EntityLiving leader;
+      /*  [SerializeField] protected EntityLiving leader;
 
         public EntityLiving Leader
         {
@@ -32,10 +32,12 @@ namespace Game
             get
             {
                 EntityLiving newLeader = leader;
+                int maxCount = 0;
 
-                while (newLeader != null && newLeader.leader != null)
+                while (newLeader != null && newLeader.leader != null && maxCount < 3) // 3 cause there is max 3 followers 
                 {
                     newLeader = newLeader.leader;
+                    maxCount++;
                 }
 
                 return newLeader;
@@ -46,7 +48,9 @@ namespace Game
         {
             get => FirstLeader != null;
         }
-        
+        */
+      
+      
         protected Vector2 direction;
 
         public Vector2 Direction
@@ -66,7 +70,10 @@ namespace Game
         [SerializeField] private bool canBeCaptured;
 
         protected Rigidbody2D rb;
-        [SerializeField] protected float speed;
+        
+        // 5 , 7 , 9 , 11
+        [SerializeField] private float initialSpeed;
+        private Alterable<float> _speed;
 
         private Room _currentRoom;
         
@@ -121,20 +128,26 @@ namespace Game
 
         public virtual void Start()
         { 
-            AttachFollowers();
+           // AttachFollowers();
             rb = GetComponent<Rigidbody2D>();
+            _speed = new Alterable<float>(initialSpeed);
         }
 
         public virtual void Update()
         {
+            
+            /*Debug.Log("from " + gameObject.name + " FirstLeader " + FirstLeader?.name);
+            
             if ((this is Player || canBeCaptured) && (isMoving || (HasLeader && FirstLeader.isMoving)))
             {
                 Move();
             }
+            */
         }
 
         public virtual void Move()
         {
+          /*  Debug.Log("move from " + gameObject.name);
             if (HasLeader)
             {
                 if (FirstLeader is Player)
@@ -143,9 +156,10 @@ namespace Game
                 }
             }
             else
-            {
-                rb.velocity = direction * speed;
-            }
+            {*/
+                Debug.Log("speed " + _speed.CalculateValue());
+                rb.velocity = direction * _speed.CalculateValue();
+           // }
             
         }
 
@@ -153,46 +167,36 @@ namespace Game
         
         
 
-        private void AttachFollowers()
+      /*  private void AttachFollowers()
         {
             if (HasLeader && !FirstLeader.Followers.Contains(this))
             {
                 FirstLeader.Followers.Add(this);
             }    
         }
-
+*/
         private void OnTriggerEnter2D(Collider2D col)
         {
-            if (!HasLeader)
+            if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
             {
-                if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
+                if (col.gameObject.TryGetComponent(out OnOff onOff))
                 {
-                    if (col.gameObject.TryGetComponent(out OnOff onOff))
-                    {
-                        Debug.Log("on");
-                        onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,true);
-                        onOff.TurnSprite();
-                    }
-                    
-                    
+                    Debug.Log("on");
+                    onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,true);
+                    onOff.TurnSprite();
                 }
             }
         }
 
         private void OnTriggerExit2D(Collider2D col)
         {
-            if (!HasLeader)
+            if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
             {
-                if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))
+                if (col.gameObject.TryGetComponent(out OnOff onOff))
                 {
-                    if (col.gameObject.TryGetComponent(out OnOff onOff))
-                    {
-                        Debug.Log("off");
-                        onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,false);
-                        onOff.TurnSprite();
-                    }
-                    
-                    
+                    Debug.Log("off");
+                    onOff.Actualize(CurrentRoom,col.gameObject.transform.localPosition,false);
+                    onOff.TurnSprite();
                 }
             }
         }
