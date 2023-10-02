@@ -34,6 +34,7 @@ public class PokemonName
 public class PokemonBaseStat
 {
     public int HP;
+    public int MaxHP;
     public int Attack;
     public int Defense;
     public int SpAttack;

@@ -11,6 +11,8 @@ namespace Game
         [SerializeField] private Image pokemonSprite;
         [SerializeField] private TextMeshProUGUI pokemonName;
         [SerializeField] private GameObject pokemonTypeParent;
+        [SerializeField] private HealthBar healthBar;
+        [SerializeField] private TextMeshProUGUI healthText;
 
         public Image PokemonSprite
         {
@@ -28,6 +30,18 @@ namespace Game
         {
             get => pokemonTypeParent;
             set => pokemonTypeParent = value;
+        }
+
+        public HealthBar HealthBar
+        {
+            get => healthBar;
+            set => healthBar = value;
+        }
+
+        public TextMeshProUGUI HealthText
+        {
+            get => healthText;
+            set => healthText = value;
         }
     }
 }

@@ -46,9 +46,9 @@ namespace Game
             
             foreach (EntityLiving pokemonEntity in Followers)
             {
-                if (pokemonEntity is Enemy)
+                if (pokemonEntity is PokemonEntity)
                 {
-                    Enemy enemy = (Enemy)pokemonEntity;
+                    PokemonEntity enemy = (PokemonEntity)pokemonEntity;
                     OwnedPokemons.Add(enemy.AttachedPokemon);
                     enemy.gameObject.SetActive(true);
                 }
@@ -108,8 +108,8 @@ namespace Game
             else
             {
                 List<PokemonObject> newFollowers = OnCloseInventory?.Invoke(this);
-                OnUpdateFollowers?.Invoke(newFollowers);
                 manageFollowers.UpdateFollowersObject(newFollowers);
+                OnUpdateFollowers?.Invoke(newFollowers);
             }
         }
     }

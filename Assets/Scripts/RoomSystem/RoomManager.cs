@@ -82,7 +82,7 @@ namespace Game
             GameObject roomPokemonInstance = Instantiate(pokemonPrefab, room.RoomGO.transform);
             roomPokemonInstance.transform.localPosition = room.Blocs.First(bloc => bloc is BlocPokemon).LocalPosition;
             roomPokemonInstance.GetComponentInChildren<SpriteRenderer>().sprite = roomPokemon.Sprite;
-            roomPokemonInstance.GetComponent<Enemy>().AttachedPokemon = roomPokemon;
+            roomPokemonInstance.GetComponent<PokemonEntity>().AttachedPokemon = roomPokemon;
             roomPokemonInstance.SetActive(!room.HasMecanism);
             room.RoomPokemon = roomPokemonInstance;
         }

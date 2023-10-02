@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,11 +6,12 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "PokemonData/Create Pokemon", fileName = "Create Pokemon")]
 public class PokemonObject : ScriptableObject
 {
-
     [SerializeField] private string name;
     [SerializeField] private Pokemon data;
     [SerializeField] private Sprite sprite;
     [SerializeField] private int rarity;
+    [SerializeField] private bool isStarter;
+    [SerializeField] private bool isDead;
 
     public int Rarity
     {
@@ -34,4 +36,25 @@ public class PokemonObject : ScriptableObject
         get => sprite;
         set => sprite = value;
     }
+
+    public bool IsStarter
+    {
+        get;
+        set;
+    }
+
+    public bool IsDead { get; set; }
+
+    public PokemonObject GetClone()
+    {
+        var t = ScriptableObject.CreateInstance<PokemonObject>();
+        t.name = name;
+        t.Data = data;
+        t.Sprite = sprite;
+        t.Rarity = rarity;
+        t.IsStarter = isStarter;
+        t.IsDead = isDead;
+        return t;
+    }
+
 }

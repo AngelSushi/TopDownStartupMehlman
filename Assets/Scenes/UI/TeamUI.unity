@@ -238,7 +238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f68b56f75b021bc4b9d0f50bcbbddb55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pokemonUIPrefab: {fileID: 8461073740420838428, guid: ac3a08efa5ef75a49b58105668a8d80f, type: 3}
+  pokemonUIPrefab: {fileID: 1273909766034573210, guid: 447ea1678cad6a6409a98db05e97ac79, type: 3}
   player: {fileID: 11400000, guid: a17ad5991bc00fc41991e8b0cba566bf, type: 2}
 --- !u!1 &1221154547
 GameObject:

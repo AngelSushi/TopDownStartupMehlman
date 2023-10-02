@@ -29,7 +29,7 @@ namespace Game
             {
                 Debug.Log("collide with pokemon");
 
-                if (pokemonCollider.gameObject.TryGetComponent(out Enemy enemy))
+                if (pokemonCollider.gameObject.TryGetComponent(out PokemonEntity enemy))
                 {
                     if (!player.OwnedPokemons.Contains(enemy.AttachedPokemon))
                     {

@@ -32,3 +32,4 @@ MonoBehaviour:
       Speed: 45
   sprite: {fileID: 1936863588, guid: dacaf882e72e7e441b306e1aee0d726b, type: 3}
   rarity: 0
+  isStarter: 1

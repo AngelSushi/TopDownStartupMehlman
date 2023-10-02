@@ -16,10 +16,15 @@ public class Health : MonoBehaviour, IHealth
     public int CurrentHealth 
     {
         get;
-        private set;
+        set;
     }
-    public bool IsDead => CurrentHealth > 0;
-    public int MaxHealth { get => _maxHealth; }
+    public bool IsDead => CurrentHealth == 0;
+
+    public int MaxHealth
+    {
+        get => _maxHealth;
+        set => _maxHealth = value;
+    }
 
     public event Action<int> OnDamage;
     public event Action<int> OnRegen;
@@ -29,7 +34,7 @@ public class Health : MonoBehaviour, IHealth
     {
         Assert.IsTrue(amount >= 0);
         if (IsDead) return;
-
+        
         CurrentHealth = Mathf.Max(0, CurrentHealth - amount);
         OnDamage?.Invoke(amount);
     }

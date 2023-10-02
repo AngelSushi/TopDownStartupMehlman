@@ -196,13 +196,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d974407230b9ba54b920446d19045203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 618112974327559999}
   roomManager: {fileID: 11400000, guid: d8ef3c71804057b4c981adbd85e1def7, type: 2}
   leader: {fileID: 0}
   _followers: []
   canBeCaptured: 1
   speed: 5
+  health: {fileID: 618112974327559999}
   attachedPokemon: {fileID: 0}
+  isStarter: 0
 --- !u!114 &618112974327559999
 MonoBehaviour:
   m_ObjectHideFlags: 0

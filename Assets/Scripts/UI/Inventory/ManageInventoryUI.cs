@@ -100,10 +100,9 @@ namespace Game
 
             for (int i = 0; i < player.Followers.Count; i++)
             {
-                if (player.Followers[i] is Enemy)
+                if (player.Followers[i] is PokemonEntity)
                 {
-                    Debug.Log("open inventory " + i);
-                    Enemy enemy = (Enemy)player.Followers[i];
+                    PokemonEntity enemy = (PokemonEntity)player.Followers[i];
                     _showedPokemons.Remove(enemy.AttachedPokemon);
                     _showedPokemons.Insert(i,enemy.AttachedPokemon);
                 }

@@ -45,12 +45,17 @@ namespace Game
 
                 GameObject pokemonInstance = Instantiate(pokemon);
                 pokemonInstance.GetComponentInChildren<SpriteRenderer>().sprite = targetPokemon.Sprite;
-                Enemy enemy = pokemonInstance.GetComponent<Enemy>();
+                PokemonEntity enemy = pokemonInstance.GetComponent<PokemonEntity>();
                 enemy.AttachedPokemon = followers[i];
                 enemy.Leader = i == 0 ? p : followersPokemons[i - 1].GetComponent<EntityLiving>();
                 pokemonInstance.name = targetPokemon.Name;
+                enemy.GetComponent<Health>().CurrentHealth = targetPokemon.Data.statbase.HP;
                 
                 pokemonInstance.transform.position = (enemy.Leader.transform.position - (Vector3)enemy.FirstLeader.Direction * 1.5f);
+                
+                //
+                
+                p.Followers.Add(enemy);
                 followersPokemons[i] = pokemonInstance;
             }
         }

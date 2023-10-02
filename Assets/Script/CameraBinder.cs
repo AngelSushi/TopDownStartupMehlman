@@ -26,8 +26,6 @@ public class CameraBinder : MonoBehaviour
     private void OnDestroy()
     {
         _playerRef.OnValueChanged -= UpdateCameraFollow;
-        
-        Debug.Log("leave");
     }
 
     private void UpdateCameraFollow(Entity obj,Entity last)
