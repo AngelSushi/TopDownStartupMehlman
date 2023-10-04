@@ -14,21 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Artikodin
   data:
-    id: 144
+    id: 0
     name:
-      english: Articuno
-      japanese: ?????
-      chinese: ???
-      french: Artikodin
+      english: a
+      japanese: <>a
+      chinese: z
+      french: d
     type:
     - Ice
     - Flying
     statbase:
-      HP: 90
-      Attack: 85
-      Defense: 100
-      SpAttack: 95
-      SpDefense: 125
+      HP: 1
+      MaxHP: 1
+      Attack: 1
+      Defense: 1
+      SpAttack: 4
+      SpDefense: 24
       Speed: 85
+    rarity: 0
+    isStarter: 0
+    isDead: 0
   sprite: {fileID: -1130788099, guid: b6a5439b87e28774cb491a0e488a6c39, type: 3}
   rarity: 5
+  isStarter: 0
+  isDead: 0

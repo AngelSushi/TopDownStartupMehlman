@@ -14,21 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Amonita
   data:
-    id: 138
+    id: 0
     name:
-      english: Omanyte
-      japanese: ?????
-      chinese: ???
-      french: Amonita
+      english: '&'
+      japanese: '&'
+      chinese: '&'
+      french: q
     type:
     - Rock
     - Water
     statbase:
-      HP: 35
-      Attack: 40
-      Defense: 100
+      HP: 1
+      MaxHP: 2
+      Attack: 1
+      Defense: 3
       SpAttack: 90
       SpDefense: 55
       Speed: 35
+    rarity: 0
+    isStarter: 0
+    isDead: 0
   sprite: {fileID: 1578736399, guid: 48f978bde3dbdcb45b32f0d4f3babf6d, type: 3}
   rarity: 100
+  isStarter: 0
+  isDead: 0

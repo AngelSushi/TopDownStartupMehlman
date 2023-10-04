@@ -13,6 +13,8 @@ namespace Game
 
         private Player _player;
 
+        private List<object> _pokemonBoosts = new List<object>();
+
         private void Start()
         {
             eventRef.Instance.OnSwitchPokemonTeam += OnSwitchPokemonTeam;
@@ -28,6 +30,20 @@ namespace Game
         {
             if(_player != null)
             {
+                foreach (EntityLiving entity in newTeam)
+                {
+                    if (entity is PokemonEntity)
+                    {
+                        PokemonEntity pokemon = (PokemonEntity)entity;
+
+                        foreach (string type in pokemon.AttachedPokemon.Data.type)
+                        {
+                            
+                        }
+                    }
+                }
+                
+                
                // _player.Speed.RemoveTransformator();
             }
         }

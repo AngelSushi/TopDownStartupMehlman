@@ -75,7 +75,7 @@ namespace Game
                 PokemonUI pokemonUI = initPrefab.GetComponent<PokemonUI>();
 
                 pokemonUI.PokemonSprite.sprite = pokemonObject.Sprite;
-                pokemonUI.PokemonName.text = pokemonObject.Data.name.french;
+               
 
                 PokemonEntity pokemonEntity = (PokemonEntity)p.Followers.FirstOrDefault(pokemonEntity =>
                 {
@@ -102,6 +102,10 @@ namespace Game
                     typeObject.GetComponent<RectTransform>().sizeDelta = new Vector2(40, 30); 
                 }
                 
+                Debug.Log("pokemonEntity " + pokemonEntity.AttachedPokemon.Data.name.french);
+                Debug.Log("pokemonEntityData " + pokemonEntity.AttachedPokemon.Data);
+                
+                pokemonUI.PokemonName.text = pokemonEntity.AttachedPokemon.Data.name.french;
                 pokemonUI.HealthBar.Health = pokemonEntity.GetComponent<Health>();
                 pokemonUI.HealthBar.HealthText = pokemonUI.HealthText;
                 _childs.Add(initPrefab);

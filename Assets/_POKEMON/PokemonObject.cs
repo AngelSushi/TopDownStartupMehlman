@@ -9,15 +9,7 @@ public class PokemonObject : ScriptableObject
     [SerializeField] private string name;
     [SerializeField] private Pokemon data;
     [SerializeField] private Sprite sprite;
-    [SerializeField] private int rarity;
-    [SerializeField] private bool isStarter;
-    [SerializeField] private bool isDead;
 
-    public int Rarity
-    {
-        get => rarity;
-        set => rarity = value;
-    }
 
     public string Name
     {
@@ -37,17 +29,7 @@ public class PokemonObject : ScriptableObject
         set => sprite = value;
     }
 
-    public bool IsStarter
-    {
-        get => isStarter;
-        set => isStarter = value;
-    }
 
-    public bool IsDead
-    {
-        get => isDead; 
-        set => isDead = value;
-    }
 
     public PokemonObject GetClone()
     {
@@ -55,9 +37,7 @@ public class PokemonObject : ScriptableObject
         t.name = name;
         t.Data = data;
         t.Sprite = sprite;
-        t.Rarity = rarity;
-        t.IsStarter = isStarter;
-        t.IsDead = isDead;
+        
         return t;
     }
 

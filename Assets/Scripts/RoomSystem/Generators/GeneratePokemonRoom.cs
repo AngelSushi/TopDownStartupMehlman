@@ -14,9 +14,12 @@ namespace Game
         [SerializeField] private List<PokemonObject> pokemons;
 
 
+        [SerializeField] private PokemonsDataManager manager;
         private void Start()
         {
             roomManager.OnGeneratePokemon += OnGeneratePokemon;
+            
+            Debug.Log("pokemon " + manager.GetPokemonWithName("Pikachu") + " rarity " + manager.GetPokemonWithName("Pikachu").Data.rarity);
         }
 
         private void OnDestroy()
@@ -32,9 +35,12 @@ namespace Game
 
             foreach (PokemonObject pokemon in pokemons)
             {
-                if (random <= pokemon.Rarity)
+                
+                Debug.Log("rarity " + pokemon.Data.rarity);
+                
+                if (random <= pokemon.Data.rarity)
                 {
-                    for (int i = 0; i < pokemon.Rarity; i++)
+                    for (int i = 0; i < pokemon.Data.rarity; i++)
                     {
                         possiblePokemons.Add(pokemon);
                     }
@@ -42,8 +48,10 @@ namespace Game
             }
 
             int randomPokIndex = Random.Range(0, possiblePokemons.Count - 1);
+            
+            Debug.Log("randomPok " + randomPokIndex  + " count " + possiblePokemons.Count);
 
-            return possiblePokemons[randomPokIndex];
+            return randomPokIndex < possiblePokemons.Count ? possiblePokemons[randomPokIndex] : null;
         }
     }
 }

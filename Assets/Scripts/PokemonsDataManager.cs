@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using NaughtyAttributes;
 using UnityEngine;
+using UnityEngine.Assertions;
 
 namespace Game
 {
@@ -12,16 +13,21 @@ namespace Game
         [SerializeField] private List<PokemonObject> allPokemons;
 
         [SerializeField, Expandable] public List<PokemonObject> datasPokemon;
+        [SerializeField] private DataReader reader;
         private void Awake()
         {
             foreach (PokemonObject pokemon in allPokemons)
             {
                 PokemonObject pokemonInstance = pokemon.GetClone();
-                pokemonInstance.Data.statbase.MaxHP = pokemonInstance.Data.statbase.HP;
+                pokemonInstance.Data = reader.GetPokemonByName(pokemon.Name);
+                Assert.IsNotNull(pokemonInstance.Data);
+              //  pokemonInstance.Data.statbase.MaxHP = pokemonInstance.Data.statbase.HP;
                 datasPokemon.Add(pokemonInstance);
             }
+            
+            Debug.Log("finish generate clone");
         }
 
-        public PokemonObject GetPokemonWithName(string pokemonName) => datasPokemon.FirstOrDefault(pokemon => pokemon.Name.Equals(pokemonName));
+        public PokemonObject GetPokemonWithName(string pokemonName) => datasPokemon.FirstOrDefault(pokemon => pokemon.Name.ToLower().Equals(pokemonName.ToLower()));
     }
 }

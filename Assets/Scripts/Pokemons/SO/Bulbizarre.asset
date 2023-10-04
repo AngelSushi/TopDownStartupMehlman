@@ -14,22 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Bulbizarre
   data:
-    id: 1
+    id: 0
     name:
-      english: 
-      japanese: 
-      chinese: 
+      english: Bulbasaur
+      japanese: ????
+      chinese: ????
       french: Bulbizarre
     type:
     - Grass
     - Poison
     statbase:
-      HP: 45
-      Attack: 49
-      Defense: 49
-      SpAttack: 65
-      SpDefense: 65
+      HP: 1
+      MaxHP: 1
+      Attack: 1
+      Defense: 1
+      SpAttack: 4
+      SpDefense: 24
       Speed: 45
+    rarity: 0
+    isStarter: 0
+    isDead: 0
   sprite: {fileID: 1936863588, guid: dacaf882e72e7e441b306e1aee0d726b, type: 3}
   rarity: 0
   isStarter: 1
+  isDead: 0

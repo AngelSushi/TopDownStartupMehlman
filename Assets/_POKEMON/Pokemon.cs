@@ -17,6 +17,9 @@ public class Pokemon
     public PokemonName name;
     public string[] type;
     public PokemonBaseStat statbase;
+    public int rarity;
+    public bool isStarter;
+    public bool isDead;
 
     public override string ToString() => $"{id} {name.english}";
 }

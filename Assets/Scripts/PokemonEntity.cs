@@ -39,13 +39,12 @@ namespace Game
         {
             base.Start();
             dataManager = FindObjectOfType<PokemonsDataManager>(); // Ask if good
+           
             attachedPokemon = dataManager.GetPokemonWithName(attachedPokemon.Name);
-            
-            
             health.MaxHealth = attachedPokemon.Data.statbase.MaxHP;
             health.CurrentHealth = attachedPokemon.Data.statbase.HP;
             
-            if (!AttachedPokemon.IsStarter)
+            if (!AttachedPokemon.Data.isStarter)
             {
                 StartCoroutine(Damage());   
             }
@@ -54,7 +53,10 @@ namespace Game
         public override void Update()
         { 
             base.Update();
-            attachedPokemon.Data.statbase.HP = health.CurrentHealth;
+            
+         //   Debug.Log("data " + attachedPokemon.Data);
+            
+           // attachedPokemon.Data.statbase.HP = health.CurrentHealth;
 
             if(canFollow && leader != null)
             {
@@ -67,14 +69,13 @@ namespace Game
         private IEnumerator Damage()
         {
             yield return new WaitForSeconds(5f);
-            health.Damage(5);
+            health.Damage(1);
 
 
             if (health.IsDead)
             {
-                Debug.Log("kill");
                 attachedPokemon.Data.statbase.HP = 0;
-                AttachedPokemon.IsDead = true;
+                AttachedPokemon.Data.isDead = true;
                 Destroy(gameObject);
                 yield return null;
             }

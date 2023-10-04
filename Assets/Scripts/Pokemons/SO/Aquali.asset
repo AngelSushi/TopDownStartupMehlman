@@ -14,20 +14,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Aquali
   data:
-    id: 134
+    id: 0
     name:
-      english: Vaporeon
-      japanese: ?????
-      chinese: ???
-      french: Aquali
+      english: a
+      japanese: <>a
+      chinese: z
+      french: d
     type:
     - Water
     statbase:
-      HP: 130
-      Attack: 65
-      Defense: 60
-      SpAttack: 110
-      SpDefense: 95
+      HP: 1
+      MaxHP: 1
+      Attack: 1
+      Defense: 1
+      SpAttack: 4
+      SpDefense: 24
       Speed: 65
+    rarity: 0
+    isStarter: 0
+    isDead: 0
   sprite: {fileID: 1462307727, guid: 876deaa24d3ea6a4984475828ce45a23, type: 3}
   rarity: 25
+  isStarter: 0
+  isDead: 0
