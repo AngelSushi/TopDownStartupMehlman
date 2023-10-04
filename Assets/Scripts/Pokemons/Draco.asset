@@ -24,10 +24,13 @@ MonoBehaviour:
     - Dragon
     statbase:
       HP: 61
+      MaxHP: 0
       Attack: 84
       Defense: 65
       SpAttack: 70
       SpDefense: 70
       Speed: 70
-  sprite: {fileID: -482934142, guid: 90b9f4d2db9314649b1c42cd0db77e9f, type: 3}
-  rarity: 40
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Miaouss
+  m_EditorClassIdentifier: 
+  name: Miaouss
+  data:
+    id: 52
+    name:
+      english: Meowth
+      japanese: ????
+      chinese: ??
+      french: Miaouss
+    type:
+    - Normal
+    statbase:
+      HP: 40
+      Attack: 45
+      Defense: 35
+      SpAttack: 40
+      SpDefense: 40
+      Speed: 90
+  sprite: {fileID: -1349209360, guid: eabf0d4416feb4a4db6b5956bd78db75, type: 3}
+  rarity: 7

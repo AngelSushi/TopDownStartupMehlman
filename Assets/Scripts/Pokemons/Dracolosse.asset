@@ -25,10 +25,13 @@ MonoBehaviour:
     - Flying
     statbase:
       HP: 91
+      MaxHP: 0
       Attack: 134
       Defense: 95
       SpAttack: 100
       SpDefense: 100
       Speed: 80
-  sprite: {fileID: -1389243803, guid: 90b9f4d2db9314649b1c42cd0db77e9f, type: 3}
-  rarity: 25
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

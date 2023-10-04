@@ -24,10 +24,13 @@ MonoBehaviour:
     - Water
     statbase:
       HP: 20
+      MaxHP: 0
       Attack: 10
       Defense: 55
       SpAttack: 15
       SpDefense: 20
       Speed: 80
-  sprite: {fileID: -1270111887, guid: 15a8080d63376794bacc3014a00377dc, type: 3}
-  rarity: 100
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

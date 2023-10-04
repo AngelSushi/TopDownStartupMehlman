@@ -42,15 +42,6 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "SwitchFourth",
-                    "type": "Button",
-                    "id": "100dd780-54ee-4c71-bb31-8216ffc8555b",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Attack",
                     "type": "Button",
                     "id": "6a7f778a-250d-49ff-9d94-ad0002e4f420",
@@ -173,17 +164,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "SwitchThird",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "15cb75e5-058e-4bc4-bc64-0395028a4307",
-                    "path": "<Keyboard>/f4",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "SwitchFourth",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },

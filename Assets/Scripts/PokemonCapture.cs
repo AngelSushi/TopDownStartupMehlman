@@ -29,14 +29,28 @@ namespace Game
             {
                 Debug.Log("collide with pokemon");
 
-                if (pokemonCollider.gameObject.TryGetComponent(out PokemonEntity enemy))
+                if (pokemonCollider.gameObject.TryGetComponent(out PokemonEntity pokemonEntity))
                 {
-                    if (!player.OwnedPokemons.Contains(enemy.AttachedPokemon))
+                    if (!player.OwnedPokemons.Contains(pokemonEntity.AttachedPokemon))
                     {
-                        player.OwnedPokemons.Add(enemy.AttachedPokemon);
+                        player.OwnedPokemons.Add(pokemonEntity.AttachedPokemon);
+                        Destroy(pokemonCollider.gameObject);
+                    }
+                    else
+                    {
+                        if(player.Followers.Contains(pokemonEntity))
+                        {
+                            // Récupérer le dernier pokémon qui a un leader
+                            PokemonEntity lastFollower = (PokemonEntity)player.Followers.FindLast(pokemon => pokemon.Leader != null);
+                            pokemonEntity.Leader = lastFollower;
+                        }
+                        else
+                        {
+                            Destroy(pokemonCollider.gameObject);
+                        }
                     }
                     
-                    Destroy(pokemonCollider.gameObject);   
+                  
                 }
             }
         }

@@ -24,10 +24,13 @@ MonoBehaviour:
     - Fire
     statbase:
       HP: 65
+      MaxHP: 0
       Attack: 130
       Defense: 60
       SpAttack: 95
       SpDefense: 110
       Speed: 65
-  sprite: {fileID: 948687349, guid: 876deaa24d3ea6a4984475828ce45a23, type: 3}
-  rarity: 25
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

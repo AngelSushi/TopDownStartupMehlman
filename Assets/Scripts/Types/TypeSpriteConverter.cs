@@ -13,59 +13,62 @@ namespace Game
         {
             switch (name.ToLower())
             {
-                case "normal":
+                case "unknown":
                     return typesSprite[0];
-                
-                case "fighting":
+
+                case "normal":
                     return typesSprite[1];
                 
-                case "flying":
+                case "fighting":
                     return typesSprite[2];
                 
-                case "poison":
+                case "flying":
                     return typesSprite[3];
                 
-                case "ground":
+                case "poison":
                     return typesSprite[4];
                 
-                case "rock":
+                case "ground":
                     return typesSprite[5];
                 
-                case "ghost":
+                case "rock":
                     return typesSprite[6];
                 
-                case "steel":
+                case "ghost":
                     return typesSprite[7];
                 
-                case "fire":
+                case "steel":
                     return typesSprite[8];
                 
-                case "water":
+                case "fire":
                     return typesSprite[9];
                 
-                case "grass":
+                case "water":
                     return typesSprite[10];
                 
-                case "electric":
+                case "grass":
                     return typesSprite[11];
                 
-                case "psychic":
+                case "electric":
                     return typesSprite[12];
                 
-                case "ice":
+                case "psychic":
                     return typesSprite[13];
                 
-                case "dragon":
+                case "ice":
                     return typesSprite[14];
                 
-                case "dark":
+                case "dragon":
                     return typesSprite[15];
                 
-                case "fairy":
+                case "dark":
                     return typesSprite[16];
+                
+                case "fairy":
+                    return typesSprite[17];
 
                 default:
-                    return typesSprite[17];
+                    return typesSprite[18];
             }
         }
 
@@ -73,59 +76,62 @@ namespace Game
         {
             switch (name.ToLower())
             {
-                case "normal":
+                case "unknown":
                     return typesSmallSprite[0];
 
-                case "fighting":
+                case "normal":
                     return typesSmallSprite[1];
 
-                case "flying":
+                case "fighting":
                     return typesSmallSprite[2];
 
-                case "poison":
+                case "flying":
                     return typesSmallSprite[3];
 
-                case "ground":
+                case "poison":
                     return typesSmallSprite[4];
 
-                case "rock":
+                case "ground":
                     return typesSmallSprite[5];
 
-                case "ghost":
+                case "rock":
                     return typesSmallSprite[6];
 
-                case "steel":
+                case "ghost":
                     return typesSmallSprite[7];
 
-                case "fire":
+                case "steel":
                     return typesSmallSprite[8];
 
-                case "water":
+                case "fire":
                     return typesSmallSprite[9];
 
-                case "grass":
+                case "water":
                     return typesSmallSprite[10];
 
-                case "electric":
+                case "grass":
                     return typesSmallSprite[11];
 
-                case "psychic":
+                case "electric":
                     return typesSmallSprite[12];
 
-                case "ice":
+                case "psychic":
                     return typesSmallSprite[13];
 
-                case "dragon":
+                case "ice":
                     return typesSmallSprite[14];
 
-                case "dark":
+                case "dragon":
                     return typesSmallSprite[15];
 
-                case "fairy":
+                case "dark":
                     return typesSmallSprite[16];
 
-                default:
+                case "fairy":
                     return typesSmallSprite[17];
+
+                default:
+                    return typesSmallSprite[18];
             }
         }
     }

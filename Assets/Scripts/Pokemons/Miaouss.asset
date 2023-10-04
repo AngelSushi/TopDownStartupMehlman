@@ -24,10 +24,13 @@ MonoBehaviour:
     - Normal
     statbase:
       HP: 40
+      MaxHP: 0
       Attack: 45
       Defense: 35
       SpAttack: 40
       SpDefense: 40
       Speed: 90
-  sprite: {fileID: -1349209360, guid: eabf0d4416feb4a4db6b5956bd78db75, type: 3}
-  rarity: 7
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

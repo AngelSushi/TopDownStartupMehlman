@@ -24,10 +24,13 @@ MonoBehaviour:
     - Psychic
     statbase:
       HP: 106
+      MaxHP: 0
       Attack: 110
       Defense: 90
       SpAttack: 154
       SpDefense: 90
       Speed: 130
-  sprite: {fileID: -1551609088, guid: 1c05df26671a4244dbb4ea1a963a2d75, type: 3}
-  rarity: 1
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

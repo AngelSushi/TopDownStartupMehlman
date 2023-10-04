@@ -25,10 +25,13 @@ MonoBehaviour:
     - Ice
     statbase:
       HP: 130
+      MaxHP: 0
       Attack: 85
       Defense: 80
       SpAttack: 85
       SpDefense: 95
       Speed: 60
-  sprite: {fileID: 582469929, guid: 9f46f535901d54740b9114ab0ae50321, type: 3}
-  rarity: 30
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

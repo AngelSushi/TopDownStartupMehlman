@@ -57,7 +57,11 @@ namespace Game
         {
             if (entityRef == attacker && _canLaunchAttack)
             {
-                pool?.Pool.Get();
+                GameObject fireBall = pool?.Pool.Get();
+                fireBall.transform.position = transform.position + (Vector3)entityRef.Direction * 0.5f;
+                fireBall.GetComponent<bullet>().Direction = entityRef.Direction;
+                fireBall.transform.Rotate(0,0,Vector3.Angle(fireBall.transform.up,entityRef.Direction) + 90);
+
                 StartCoroutine(WaitCooldown());
             }
         }

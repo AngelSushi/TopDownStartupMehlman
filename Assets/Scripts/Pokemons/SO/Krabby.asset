@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Krabby
+  m_EditorClassIdentifier: 
+  name: Krabby
+  data:
+    id: 98
+    name:
+      english: Krabby
+      japanese: ???
+      chinese: ???
+      french: Krabby
+    type:
+    - Water
+    statbase:
+      HP: 30
+      Attack: 105
+      Defense: 90
+      SpAttack: 25
+      SpDefense: 25
+      Speed: 50
+  sprite: {fileID: 1414009339, guid: aad503c28076cd74a943116d62a2c206, type: 3}
+  rarity: 95

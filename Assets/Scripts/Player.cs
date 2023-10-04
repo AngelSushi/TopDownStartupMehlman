@@ -30,14 +30,23 @@ namespace Game
         {
             get => seenPokemons;
         }
-        
-        
+
+        [SerializeField] private List<EntityLiving> _followers = new List<EntityLiving>();
+
+        public List<EntityLiving> Followers
+        {
+            get => _followers;
+            set => _followers = value;
+        }
+
+
 
         public event Action<List<PokemonObject>, List<PokemonObject>,Player> OnOpenInventory;
         public event Func<Player,List<PokemonObject>> OnCloseInventory;
         public event Action<List<PokemonObject>> OnUpdateFollowers;
         public event Action OnCapturePokemon;
         public event Action<EntityLiving> OnLaunchAttack;
+        public event Action<EntityLiving> OnControllerSwitch;
 
         public override void Start()
         {
@@ -114,5 +123,8 @@ namespace Game
                 OnUpdateFollowers?.Invoke(newFollowers);
             }
         }
+
+        public void SwitchController(EntityLiving newController) => OnControllerSwitch?.Invoke(newController);
+            
     }
 }

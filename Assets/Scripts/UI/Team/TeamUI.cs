@@ -68,8 +68,6 @@ namespace Game
         {
             Player p = (Player)player.Instance;
             _childs.Clear();
-            
-            Debug.Log("update " + followers.Count);
 
             foreach (PokemonObject pokemonObject in followers)
             {
@@ -97,6 +95,9 @@ namespace Game
                     GameObject typeObject = new GameObject();
                     typeObject.transform.parent = pokemonUI.PokemonTypeParent.transform;
                     Image image = typeObject.AddComponent<Image>();
+
+                    Debug.Log("type " + type + " sprite " + typeSpriteConverterRef.Instance.GetTypeSmallSpriteByName(type));
+
                     image.sprite = typeSpriteConverterRef.Instance.GetTypeSmallSpriteByName(type);
                     typeObject.GetComponent<RectTransform>().sizeDelta = new Vector2(40, 30); 
                 }

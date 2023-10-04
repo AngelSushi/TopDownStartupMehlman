@@ -24,10 +24,13 @@ MonoBehaviour:
     - Bug
     statbase:
       HP: 65
+      MaxHP: 0
       Attack: 125
       Defense: 100
       SpAttack: 55
       SpDefense: 70
       Speed: 85
-  sprite: {fileID: 792549075, guid: a99637f6f4fb93645ada67640894c307, type: 3}
-  rarity: 65
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

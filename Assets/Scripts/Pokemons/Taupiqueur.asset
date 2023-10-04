@@ -24,10 +24,13 @@ MonoBehaviour:
     - Ground
     statbase:
       HP: 10
+      MaxHP: 0
       Attack: 55
       Defense: 25
       SpAttack: 35
       SpDefense: 45
       Speed: 95
-  sprite: {fileID: -1147234652, guid: 634c8d5f766c5214c850afef17fbc4e4, type: 3}
-  rarity: 90
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

@@ -93,6 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1086342795639541978}
+  - component: {fileID: 4610981039559113266}
   m_Layer: 8
   m_Name: Physics
   m_TagString: Untagged
@@ -115,6 +116,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2300341138270135536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &4610981039559113266
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691644108823302612}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0021351902, y: -0.0053384956}
+  serializedVersion: 2
+  m_Radius: 0.116695926
 --- !u!1 &2768857027985367268
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +194,6 @@ GameObject:
   - component: {fileID: 2118179859223884705}
   - component: {fileID: 618112974327559999}
   - component: {fileID: 5381889988694449774}
-  - component: {fileID: 3713895942736663215}
   m_Layer: 8
   m_Name: EmptyPokemon
   m_TagString: Untagged
@@ -198,12 +233,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomManager: {fileID: 11400000, guid: d8ef3c71804057b4c981adbd85e1def7, type: 2}
   leader: {fileID: 0}
-  _followers: []
   canBeCaptured: 1
-  speed: 5
+  initialSpeed: 0
+  dataManager: {fileID: 0}
   health: {fileID: 618112974327559999}
   attachedPokemon: {fileID: 0}
-  isStarter: 0
+  canFollow: 0
 --- !u!114 &618112974327559999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,38 +279,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &3713895942736663215
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6915829725456469029}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0021351902, y: -0.0053384956}
-  serializedVersion: 2
-  m_Radius: 0.116695926

@@ -50,13 +50,13 @@ namespace Game
                 PokemonEntity enemy = pokemonInstance.GetComponent<PokemonEntity>();
                 enemy.AttachedPokemon = followers[i];
                 enemy.Leader = i == 0 ? p : followersPokemons[i - 1].GetComponent<EntityLiving>();
+                enemy.CanFollow = true;
                 enemy.DataManager = dataManager;
                 pokemonInstance.name = targetPokemon.Name;
                 enemy.GetComponent<Health>().CurrentHealth = targetPokemon.Data.statbase.HP;
                 
-                pokemonInstance.transform.position = (enemy.Leader.transform.position - (Vector3)enemy.FirstLeader.Direction * 1.5f);
+                pokemonInstance.transform.position = (enemy.Leader.transform.position - (Vector3)p.Direction * 1.5f);
                 pokemonInstance.GetComponentInChildren<SpriteRenderer>().enabled = targetPokemon.Data.statbase.HP > 0;
-                
                 
                 p.Followers.Add(enemy);
                 followersPokemons[i] = pokemonInstance;

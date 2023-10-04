@@ -25,6 +25,7 @@ namespace Game
 
         public Transform OriginParent
         {
+            get => _originParent;
             set => _originParent = value;
         }
 

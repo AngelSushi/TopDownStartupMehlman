@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9352990d2e3b90439386d72321f924f, type: 3}
+  m_Name: Racaillou
+  m_EditorClassIdentifier: 
+  name: Racaillou
+  data:
+    id: 74
+    name:
+      english: Geodude
+      japanese: ?????
+      chinese: ???
+      french: Racaillou
+    type:
+    - Rock
+    - Ground
+    statbase:
+      HP: 40
+      Attack: 80
+      Defense: 100
+      SpAttack: 30
+      SpDefense: 30
+      Speed: 20
+  sprite: {fileID: -2056027211, guid: eabf0d4416feb4a4db6b5956bd78db75, type: 3}
+  rarity: 85

@@ -24,10 +24,13 @@ MonoBehaviour:
     - Steel
     statbase:
       HP: 46
+      MaxHP: 0
       Attack: 65
       Defense: 65
       SpAttack: 55
       SpDefense: 35
       Speed: 34
-  sprite: {fileID: -483146161, guid: b6a5439b87e28774cb491a0e488a6c39, type: 3}
-  rarity: 5
+  sprite: {fileID: 0}
+  rarity: 0
+  isStarter: 0
+  isDead: 0

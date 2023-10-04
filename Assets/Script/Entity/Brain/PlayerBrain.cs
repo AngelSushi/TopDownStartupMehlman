@@ -5,6 +5,7 @@ using Game;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Linq;
 
 public class AnimationWait : CustomYieldInstruction
 {
@@ -34,13 +35,13 @@ public class PlayerBrain : MonoBehaviour
 {
 
     [SerializeField, BoxGroup("Dependencies")] private PlayerReference playerRef;
+    private Player _player;
     
     [SerializeField] private EntityLiving leader;
 
     [SerializeField, BoxGroup("Input")] private InputActionProperty moveFirst;
     [SerializeField, BoxGroup("Input")] private InputActionProperty moveSecond;
     [SerializeField, BoxGroup("Input")] private InputActionProperty moveThird;
-    [SerializeField, BoxGroup("Input")] private InputActionProperty moveFourth;
     
     [SerializeField,BoxGroup("Input")] private InputActionProperty attack;
 
@@ -58,7 +59,6 @@ public class PlayerBrain : MonoBehaviour
         moveFirst.action.started += SwitchFirst;
         moveSecond.action.started += SwitchSecond;
         moveThird.action.started += SwitchThird;
-        moveFourth.action.started += SwitchFourth;
         attack.action.started += OnAttack;
         capture.action.started += OnCapture;
         push.action.started += OnPush;
@@ -68,6 +68,9 @@ public class PlayerBrain : MonoBehaviour
         move.action.started += OnMove;
         move.action.performed += OnMove;
         move.action.canceled += OnMove;
+
+        _currentController = (EntityLiving)playerRef.Instance;
+        _player = (Player)playerRef.Instance;
     }
 
    
@@ -77,7 +80,6 @@ public class PlayerBrain : MonoBehaviour
         moveFirst.action.started -= SwitchFirst;
         moveSecond.action.started -= SwitchSecond;
         moveThird.action.started -= SwitchThird;
-        moveFourth.action.started -= SwitchFourth;
         attack.action.started -= OnAttack;
         capture.action.started -= OnCapture;
         push.action.started -= OnPush;
@@ -91,13 +93,13 @@ public class PlayerBrain : MonoBehaviour
     
     private void OnOpenInventory(InputAction.CallbackContext obj)
     {
-        ((Player)playerRef.Instance).ManageInventory();
+        _player.ManageInventory();
     }
     
 
     private void OnCapture(InputAction.CallbackContext e)
     {
-        if (((Player)playerRef.Instance).IsInInventory)
+        if (_player.IsInInventory)
         {
             return;
         }
@@ -107,18 +109,17 @@ public class PlayerBrain : MonoBehaviour
 
     private void OnAttack(InputAction.CallbackContext e)
     {
-        if (((Player)playerRef.Instance).IsInInventory)
+        if (_player.IsInInventory)
         {
             return;
         }
         
-      //  ((Player)playerRef.Instance).LaunchAttack(leader.HasLeader ? leader.FirstLeader : leader);
+        _player.LaunchAttack(_currentController);
     }
 
     private void OnPush(InputAction.CallbackContext e)
     {
-
-        if (((Player)playerRef.Instance).IsInInventory)
+        if (_player.IsInInventory)
         {
             return;
         }
@@ -136,80 +137,129 @@ public class PlayerBrain : MonoBehaviour
         Debug.Log("perff");
     }
 
-    private void SwitchFirst(InputAction.CallbackContext e)
-    {
-        Debug.Log("switch first");
-        SwitchLeader(0);
-    } 
-    
+    private void SwitchFirst(InputAction.CallbackContext e) => SwitchLeader(0);
     private void SwitchSecond(InputAction.CallbackContext e) => SwitchLeader(1);
     private void SwitchThird(InputAction.CallbackContext e) => SwitchLeader(2);
-    private void SwitchFourth(InputAction.CallbackContext e) => SwitchLeader(3);
     
     
     
     private void SwitchLeader(int newLeaderIndex)
     {
-        if (((Player)playerRef.Instance).IsInInventory)
+        if (_player.IsInInventory)
         {
             return;
         }
         
-        
-      /*  Debug.Log("switch");
-        
-        if (((Player)playerRef.Instance).IsInInventory)
+        if(_currentController is Player)
         {
-            return;
-        }
-        
-        
-        
-        EntityLiving newLeader = leader.Followers[newLeaderIndex];
-        leader.IsMoving = false;
-        leader.Leader = newLeader;
-        
-        
-        newLeader.Followers = new List<EntityLiving>(leader.Followers);
+            Player playerController = (Player)_currentController;
 
-        newLeader.Followers.RemoveAt(newLeaderIndex);
-        leader.Followers.Clear();
-
-        newLeader.Followers.Insert(newLeaderIndex,leader);
-        
-        for (int i = newLeader.Followers.Count - 1; i >= 0; i--)
-        {
-           
-            if (i - 1 >= 0)
+            if(newLeaderIndex < playerController.Followers.Count)
             {
-                Debug.Log("entity " + newLeader.Followers[i].name +" with leader " + newLeader.Followers[i-1].name);
-              //  newLeader.Followers[i].Leader = newLeader.Followers[i - 1];   
+                _currentController = playerController.Followers[newLeaderIndex];
+
+                foreach(EntityLiving controller in playerController.Followers)
+                {
+                    if(controller is PokemonEntity)
+                    {
+                        PokemonEntity pokemonController = (PokemonEntity)controller;
+                        pokemonController.CanFollow = false;                 
+                    }
+                }
             }
+        }
+        else
+        {
+            _currentController.Leader = null;            
+                        
+            foreach(EntityLiving entityLiving in _player.Followers)
+            {
+                if(entityLiving is PokemonEntity)
+                {
+                    PokemonEntity pokemonEntity = (PokemonEntity)entityLiving;
+
+                    if(pokemonEntity != _currentController && pokemonEntity.Leader != null)
+                    {
+                        pokemonEntity.CanFollow = true;
+                    }
+                }
+            }
+            EntityLiving entity = _player.Followers.FirstOrDefault(entityLiving => entityLiving.Leader == _currentController);
+            int entityIndex = _player.Followers.IndexOf(_currentController);         
+
+            if(entity != null)
+            {
+                if (entityIndex == 0)
+                {
+                    entity.Leader = _player;
+                }
+                else
+                {
+                    if (entityIndex < _player.Followers.Count - 1)
+                    {
+                        EntityLiving targetEntity = (EntityLiving)_player.Followers[entityIndex - 1];
+
+                        if (((PokemonEntity)targetEntity).CanFollow)
+                        {
+                            entity.Leader = _player.Followers[entityIndex - 1];
+                        }
+                        else
+                        {
+                            targetEntity = _player;
+                            for(int i = entityIndex;i > 0; i--)
+                            {
+                                if(((PokemonEntity)_player.Followers[i]).CanFollow)
+                                {
+                                    targetEntity = _player.Followers[i];
+                                    break;
+                                }
+                            }
+
+                            entity.Leader = targetEntity;
+                        }
+                    }
+                    else
+                    {
+                        entity.Leader = null;
+                    }
+                }
+            }
+
+            
+            _currentController = (EntityLiving)playerRef.Instance;
             
         }
 
-        leader = newLeader;
-     //   newLeader.Leader = null;
-      //player.Followers = order;   
-        
-        FindObjectOfType<CameraBinder>().Cam.Follow = leader.transform; // A ENLEVER AIE AIE AIE 
-        
-        */
+        _player.SwitchController(_currentController);
     }
     
     protected void OnMove(InputAction.CallbackContext e)
-    {
-        Player p = (Player)playerRef.Instance;
-
-        if (p.IsInInventory)
+    {     
+        if (_player.IsInInventory)
         {
             return;
         }
-
 
         if (e.started)
         {
             _currentController.IsMoving = true;
+            _currentController.Direction = e.ReadValue<Vector2>();
+        }
+
+        if(e.performed)
+        {
+            _currentController.Direction = e.ReadValue<Vector2>();
+        }
+        
+
+        if(_currentController is Player)
+        {
+            Player playerController = (Player)_currentController;
+
+            foreach(EntityLiving follower in playerController.Followers)
+            {
+                follower.Direction = _currentController.Direction;
+            }
         }
 
         if (e.canceled)
@@ -217,44 +267,5 @@ public class PlayerBrain : MonoBehaviour
             _currentController.IsMoving = false;
         }
         
-        
-        
-       /* if (p.HasLeader)
-        {
-            if (e.started)
-            {
-                p.FirstLeader.IsMoving = true;
-            }
-
-            if (e.performed)
-            {
-                p.FirstLeader.Direction = e.ReadValue<Vector2>();
-            }
-            
-            if (e.canceled)
-            {
-                p.FirstLeader.IsMoving = false;
-                p.FirstLeader.StopMove();
-            }
-        }
-        else
-        {
-            if (e.started)
-            {
-                p.IsMoving = true;
-            }
-
-            if (e.performed)
-            {
-                p.Direction = e.ReadValue<Vector2>();
-            }
-            
-            if (e.canceled)
-            {
-                p.IsMoving = false;
-                p.StopMove();
-            }
-        }
-        */
     }
 }

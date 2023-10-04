@@ -27,9 +27,18 @@ namespace Game
             set => attachedPokemon = value;
         }
 
+        [SerializeField] private bool canFollow;
+
+        public bool CanFollow
+        {
+            get => canFollow;
+            set => canFollow = value;
+        }
+
         public override void Start()
         {
             base.Start();
+            dataManager = FindObjectOfType<PokemonsDataManager>(); // Ask if good
             attachedPokemon = dataManager.GetPokemonWithName(attachedPokemon.Name);
             
             
@@ -46,6 +55,13 @@ namespace Game
         { 
             base.Update();
             attachedPokemon.Data.statbase.HP = health.CurrentHealth;
+
+            if(canFollow && leader != null)
+            {
+                Vector2 direction = leader.Direction != Vector2.zero ? leader.Direction : Vector2.one;
+                transform.position = (leader.transform.position - (Vector3)direction * 1.5f);
+            }
+
         }
 
         private IEnumerator Damage()

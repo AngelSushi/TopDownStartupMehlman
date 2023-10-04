@@ -16,19 +16,39 @@ public class CameraBinder : MonoBehaviour
     
     [SerializeField] PlayerReference _playerRef;
 
-    void Start()
+    private void Awake()
     {
-        UpdateCameraFollow(_playerRef.Instance,_playerRef.Instance);
+        if (_playerRef.Instance != null)
+        {
+            SpawnPlayer(_playerRef.Instance, _playerRef.Instance);
+        }
+        else
+        {
+            _playerRef.OnValueChanged += SpawnPlayer;
 
-        _playerRef.OnValueChanged += UpdateCameraFollow;
+        }
     }
 
-    private void OnDestroy()
+    private void SpawnPlayer(Entity sEntity, Entity oEntity)
     {
-        _playerRef.OnValueChanged -= UpdateCameraFollow;
+        if (sEntity != null && sEntity is Player)
+        {
+            Player p = (Player)sEntity;
+            p.OnControllerSwitch += UpdateCameraFollow;
+            
+        }
+        else
+        {
+            if (oEntity != null && oEntity is Player)
+            {
+                Player p = (Player)oEntity;
+                p.OnControllerSwitch -= UpdateCameraFollow;
+            }
+        }
     }
 
-    private void UpdateCameraFollow(Entity obj,Entity last)
+
+    private void UpdateCameraFollow(Entity obj)
     {
         _cam.Follow = obj.transform;
     }

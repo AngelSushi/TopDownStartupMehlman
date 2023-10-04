@@ -19,37 +19,13 @@ namespace Game
             set => isMoving = value;
         }
         
-      /*  [SerializeField] protected EntityLiving leader;
+        [SerializeField] protected EntityLiving leader;
 
         public EntityLiving Leader
         {
             get => leader;
             set => leader = value;
-        }
-
-        public EntityLiving FirstLeader
-        {
-            get
-            {
-                EntityLiving newLeader = leader;
-                int maxCount = 0;
-
-                while (newLeader != null && newLeader.leader != null && maxCount < 3) // 3 cause there is max 3 followers 
-                {
-                    newLeader = newLeader.leader;
-                    maxCount++;
-                }
-
-                return newLeader;
-            }
-        }
-
-        public bool HasLeader
-        {
-            get => FirstLeader != null;
-        }
-        */
-      
+        }  
       
         protected Vector2 direction;
 
@@ -59,14 +35,6 @@ namespace Game
             set => direction = value;
         }
 
-        [SerializeField] private List<EntityLiving> _followers = new List<EntityLiving>();
-
-        public List<EntityLiving> Followers
-        {
-            get => _followers;
-            set => _followers = value;
-        }
-
         [SerializeField] private bool canBeCaptured;
 
         protected Rigidbody2D rb;
@@ -74,6 +42,12 @@ namespace Game
         // 5 , 7 , 9 , 11
         [SerializeField] private float initialSpeed;
         private Alterable<float> _speed;
+
+        public Alterable<float> Speed
+        {
+            get => _speed;
+            set => _speed = value;
+        }
 
         private Room _currentRoom;
         
@@ -143,6 +117,11 @@ namespace Game
                 Move();
             }
             */
+
+            if(isMoving)
+            {
+                Move();
+            }
         }
 
         public virtual void Move()
