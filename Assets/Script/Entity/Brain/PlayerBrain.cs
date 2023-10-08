@@ -249,22 +249,23 @@ public class PlayerBrain : MonoBehaviour
         if(e.performed)
         {
             _currentController.Direction = e.ReadValue<Vector2>();
-        }
-        
 
-        if(_currentController is Player)
-        {
-            Player playerController = (Player)_currentController;
-
-            foreach(EntityLiving follower in playerController.Followers)
+            if (_currentController is Player)
             {
-                follower.Direction = _currentController.Direction;
+                Player playerController = (Player)_currentController;
+
+                foreach (EntityLiving follower in playerController.Followers)
+                {
+                    follower.Direction = _currentController.Direction;
+                }
             }
         }
+  
 
         if (e.canceled)
         {
             _currentController.IsMoving = false;
+            _currentController.StopMove();
         }
         
     }

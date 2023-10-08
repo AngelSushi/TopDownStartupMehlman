@@ -99,25 +99,14 @@ namespace Game
             }
         }
 
-
-        public virtual void Start()
-        { 
-           // AttachFollowers();
+        public virtual void Awake()
+        {
             rb = GetComponent<Rigidbody2D>();
-            _speed = new Alterable<float>(initialSpeed);
+            Speed = new Alterable<float>(initialSpeed);
         }
 
         public virtual void Update()
         {
-            
-            /*Debug.Log("from " + gameObject.name + " FirstLeader " + FirstLeader?.name);
-            
-            if ((this is Player || canBeCaptured) && (isMoving || (HasLeader && FirstLeader.isMoving)))
-            {
-                Move();
-            }
-            */
-
             if(isMoving)
             {
                 Move();
@@ -126,34 +115,13 @@ namespace Game
 
         public virtual void Move()
         {
-          /*  Debug.Log("move from " + gameObject.name);
-            if (HasLeader)
-            {
-                if (FirstLeader is Player)
-                {
-                    transform.position = (leader.transform.position - (Vector3)FirstLeader.direction * 1.5f);
-                }
-            }
-            else
-            {*/
-                Debug.Log("speed " + _speed.CalculateValue());
-                rb.velocity = direction * _speed.CalculateValue();
-           // }
-            
+            Debug.Log("speed " + _speed.CalculateValue());
+            rb.velocity = direction * _speed.CalculateValue();          
         }
 
-        public virtual void StopMove() { }
-        
-        
-
-      /*  private void AttachFollowers()
-        {
-            if (HasLeader && !FirstLeader.Followers.Contains(this))
-            {
-                FirstLeader.Followers.Add(this);
-            }    
+        public virtual void StopMove() {
         }
-*/
+
         private void OnTriggerEnter2D(Collider2D col)
         {
             if (col.gameObject.layer == LayerMask.NameToLayer("PressObject"))

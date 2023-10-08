@@ -10,8 +10,10 @@ namespace Game
         public event Action<List<EntityLiving>> OnSwitchPokemonTeam;
 
 
-        public void SwitchPokemonTeam(List<EntityLiving> newTeam) => OnSwitchPokemonTeam?.Invoke(newTeam);
-
+        public void SwitchPokemonTeam(List<EntityLiving> newTeam)
+        {
+            OnSwitchPokemonTeam?.Invoke(newTeam);
+        }
 
     }
 }

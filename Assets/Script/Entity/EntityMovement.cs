@@ -34,12 +34,8 @@ public class EntityMovement : MonoBehaviour
 #endif
     #endregion
 
-    private void Awake()
-    {
-
-        CurrentSpeed = new Alterable<float>(_startSpeed);
-
-    }
+    private void Awake() => CurrentSpeed = new Alterable<float>(_startSpeed);
+    
 
     private void FixedUpdate()
     {

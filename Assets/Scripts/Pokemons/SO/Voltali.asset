@@ -24,10 +24,14 @@ MonoBehaviour:
     - Electric
     statbase:
       HP: 65
+      MaxHP: 0
       Attack: 65
       Defense: 60
       SpAttack: 110
       SpDefense: 95
       Speed: 130
+    rarity: 0
+    isStarter: 0
+    isDead: 0
   sprite: {fileID: -206592216, guid: 876deaa24d3ea6a4984475828ce45a23, type: 3}
-  rarity: 25
+  animator: {fileID: 9100000, guid: 112f056628a12724c9d3042351ad908c, type: 2}

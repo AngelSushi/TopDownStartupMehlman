@@ -10,7 +10,6 @@ namespace Game
     {
 
         [SerializeField] private List<RoomData> roomsData;
-        [SerializeField] private List<RoomData> roomsDataCopy;
         [SerializeField] private List<Room> generatedRooms = new List<Room>();
         [SerializeField] private GameObject pokemonPrefab;
 
@@ -45,6 +44,7 @@ namespace Game
         {
             GenerateRoom();
         }
+
 
         public void GenerateRoom()
         {

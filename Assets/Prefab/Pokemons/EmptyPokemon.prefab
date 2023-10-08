@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3144451702397495768}
   - component: {fileID: 4259735451989551782}
+  - component: {fileID: 2228860031142253331}
   m_Layer: 8
   m_Name: Render
   m_TagString: Untagged
@@ -84,6 +85,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2228860031142253331
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571491042617755886}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2691644108823302612
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +172,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.0021351902, y: -0.0053384956}
   serializedVersion: 2
-  m_Radius: 0.116695926
+  m_Radius: 0.07
 --- !u!1 &2768857027985367268
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,7 +256,7 @@ MonoBehaviour:
   roomManager: {fileID: 11400000, guid: d8ef3c71804057b4c981adbd85e1def7, type: 2}
   leader: {fileID: 0}
   canBeCaptured: 1
-  initialSpeed: 0
+  initialSpeed: 5
   dataManager: {fileID: 0}
   health: {fileID: 618112974327559999}
   attachedPokemon: {fileID: 0}

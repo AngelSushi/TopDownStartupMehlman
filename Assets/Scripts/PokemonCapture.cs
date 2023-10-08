@@ -27,14 +27,12 @@ namespace Game
         {
             foreach (Collider2D pokemonCollider in Physics2D.OverlapCircleAll(transform.position, 1, 1 << 8))
             {
-                Debug.Log("collide with pokemon");
-
-                if (pokemonCollider.gameObject.TryGetComponent(out PokemonEntity pokemonEntity))
+                if (pokemonCollider.transform.parent.gameObject.TryGetComponent(out PokemonEntity pokemonEntity))
                 {
                     if (!player.OwnedPokemons.Contains(pokemonEntity.AttachedPokemon))
                     {
                         player.OwnedPokemons.Add(pokemonEntity.AttachedPokemon);
-                        Destroy(pokemonCollider.gameObject);
+                        Destroy(pokemonCollider.transform.parent.gameObject);
                     }
                     else
                     {
@@ -43,6 +41,7 @@ namespace Game
                             // Récupérer le dernier pokémon qui a un leader
                             PokemonEntity lastFollower = (PokemonEntity)player.Followers.FindLast(pokemon => pokemon.Leader != null);
                             pokemonEntity.Leader = lastFollower;
+                            pokemonEntity.CanFollow = true;
                         }
                         else
                         {

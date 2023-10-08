@@ -15,6 +15,7 @@ namespace Game
         [SerializeField] private List<PokemonObject> seenPokemons = new List<PokemonObject>();
         [SerializeField] private bool isInInventory;
         [SerializeField] private ManageFollowers manageFollowers;
+        [SerializeField] private PokemonEventsRef _pokemonEvents;
         public bool IsInInventory
         {
             get => isInInventory;
@@ -48,9 +49,9 @@ namespace Game
         public event Action<EntityLiving> OnLaunchAttack;
         public event Action<EntityLiving> OnControllerSwitch;
 
-        public override void Start()
+        public void Start()
         {
-            base.Start();
+            //base.Start();
             roomManager.Instance.OnFinishGenerateRoom += OnFinishGenerateRoom;
 
             int index = 0;
@@ -98,6 +99,35 @@ namespace Game
             }
         }
 
+        public override void Move()
+        {
+            base.Move();
+
+            foreach(EntityLiving entity in Followers)
+            {
+                if(entity is PokemonEntity)
+                {
+                    PokemonEntity pokemonEntity = (PokemonEntity)entity;
+                    pokemonEntity.IsFollowing = true;
+                }
+            }
+
+        }
+
+        public override void StopMove()
+        {
+            base.StopMove();
+
+            foreach(EntityLiving entity in Followers)
+            {
+                if(entity is PokemonEntity)
+                {
+                    PokemonEntity pokemonEntity = (PokemonEntity)entity;
+                    pokemonEntity.IsFollowing = false;
+                }
+            }
+        }
+
         public void LaunchAttack(EntityLiving attacker) => OnLaunchAttack?.Invoke(attacker);
         public void CapturePokemon() => OnCapturePokemon?.Invoke();
         
@@ -121,6 +151,8 @@ namespace Game
                 List<PokemonObject> newFollowers = OnCloseInventory?.Invoke(this);
                 manageFollowers.UpdateFollowersObject(newFollowers);
                 OnUpdateFollowers?.Invoke(newFollowers);
+                Debug.Log("manage close inventory");
+                _pokemonEvents?.Instance.SwitchPokemonTeam(Followers);
             }
         }
 

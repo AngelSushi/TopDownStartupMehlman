@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -7661,6 +7661,7 @@ TextureImporter:
       Evoli(s)_343: -1492213383
       Evoli(s)_344: 686034837
       Evoli(s)_345: 492094017
+      Evoli(s)_346: -1892275166
       Evoli(s)_35: -233525893
       Evoli(s)_36: -572250469
       Evoli(s)_37: -1675823357

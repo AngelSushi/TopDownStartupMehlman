@@ -20,8 +20,8 @@ namespace Game
             {
                 PokemonObject pokemonInstance = pokemon.GetClone();
                 pokemonInstance.Data = reader.GetPokemonByName(pokemon.Name);
-                Assert.IsNotNull(pokemonInstance.Data);
-              //  pokemonInstance.Data.statbase.MaxHP = pokemonInstance.Data.statbase.HP;
+                pokemonInstance.Rarity = new Alterable<int>(pokemonInstance.Data.rarity);
+
                 datasPokemon.Add(pokemonInstance);
             }
             

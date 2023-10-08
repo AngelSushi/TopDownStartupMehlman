@@ -18,8 +18,6 @@ namespace Game
         private void Start()
         {
             roomManager.OnGeneratePokemon += OnGeneratePokemon;
-            
-            Debug.Log("pokemon " + manager.GetPokemonWithName("Pikachu") + " rarity " + manager.GetPokemonWithName("Pikachu").Data.rarity);
         }
 
         private void OnDestroy()
@@ -35,21 +33,18 @@ namespace Game
 
             foreach (PokemonObject pokemon in pokemons)
             {
+                PokemonObject newRef = manager.GetPokemonWithName(pokemon.Name);
                 
-                Debug.Log("rarity " + pokemon.Data.rarity);
-                
-                if (random <= pokemon.Data.rarity)
+                if (random <= newRef.Rarity.CalculateValue())
                 {
-                    for (int i = 0; i < pokemon.Data.rarity; i++)
+                    for (int i = 0; i < newRef.Rarity.CalculateValue(); i++)
                     {
-                        possiblePokemons.Add(pokemon);
+                        possiblePokemons.Add(newRef);
                     }
                 }
             }
 
             int randomPokIndex = Random.Range(0, possiblePokemons.Count - 1);
-            
-            Debug.Log("randomPok " + randomPokIndex  + " count " + possiblePokemons.Count);
 
             return randomPokIndex < possiblePokemons.Count ? possiblePokemons[randomPokIndex] : null;
         }

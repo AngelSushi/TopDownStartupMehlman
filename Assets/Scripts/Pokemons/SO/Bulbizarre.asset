@@ -35,6 +35,4 @@ MonoBehaviour:
     isStarter: 0
     isDead: 0
   sprite: {fileID: 1936863588, guid: dacaf882e72e7e441b306e1aee0d726b, type: 3}
-  rarity: 0
-  isStarter: 1
-  isDead: 0
+  animator: {fileID: 9100000, guid: b60192255f985e1468d0308ab01aac36, type: 2}

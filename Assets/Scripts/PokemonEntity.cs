@@ -11,7 +11,7 @@ namespace Game
 
 
         [SerializeField, BoxGroup("Dependencies")] private PokemonsDataManager dataManager;
-
+        
         public PokemonsDataManager DataManager
         {
             get => dataManager;
@@ -34,37 +34,70 @@ namespace Game
             get => canFollow;
             set => canFollow = value;
         }
+                    
+        private Animator _animator;
 
-        public override void Start()
+        private bool isFollowing;
+
+        public bool IsFollowing
         {
-            base.Start();
+            get => isFollowing;
+            set => isFollowing = value;
+        }
+
+
+        public void Start()
+        {
+            //base.Start();
             dataManager = FindObjectOfType<PokemonsDataManager>(); // Ask if good
            
             attachedPokemon = dataManager.GetPokemonWithName(attachedPokemon.Name);
             health.MaxHealth = attachedPokemon.Data.statbase.MaxHP;
             health.CurrentHealth = attachedPokemon.Data.statbase.HP;
-            
+            //_animator = attachedPokemon.animator;
+
+            _animator = GetComponentInChildren<Animator>();
+            _animator.runtimeAnimatorController = attachedPokemon.animator;
+                        
             if (!AttachedPokemon.Data.isStarter)
             {
                 StartCoroutine(Damage());   
             }
+
         }
 
         public override void Update()
         { 
             base.Update();
-            
-         //   Debug.Log("data " + attachedPokemon.Data);
-            
-           // attachedPokemon.Data.statbase.HP = health.CurrentHealth;
 
-            if(canFollow && leader != null)
+            _animator?.SetBool("IsMoving", isMoving || (isFollowing && canFollow));
+
+
+            Vector2 animDirection = isMoving ? Direction : (isFollowing && canFollow) ? Leader.Direction : Vector2.zero;
+
+            _animator?.SetFloat("Horizontal", animDirection.x > 0 ? -animDirection.x : animDirection.x);
+            _animator?.SetFloat("Vertical", animDirection.y);
+
+            if (animDirection.x > 0)
             {
-                Vector2 direction = leader.Direction != Vector2.zero ? leader.Direction : Vector2.one;
-                transform.position = (leader.transform.position - (Vector3)direction * 1.5f);
+                GetComponentInChildren<SpriteRenderer>().flipX = true;
+            }
+            else
+            {
+                GetComponentInChildren<SpriteRenderer>().flipX = false;
             }
 
+
+
+            if (canFollow && leader != null)
+            {
+                Vector2 direction = leader.Direction != Vector2.zero ? leader.Direction : Vector2.one;
+                Vector3 position = (leader.transform.position - (Vector3)direction * 1.5f);
+                position.z = transform.position.z;
+                transform.position = position;
+            }
         }
+
 
         private IEnumerator Damage()
         {

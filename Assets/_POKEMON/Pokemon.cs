@@ -20,7 +20,6 @@ public class Pokemon
     public int rarity;
     public bool isStarter;
     public bool isDead;
-
     public override string ToString() => $"{id} {name.english}";
 }
 
